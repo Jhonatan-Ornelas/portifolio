@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Shield</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/topo.css">
+    <script defer src="/javaScript/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="row-top">
+                <div class="logo">TechShield</div>
+                <div class="search">
+                    <input type="text" placeholder="buscar"></input>
+                    <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                </div>
+                <div class="perfil">
+                    <div class="login-user">
+                        <div class="icon-user"></div>
+                        <div class="login">Login</div>
+                    </div>
+                    <p class="sing">sing up</p>
+                    <div class="carrinho">
+                        <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
+                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="toggleImage()">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <p class="opitions">Loja</p>
+                <p class="opitions">computadores</p>
+                <p class="opitions">tabletes</p>
+                <p class="opitions">drones e cameras</p>
+                <p class="opitions">audio</p>
+                <p class="opitions">mobile</p>
+                <p class="opitions">tv e home theater</p>
+                <p class="opitions">tecnologia vestivel</p>
+                <p class="opitions">promoçoes</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="img-promo">
+            <div class="text-image">
+                <h3>
+                    Melhores preços
+                </h3>
+                <h2>
+                    Preços incriveis para todos os seus favoritos
+                </h2>
+                <p>Compre mais por menos em marcas selecionadas</p>
+                <button>comprar agora</button>
+            </div>
+        </div>
+        <div class="img-promo2">
+            <div class="cell-red">
+                <h3>Ofertas de Natal</h3>
+                <span>Até</span><span>30% off</span>
+                <p>em marcas de smartphone selecionadas</p>
+                <button>Comprar</button>
+            </div>
+            <div class="headset-roxo">
+                <h3>Novidade</h3>
+                <span>Leve seu som aonde você quiser</span>
+                <p>Os melhores headphones</p>
+                <button>Comprar</button>
+                </div-headset-roxo>
+            </div>
+        </div>
+        <div class="beneficios">
+            <div class="description">
+                <div class="moto">
+                    <div class="img-moto"></div>
+                    <p>Retirada disponivel</p>
+                </div>
+                <div class="box">
+                    <div class="img-box"></div>
+                    <p>Frete gratis acima de R$ 250</p>
+                </div>
+                <div class="estrato">
+                    <div class="img-estrato"></div>
+                    <p>
+                        Garantia de preços baixos</p>
+                </div>
+                <div class="quickly">
+                    <div class="img-quickly"></div>
+                    <p>
+                        Disponível para você 24/7 </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Mais vendidos</h2>
+            <div class="itens">
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/relogio-2.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/laptop-r-2.webp " alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Laptop para games JP 15.6", 256 GB</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/drone-r.webp " alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Drone Quadcopter HKI Tech, câmera 360 e controle</p>
+                        <span class="item-price">R$600,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/celular-r.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Smartphone Z Pixel Max 128 GB, desbloqueado</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/fone-buds.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Headphone In-ear wireless, cancelamento de ruído</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/oculos-vr.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Óculos VR Safay GEN 2, 256 GB, controladores de toque</p>
+                        <span class="item-price">R$600,00</span>
+                    </div>
+                </div>
+            </div>
+            <button>Ver tudo</button>
+
+        </div>
+        <div class="categoria">
+            <h2>Compre por categoria</h2>
+            <div class="categoria-items">
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Computadores"></div>
+                    </div>
+                    <p class="categoria-item-nome">Computadores</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Mobile">
+
+                        </div>
+                    </div>
+                    <p class="categoria-item-nome">Mobile</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-drones"></div>
+                    </div>
+                    <p class="categoria-item-nome">Drones e Câmeras</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img" id="Promoções">
+                        <div id="categora-item-Promoções"></div>
+                    </div>
+                    <p class="categoria-item-nome">Promoções</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Tablets"></div>
+                    </div>
+                    <p class="categoria-item-nome">Tablets</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img" id="Mais-Vendidos">
+                        <div id="categora-item-Mais-Vendidos"></div>
+                    </div>
+                    <p class="categoria-item-nome">Mais Vendidos</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-TV"></div>
+                    </div>
+                    <p class="categoria-item-nome">TV e home theater</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Tecnologia-vestivel"></div>
+                    </div>
+                    <p class="categoria-item-nome">Tecnologia vestivel</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Alto-falantes"></div>
+                    </div>
+                    <p class="categoria-item-nome">Alto-falantes</p>
+                </div>
+                <div class="categoria-item">
+                    <div class="categora-item-img">
+                        <div id="categora-item-Head-phones"></div>
+                    </div>
+                    <p class="categoria-item-nome">Head-phones</p>
+                </div>
+            </div>
+        </div>
+        <div class="melhor-preço">
+            <div class="overlay">
+                <div class="overlay-texto">
+                    <h2>Economize até</h2>
+                    <span>R$ 150</span>
+                    <h2>em laprops e tablets selecionados</h2>
+                    <p>Aplicam-se termos e condições</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <h2>Promoções</h2>
+            <div class="itens">
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/smatwatch-samsung.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Smartwatch Space Moon com carregador</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/Redmi Note 11-64G.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">OVE Light Space 5G, 128 GB</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/ideaped-gaming.jpg" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Laptop Pilates 16", touch screen, 24 GB memória</p>
+                        <span class="item-price">R$600,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo"" src=" /img/jbl-caixa-de-som.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Alto-falante portátil Turn5, Bluetooth</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/ps-vr.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Headset de Realidade Virtual Journey Glass XD</p>
+                        <span class="item-price">R$600,00 R$585,00</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/teclado-gamer.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Câmera de Segurança de Rede Interna H1C wireless, 1080p</p>
+                        <span class="item-price">R$600,00</span>
+                    </div>
+                </div>
+            </div>
+            <button>Ver tudo</button>
+
+        </div>
+        <div class="so-hoje">
+            <div class="overlay-sohoje">
+                <div class="overlay-so-texto">
+                    <h3>Só hoje</h3>
+                    <h2>Melhor vista aérea da cidade</h2>
+                    <span>R$ 150</span>
+                    <h2>em drones profissionais</h2>
+                    <p>Quantidade limitada.</p>
+                      <p>  Consulte disponibilidade na página do produto.</p>
+                    <button>comprar</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="newsletter">
+            <h2>Newsletter</h2>
+            <p>Assine para receber novidades e ofertas especiais</p>
+            <form action="/submit" method="post">
+                <label for="email">E-mail * </label>
+                <input id="email" type="email" id="email" placeholder="Insira seu email aqui" required>
+                <input id="submit" type="submit" value="Assinar">
+            </form>
+        </div>
+        
+    </main>
+</body>
+<footer>
+    <div class="suport">
+        <div class="overlay-suport">
+            <div class="overlay-suport-texto">
+                <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
+                <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
+                <button>Central de Ajuda</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="sobre-nos">
+        <div class="coluna-1">
+            <h2>Endereço</h2>
+            <p>Rua Prates, 194 - Bom Retiro</p>
+            <p>SP 01121-000</p>
+            <p>info@meusite.com</p>
+            <p>Telefone: (11) 3456-7890</p>
+        </div>
+        <div class="coluna-2">
+            <h2>Loja</h2>
+            <p>Loja</p>
+            <p>Computadores</p>
+            <p>tablets</p>
+            <p>Drones e câmeras</p>
+            <p>Áudio</p>
+            <p>Mobile</p>
+            <p>TV e home theater</p>
+            <p>Tecnologia vestivel</p>
+            <p>Promoções</p>
+        </div>
+        <div class="coluna-3">
+            <h2>Suporte ao cliente</h2>
+            <p>Contato</p>
+            <p>Central de ajuda</p>
+            <p>Sobre nós</p>
+            <p>Carreiras</p>
+        </div>
+        <div class="coluna-4">
+            <h2>Política</h2>
+            <p>Entregas e devoluções</p>
+            <p>Termos e condições</p>
+            <p>Métodos de pagamento</p>
+            <p>Política de Cookies</p>
+            <p>FAQ</p>
+        </div>
+    </div>
+</footer>
+
+</html>

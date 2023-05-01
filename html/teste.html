@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeito de Clique com CSS</title>
+    <style>
+        .click-effect {
+  background-color: lightblue;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Adiciona uma transição suave ao alterar a cor de fundo */
+}
+
+.click-effect:hover {
+  background-color: deepskyblue;
+}
+
+.click-effect:active {
+  background-color: dodgerblue; /* Altera a cor de fundo quando o botão é clicado */
+}
+
+    </style>
+</head>
+<body>
+    <button class="click-effect">Clique aqui</button>
+</body>
+</html>
