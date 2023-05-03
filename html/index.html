@@ -8,6 +8,7 @@
     <title>Tech Shield</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/topo.css">
+    <link rel="stylesheet" href="/css/media.css">
     <script defer src="/javaScript/index.js"></script>
 </head>
 
@@ -34,15 +35,16 @@
                 </div>
             </div>
             <div class="row">
-                <p class="opitions">Loja</p>
-                <p class="opitions">computadores</p>
-                <p class="opitions">tabletes</p>
-                <p class="opitions">drones e cameras</p>
-                <p class="opitions">audio</p>
-                <p class="opitions">mobile</p>
-                <p class="opitions">tv e home theater</p>
-                <p class="opitions">tecnologia vestivel</p>
-                <p class="opitions">promoçoes</p>
+                <p class="opitions" id="row-loja">Loja</p>
+                <p class="opitions" id="row-computadores">Computadores</p>
+                <p class="opitions">Tabletes</p>
+                <p class="opitions">Drones e cameras</p>
+                <p class="opitions">Audio</p>
+                <p class="opitions">Mobile</p>
+                <p class="opitions">TV e home theater</p>
+                <p class="opitions">Tecnologia vestivel</p>
+                <p class="opitions" id="row-celulares">celulares</p>
+                <p class="opitions" id="row-promoçoes">Promoções</p>
             </div>
         </div>
     </header>
@@ -106,7 +108,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span>R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -116,7 +118,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Laptop para games JP 15.6", 256 GB</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -125,7 +127,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Drone Quadcopter HKI Tech, câmera 360 e controle</p>
-                        <span class="item-price">R$600,00</span>
+                        <p class="item-price">R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -135,7 +137,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Smartphone Z Pixel Max 128 GB, desbloqueado</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -145,7 +147,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Headphone In-ear wireless, cancelamento de ruído</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -154,7 +156,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Óculos VR Safay GEN 2, 256 GB, controladores de toque</p>
-                        <span class="item-price">R$600,00</span>
+                        <p class="item-price">R$585,00</p>
                     </div>
                 </div>
             </div>
@@ -250,7 +252,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Smartwatch Space Moon com carregador</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -260,7 +262,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">OVE Light Space 5G, 128 GB</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -270,7 +272,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Laptop Pilates 16", touch screen, 24 GB memória</p>
-                        <span class="item-price">R$600,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -280,7 +282,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Alto-falante portátil Turn5, Bluetooth</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -290,7 +292,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Headset de Realidade Virtual Journey Glass XD</p>
-                        <span class="item-price">R$600,00 R$585,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
                 <div class="item">
@@ -300,7 +302,7 @@
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Câmera de Segurança de Rede Interna H1C wireless, 1080p</p>
-                        <span class="item-price">R$600,00</span>
+                        <p class="item-price"><span>R$600,00</span> R$585,00</p> 
                     </div>
                 </div>
             </div>

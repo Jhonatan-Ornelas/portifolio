@@ -1,3 +1,25 @@
+
+:root{
+    --size-250px:250px;
+    --size-100px:100px;
+    --font-size-22px:22px;
+    --search-height:40px;
+    --bg-size:cover;
+    --background-none:white;
+    --background-black:black;
+    --color-black:black;
+    --color-white:white;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* fonts////font-family: 'Open Sans', sans-serif;////
+font-family: 'Roboto', sans-serif;////
+ */
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,6 +27,9 @@ body {
     align-items: center;
     background-color: #ececec;
     width: 100vw;
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+
 }
 
 footer {
@@ -14,6 +39,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 985px;
+    max-width: 1900px;
 }
 
 header {
@@ -23,7 +49,7 @@ header {
     align-items: center;
     justify-content: center;
     width: 80vw;
-    max-width: 1920px;
+    max-width: 1900px;
 }
 
 main {
@@ -33,18 +59,20 @@ main {
     justify-content: center;
     align-items: center;
     width: 80vw;
-    max-width: 1920px;
+    max-width: 1900px !important;
     height: 100%;
+}
+footer{
+    width: 80vw;
+    max-width: 1900px;
 }
 
 .nav {
-    height: calc(5vw + 5vh);
-    width: 80vw;
-    max-width: 2000px;
-    max-height: 200px;
+    height: 150px;
+    width: 100%;
     background-color: aqua;
-    min-width: 950px;
-    min-height: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .row-top {
@@ -61,25 +89,27 @@ main {
 
 .logo {
     /* background-color: blue; */
-    width: 20%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: calc(1.5vw + 1.5vh);
+    font-size: 40px;
     cursor: pointer;
+    font-weight: 500;
+
 }
 
 .search {
     /* background-color: blueviolet; */
-    width: 45%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .search input {
-    height: 40px;
-    width: calc(10vw + 10vh);
+    height: var(--search-height) ;
+    width: 300px;
     padding: 10px 10px 10px 20px;
     border: none;
     border-radius: 25px 0 0 25px;
@@ -92,7 +122,7 @@ main {
     background-color: white;
     outline: auto;
     outline-color: rgb(205, 207, 202);
-    height: 38px;
+    height: calc(var(--search-height) - 2px);
     width: calc(10vw + 10vh)
 }
 
@@ -100,19 +130,19 @@ main {
     background-color: white;
     outline: auto;
     outline-color: rgb(205, 207, 202);
-    height: 28px;
+    height: calc(var(--search-height) - 2px);
     width: calc(10vw + 10vh)
 }
 
 .search button {
-    height: 60px;
+    height: calc(var(--search-height) + 20px);
     border: none;
     background-color: #751fff;
     width: 70px;
     border-radius: 0 25px 25px 0;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 30px;
+    background-size: 25px;
     cursor: pointer;
     background-image: url('/img/search-128.png');
     margin-left: -5px;
@@ -141,35 +171,15 @@ main {
     min-width: 350px;
 }
 
-.icon-user {
-    width: calc(3vw + 4vh);
-    /* background-color: yellow; */
-    height: calc(3vh + 3vw);
-    min-width: 67px;
-    min-height: 58px;
-    max-width: 100px;
-    max-height: 100px;
-    display: flex;
-    justify-content: end;
-    background-image: url('/img/account-circle.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-right: 20px;
-    order: 2;
-    cursor: pointer;
-}
-
 .login-user {
-    width: calc(8vw + 8vh);
+    width: 180px;
     /* background-color: rgb(73, 20, 143); */
-    height: calc(3vh + 3vw);
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: min(3vw, 40px);
-    min-width: 180px;
-    order: 1;
+    font-size: 18px;
+    order: 0;
     margin-right: 10px;
 }
 
@@ -177,20 +187,36 @@ main {
     color: rgb(151, 148, 148);
     cursor: pointer;
 }
+.icon-user {
+    width: 50px;
+    /* background-color: yellow; */
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    background-image: url('/img/account-circle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    order: 0;
+    cursor: pointer;
+    background: none;
+}
 
 .icon-user {
     margin-left: 20px;
 }
 
 .sing {
-    width: ;
+    width: 80px;
     /* background-color: rgb(8, 124, 33); */
     height: 50px;
     text-align: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 18px;
     order: 0;
     cursor: pointer;
 }
@@ -203,8 +229,8 @@ main {
     /* background-color: aqua; */
     height: 50px;
     width: 60px;
-    margin-right: 20px;
-    order: -1;
+    margin-right: 40px;
+    order: 2;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -228,18 +254,25 @@ main {
 
 .opitions {
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 
 .opitions:hover {
     color: #751fff;
 }
+#row-celulares{
+    position: absolute;
+    z-index: -1;
+}
+
 
 /* main img ////////////////////////////////////////////////////////*/
 .img-promo {
     background-image: url('/img/celular.bg.png');
-    height: 80vh;
-    width: 80vw;
-    max-width: 1920px;
+    height: 700px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -256,7 +289,7 @@ main {
     flex-direction: column;
     gap: 30px;
     justify-content: center;
-    margin-left: 40px;
+    margin-left: 160px;
     margin-bottom: auto;
 }
 
@@ -272,10 +305,12 @@ main {
     font-size: 70px;
     position: relative;
     top: -12px;
+    font-weight: 600;
 }
 
 .text-image p {
     font-size: 18px;
+    font-weight: 200;
 }
 
 .text-image button {
@@ -288,7 +323,8 @@ main {
     font-size: 18px;
     text-align: center;
     cursor: pointer;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .text-image button:hover {
@@ -298,13 +334,15 @@ main {
 
 /* main img 2 red and roxo ///////////////////////////////////////////// */
 .img-promo2 {
-    width: 80vw;
+    width: 100%;
     height: auto;
-    background-color: #ececec;
+    /* background-color: #f35f5f; */
     display: flex;
-    gap: 45px;
+    flex-wrap: wrap;
+    gap: 20px;
     padding-top: 40px;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cell-red {
@@ -312,8 +350,9 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 40vw;
-    height: auto;
+    min-width: 490px;
+    width: 48%;
+    height: 600px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -323,23 +362,27 @@ main {
 }
 
 .cell-red h3 {
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     margin-top: -50px;
     margin-bottom: 10px;
     margin-left: 65px;
+    font-weight: 200;
 }
 
 .cell-red span {
     font-size: 50px;
     position: relative;
-    margin-top: -15px;
     margin-left: 65px;
+    font-weight: 700;
 }
 
 .cell-red p {
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 65px;
+    font-weight: 200;
+    margin-top: 15;
+    margin-bottom: 20px;
 }
 
 .cell-red button {
@@ -354,6 +397,8 @@ main {
     cursor: pointer;
     transition: 400ms all ease;
     margin-left: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .cell-red button:hover {
@@ -364,9 +409,10 @@ main {
 
 .headset-roxo {
     background-image: url('/img/fone-roxo.jpg');
-
-    width: 40vw;
-    height: 60vh;
+    width: 48%;
+    min-width: 490px;
+    height: 600px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -377,24 +423,28 @@ main {
 }
 
 .headset-roxo h3 {
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     margin-top: -50px;
     margin-bottom: 10px;
     margin-left: 65px;
+    font-weight: 200;
 }
 
 .headset-roxo span {
     font-size: 50px;
     position: relative;
-    margin-top: -15px;
     margin-left: 65px;
     width: 300px;
+    font-weight: 700;
 }
 
 .headset-roxo p {
-    font-size: 23px;
+    font-size: 20px;
     margin-left: 65px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .headset-roxo button {
@@ -409,6 +459,8 @@ main {
     cursor: pointer;
     transition: 400ms all;
     margin-left: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .headset-roxo button:hover {
@@ -417,19 +469,19 @@ main {
     border: white 1px solid;
 }
 
-/* mais positives points */
+/* mais positives points ////////////////////////////////////////////////////////////////// */
 .beneficios {
-    margin-top: 5vh;
-    width: 80vw;
+    margin-top: 50px;
+    width: 100%;
     background-color: #ececec;
-    height: 25vh;
+    height: 250px;
     display: flex;
 
 }
 
 .description {
-    height: 25vh;
-    width: 80vw;
+    height: 250px;
+    width: 100%;
     background-color: white;
     display: flex;
     justify-content: space-evenly;
@@ -437,8 +489,8 @@ main {
 }
 
 .moto {
-    height: 100px;
-    width: 220px;
+    height: var(--size-100px);
+    width: var(--size-250px);
     /* background-color: rgb(149, 179, 17); */
     display: flex;
     margin-left: 20px;
@@ -451,24 +503,27 @@ main {
     background-size: contain;
     background-position: center;
     height: 100px;
-    width: 70px;
+    width: 30%;
     /* border: solid 1px; */
+    margin-right: 20px;
 }
 
 .moto p {
-    width: 120px;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: var(--font-size-22px);
     /* text-align: center; */
     height: 100px;
     /* background-color: #751fff; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 .box {
-    height: 100px;
-    width: 220px;
+    height: var(--size-100px);
+    width: var(--size-250px);
     /* background-color: rgb(8, 163, 60); */
     display: flex;
 }
@@ -479,27 +534,30 @@ main {
     background-size: contain;
     background-position: center;
     height: 100px;
-    width: 50px;
+    width: 30%;
     /* border: solid 1px; */
+    margin-right: 20px;
 }
 
 .box p {
-    width: 170px;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: var(--font-size-22px);
     /* text-align: center; */
     height: 100px;
     /* background-color: #751fff; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 .estrato {
-    height: 100px;
-    width: 220px;
+    height: var(--size-100px);
+    width: var(--size-250px);
     /* background-color: rgb(26, 99, 141); */
     display: flex;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .estrato div {
@@ -508,24 +566,27 @@ main {
     background-size: contain;
     background-position: center;
     height: 100px;
-    width: 50px;
+    width: 30%;
     /* border: solid 1px; */
+    margin-right: 20px;
 }
 
 .estrato p {
-    width: 140px;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: var(--font-size-22px);
     /* text-align: center; */
     height: 100px;
     /* background-color: #751fff; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 .quickly {
-    height: 100px;
-    width: 220px;
+    height: var(--size-100px);
+    width: var(--size-250px);
     /* background-color: rgb(43, 2, 141); */
     display: flex;
 }
@@ -536,59 +597,69 @@ main {
     background-size: contain;
     background-position: center;
     height: 100px;
-    width: 50px;
+    width: 30%;
     /* border: solid 1px; */
+    margin-right: 20px;
 }
 
 .quickly p {
-    width: 170px;
-    font-size: 1.5rem;
+    width: 70%;
+    font-size: var(--font-size-22px);
     /* text-align: center; */
     height: 100px;
     /* background-color: #751fff; */
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 /* mais vendidos ///////////////////////////////////////////////////////// */
 .container {
-    height: 70vh;
-    width: 80vw;
+    height: 700px;
+    width: 100%;
+    max-width: 1920px;
     background-color: white;
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-top: 5vh;
+    margin-top: 50px;
+    overflow: hidden;
 }
 
 .container h2 {
-    font-size: 3rem;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 .itens {
-    height: 50%;
-    width: 80vw;
+    height: 360px;
+    width: 95%;
     /* background-color: coral; */
     display: flex;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     align-items: center;
+    overflow: hidden;
 }
 
 .item {
-    height: 100%;
-    width: 15%;
+    height: 350px;
+    width: 230px;
     border: 1px #edecec solid;
     display: flex;
     flex-direction: column;
     position: relative;
+    flex-shrink: 0;
 }
 
 .item-img {
     height: 40%;
-    width: 100%;
+    width: 230px;
     background: transparent;
     overflow: hidden;
     display: flex;
@@ -639,15 +710,41 @@ main {
 
 .description-item p {
     width: 80%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #751fff; */
+    height: 100px;
+}
+
+.item-price{
+    width: 80%;
+    font-size: 18px !important;
+    line-height: 1.3;
+    color: #751fff;
+    display: flex;
+    justify-content: space-between !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* background-color: #d72d2d !important;  */
+    height: 50px !important ;
 }
 
 .description-item span {
     width: 80%;
-    font-size: 24px;
+    font-size: 18px ;
     line-height: 1.3;
     color: #751fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: line-through;
+    margin-right: 7px;
 }
 
 .container button {
@@ -657,9 +754,11 @@ main {
     border-radius: 50px;
     width: 270px;
     border: none;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .container button:hover {
@@ -670,10 +769,10 @@ main {
 /* CATEGORIAS ////////////////////////////////////////////////////////  */
 
 .categoria {
-    width: 80vw;
-    height: 70vh;
+    width: 100%;
+    height: 700px;
     background-color: white;
-    margin-top: 5vh;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -682,10 +781,11 @@ main {
 
 .categoria h2 {
     /* background-color: #d72d2d; */
-    width: 350px;
+    min-width: 350px;
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 60px;
+    font-weight: 600;
 }
 
 .categoria-items {
@@ -710,14 +810,18 @@ main {
 
 .categoria-item p {
     /* background-color: #751fff; */
-    width: 110px;
+    min-width: 110px;
+    height: 30px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 21px;
+    font-size: 20px;
     text-align: center;
     margin-top: 15px;
+    font-weight: 600;
 }
+
+
 
 .categora-item-img {
     height: 120px;
@@ -878,12 +982,13 @@ main {
 
 /* Melhor preço /////////////////////////////////////////////////////// */
 .melhor-preço {
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    height: 500px;
     background-image: url('/img/laptop-bg.webp');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 5vh;
+    background-size: var(--bg-size);
+    background-position:center;
+    margin-top: 50px;
     background-color: #ececec;
     display: flex;
     justify-content: end;
@@ -892,15 +997,16 @@ main {
 
 .overlay {
     width: 600px;
-    height: 50vh;
+    height: 500px;
     background-color: white;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    justify-content: center;
-    align-items: flex-end;
+    /* justify-content: center; */
+    align-items: end;
     /* transform: skewX(20deg); */
     clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+    background: var(--background-none)
 }
 
 .overlay-texto {
@@ -910,21 +1016,29 @@ main {
     height: 100%;
     width: 50%;
     margin-right: 100px;
+    color: var(--color-black);
 }
 
 .overlay h2 {
     font-size: 30px;
     text-align: left;
     line-height: 40px;
+    font-weight: 500;
+    /* background-color: #b31515; */
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .overlay span {
-    font-size: 100px;
+    font-size: 90px;
+    /* background-color: #751fff; */
+    font-weight: 700;
 }
 
 .overlay p {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: -30px;
+    font-weight: 400;
 }
 
 .overlay button {
@@ -938,7 +1052,8 @@ main {
     text-align: center;
     cursor: pointer;
     transition: 400ms all;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -954,20 +1069,20 @@ main {
 
 /* so hoje ////////////////////////////////////////////////////////// */
 .so-hoje {
-    width: 80vw;
-    height: 60vh;
+    width: 100%;
+    height: 550px;
     background-image: url('/img/drone-bg.webp');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: var(--bg-size);
     background-position: right;
-    margin-top: 5vh;
+    margin-top: 50px;
     background-color: #ececec;
     display: flex;
 }
 
 .overlay-sohoje {
     width: 600px;
-    height: 60vh;
+    height: 550px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -976,6 +1091,7 @@ main {
     padding-left: 5%;
     /* transform: skewX(20deg); */
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    background: var(--background-none);
 }
 
 .overlay-so-texto {
@@ -985,6 +1101,7 @@ main {
     height: 80%;
     width: 70%;
     margin-right: 100px;
+    color: var(--color-black);
 }
 
 .overlay-so-texto h3 {
@@ -996,20 +1113,27 @@ main {
 }
 
 .overlay-sohoje h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
     line-height: 40px;
+    font-weight: 500;
+    /* background-color: #b31515; */
+    width: 350px;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
+    
 }
 
 .overlay-sohoje span {
-    font-size: 100px;
+    font-size: 90px;
+    /* background-color: #751fff; */
+    font-weight: 700;
 }
 
 .overlay-sohoje p {
-    font-size: 18px;
-    margin-top: -20px;
-
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: 400;
 }
 
 .overlay-sohoje button {
@@ -1022,41 +1146,44 @@ main {
     font-size: 18px;
     text-align: center;
     cursor: pointer;
-    transition: 400ms all;
+    transition: 300ms all;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 
 }
 
 
 .overlay-sohoje button:hover {
-    background: transparent;
-    color: black;
-    border: white 1px solid;
+    background-color: black;
+    color: white;
 }
 
 .overlay-sohoje button:active {
-    background-color: #751fff;
+    background-color: transparent;
 }
 
 /* newsletter ///////////////////////////////////////////////////////// */
 .newsletter {
-    width: 80vw;
-    height: 25vh;
+    width: 100%;
+    height: 250px;
     background-color: #751fff;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 50px;
 }
 
 .newsletter h2 {
-    font-size: 3rem;
+    font-size: 30px;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .newsletter p {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .newsletter form {
@@ -1134,11 +1261,11 @@ main {
 
 /* suporte /////////////////////////////////////////////////////////// */
 .suport {
-    width: 80vw;
-    height: 50vh;
+    width: 100%;
+    height: 500px;
     background-image: url('/img/final-bg.webp');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: var(--bg-size);
     background-position: right;
     margin-top: 80px;
     background-color: #b31515;
@@ -1148,8 +1275,8 @@ main {
 
 .overlay-suport {
     width: 550px;
-    height: 50vh;
-    background-color: black;
+    height: 500px;
+    background-color: var(--background-black);
     color: white;
     /* background: transparent; */
     display: flex;
@@ -1159,6 +1286,7 @@ main {
     padding-left: 5%;
     /* transform: skewX(20deg); */
     clip-path: polygon(0% 0%, 90% 0, 87% 34%, 100% 100%, 0% 100%);
+
 }
 
 .overlay-suport-texto {
@@ -1168,19 +1296,22 @@ main {
     height: 80%;
     width: 70%;
     margin-right: 100px;
+    color: var(--color-white);
 }
 
 .overlay-suport h2 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: left;
     line-height: 40px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .overlay-suport p {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -20px;
-
+    line-height: 1.5;
+    font-weight: 300;
 }
 
 .overlay-suport button {
@@ -1194,7 +1325,8 @@ main {
     text-align: center;
     cursor: pointer;
     transition: 400ms all;
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -1212,13 +1344,14 @@ main {
 /* about //////////////////////////////////////////////////////////// */
 .sobre-nos {
     background-color: white;
-    width: 80vw;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
-    /* gap: 2%; */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 .coluna {
@@ -1241,6 +1374,7 @@ main {
 
 .coluna p {
     padding-left: 10%;
+    font-size: 16px;
 }
 
 #coluna-2 h2:hover {
