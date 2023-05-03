@@ -1,4 +1,4 @@
-//muda a imagem do carrino
+//muda a imagem do carrino /////////////////////////////////////////////////////
 const firstImage = "/img/shopping-cart-1.png";
 const secondImage = "/img/shopping-cart.png";
 const thirdImage = "/img/shopping-cart-1.png";
@@ -33,7 +33,8 @@ function toggleImage() {
     }
 }
 
-//mudar cor botao
+//mudar cor botao ///////////////////////////////////////////////////
+
 const btnClick = document.querySelector('#btn-click')
 
 function changeBack() {
@@ -50,3 +51,33 @@ function toggleBack() {
         resetBack()
     }, 100)
 }
+
+// slide /////////////////////////////////////////////////////////////
+const carousel = document.querySelector('.itens');
+const slides = document.querySelectorAll('.slide');
+const prevButton = document.querySelector('.prev');
+const nextButton = document.querySelector('.next');
+
+let slideIndex = 0;
+
+function showSlide(index) {
+  carousel.style.transform = `translateX(-${index * 50}%)`;
+}
+
+prevButton.addEventListener('click', () => {
+  slideIndex--;
+  if (slideIndex < 0) {
+    slideIndex = slides.length - 1;
+  }
+  showSlide(slideIndex);
+});
+
+nextButton.addEventListener('click', () => {
+  slideIndex++;
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
+  }
+  showSlide(slideIndex);
+});
+
+showSlide(slideIndex);
