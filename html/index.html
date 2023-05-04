@@ -99,8 +99,10 @@
             </div>
         </div>
         <div class="container">
+            
             <h2>Mais vendidos</h2>
             <div class="itens">
+                <button class="btn-lateral" id="btn-left">&#8249;</button>
                 <div class="item">
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
@@ -159,12 +161,40 @@
                         <p class="item-price">R$585,00</p>
                     </div>
                 </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/tv-box-xiaomi.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                        <p class="item-price"><span>R$600,00</span>R$585,00</p>
+                    </div>
+                </div>
+                
+                <button class="btn-lateral" id="btn-right" >&#8250;</button>
             </div>
-            <button class="carousel-button prev">&lt;</button>
-            <button class="carousel-button next">&gt;</button>
-            <button>Ver tudo</button>
-
+            
+            <button class="btn-ver-tudo">Ver tudo</button>
+            
         </div>
+        <!-- <div class="wrapper">
+            <button id="btn-left">&#8249;</button>
+            <div class="carousel">
+                <img src="/img/laptop-r-2.webp" alt="">
+                <div class="item-2">
+                    <p class="promoçao-2">PROMOÇÃO</p>
+                    <div class="item-img-2">
+                        <img class="item-img-promo-2" src="/img/relogio-2.webp" alt="">
+                    </div>
+                    <div class="description-item-2">
+                        <p class="item-decricao-2">Fitboot Inspire, tracker de frequência cardíaca</p>
+                        <p class="item-price-2"><span>R$600,00</span>R$585,00</p>
+                    </div>
+                </div>
+            </div>
+            <button id="btn-right" >&#8250;</button>
+        </div> -->
         <div class="categoria">
             <h2>Compre por categoria</h2>
             <div class="categoria-items">
@@ -247,8 +277,9 @@
         </div>
         <div class="container">
             <h2>Promoções</h2>
-            <div class="itens">
-                <div class="item">
+            <div class="itens-2">
+                <button class="btn-lateral-2" id="btn-left-2">&#8249;</button>
+                <div class="item-2">
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
                         <img class="item-img-promo" src="/img/smatwatch-samsung.webp" alt="">
@@ -308,8 +339,19 @@
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
+                <div class="item">
+                    <p class="promoçao">PROMOÇÃO</p>
+                    <div class="item-img">
+                        <img class="item-img-promo" src="/img/hyper-x-phone.webp" alt="">
+                    </div>
+                    <div class="description-item">
+                        <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                        <p class="item-price"><span>R$600,00</span>R$585,00</p>
+                    </div>
+                </div>
+                <button class="btn-lateral-2" id="btn-right-2" >&#8250;</button>
             </div>
-            <button>Ver tudo</button>
+            <button class="btn-ver-tudo">Ver tudo</button>
 
         </div>
         <div class="so-hoje">
@@ -330,13 +372,13 @@
         <div class="newsletter">
             <h2>Newsletter</h2>
             <p>Assine para receber novidades e ofertas especiais</p>
-            <form action="/submit" method="post">
+            <!-- colocar depois action="/submit" method="post"  -->
+            <form  >
                 <label for="email">E-mail * </label>
                 <input id="email" type="email" id="email" placeholder="Insira seu email aqui" required>
                 <input id="submit" type="submit" value="Assinar">
             </form>
         </div>
-
     </main>
 </body>
 <footer>

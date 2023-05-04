@@ -629,6 +629,8 @@ footer {
     gap: 50px;
     margin-top: 50px;
     overflow: hidden;
+    position: relative;
+    user-select: none;
 }
 
 .container h2 {
@@ -642,9 +644,125 @@ footer {
     /* background-color: coral; */
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
+    cursor: pointer;
+    justify-content: start;
+    scroll-behavior:smooth;
+}
+.itens-2 {
+    height: 360px;
+    width: 95%;
+    /* background-color: coral; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+    scroll-behavior:smooth;
+}
+#btn-left{
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 45px;
+	background-color: rgb(255, 254, 254);
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.2rem;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0;
+	z-index: 1;
+    border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+	display: none;
+    /* padding: 10px 20px; */
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+#btn-left:hover{
+    transform: translateY(calc(-50% - -2px));
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#btn-left-2{
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	line-height: 45px;
+	background-color: rgb(255, 254, 254);
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.2rem;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0px;
+	z-index: 1;
+    border: none;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+	display: none;
+    /* padding: 10px 20px; */
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+#btn-left-2:hover{
+    transform: translateY(calc(-50% - -2px));
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#btn-right{
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	border: none;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.2rem;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%); 
+	right: 10px;
+	z-index: 1;
+    /* padding: 10px 20px; */
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+#btn-right:hover{
+    transform: translateY(calc(-50% - -2px));
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#btn-right-2{
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	border: none;
+	background-color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 1.2rem;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%); 
+	right: 10px;
+	z-index: 1;
+    /* padding: 10px 20px; */
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+#btn-right-2:hover{
+    transform: translateY(calc(-50% - -2px));
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .item {
@@ -655,6 +773,18 @@ footer {
     flex-direction: column;
     position: relative;
     flex-shrink: 0;
+    /* scroll-behavior:smooth; */
+    /* transition: 500ms all ease; */
+}
+.item-2 {
+    height: 350px;
+    width: 230px;
+    border: 1px #edecec solid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-shrink: 0;
+    /* scroll-behavior:smooth; */
 }
 
 .item-img {
@@ -747,7 +877,7 @@ footer {
     margin-right: 7px;
 }
 
-.container button {
+.btn-ver-tudo {
     background-color: #751fff;
     color: white;
     height: 50px;
@@ -761,7 +891,7 @@ footer {
     font-weight: 300;
 }
 
-.container button:hover {
+.btn-ver-tudo:hover {
     background-color: black;
     transition: 500ms all;
 }
@@ -1310,10 +1440,10 @@ footer {
 .suport {
     width: 100%;
     height: 500px;
-    background-image: url('/img/final-bg.webp');
+    background-image: url('/img/final-bg-2.jpg');
     background-repeat: no-repeat;
-    background-size: var(--bg-size);
-    background-position: right;
+    background-size: cover;
+    background-position: center;
     margin-top: 80px;
     background-color: #b31515;
     display: flex;

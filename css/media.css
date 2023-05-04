@@ -1,5 +1,9 @@
 @media screen and (max-width:1850px) {
+   /* mais vendidos ///////////////////////////////////////////////////////// */
     .itens {
+        justify-content: start;
+    }
+    .itens-2 {
         justify-content: start;
     }
 }
