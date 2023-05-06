@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Efeito de Clique com CSS</title>
-    <style>
+    <!-- <style>
         .click-effect {
   background-color: lightblue;
   padding: 10px 20px;
@@ -21,9 +21,24 @@
   background-color: dodgerblue; /* Altera a cor de fundo quando o botão é clicado */
 }
 
-    </style>
-</head>
+    </style> -->
+    <link rel="stylesheet" href="/css/teste.css">
+    <script defer src="/javaScript/teste.js"></script>
 <body>
-    <button class="click-effect">Clique aqui</button>
+    <!-- <button class="click-effect">Clique aqui</button> -->
+    <div class="wrapper">
+      <div id="search-container">
+          <input type="search" id="search-input" placeholder="Search products name here..">
+          <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+          <button class="button-value" onclick="filterProduct('all')">All</button>
+          <button class="button-value" onclick="filterProduct('Topwear')">Topwear</button>
+          <button class="button-value" onclick="filterProduct('Bottomwear')">Bottomwear</button>
+          <button class="button-value" onclick="filterProduct('Jacket')">Jacket</button>
+          <button class="button-value" onclick="filterProduct('Watch')">Watch</button>
+      </div>
+      <div id="products"></div>
+    </div>
 </body>
 </html>

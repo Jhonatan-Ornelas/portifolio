@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/topo.css">
     <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/header-media.css">
     <script defer src="/javaScript/index.js"></script>
 </head>
 
@@ -16,7 +18,7 @@
     <header>
         <div class="nav">
             <div class="row-top">
-                <div class="logo">TechShield</div>
+                <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
                     <input type="text" placeholder="buscar"></input>
                     <button id="btn-click" title="icon" onclick="toggleBack()"></button>
@@ -24,9 +26,9 @@
                 <div class="perfil">
                     <div class="login-user">
                         <div class="icon-user"></div>
-                        <div class="login">Login</div>
+                        <a class="login" href="/html/login.html">Login</a>
                     </div>
-                    <p class="sing">sing up</p>
+                    <a class="sing" href="/html/sing-in.html">sing up</a>
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
                             onmouseover="changeImage()" onmouseout="resetImage()" onclick="toggleImage()">
@@ -35,16 +37,16 @@
                 </div>
             </div>
             <div class="row">
-                <p class="opitions" id="row-loja">Loja</p>
-                <p class="opitions" id="row-computadores">Computadores</p>
-                <p class="opitions">Tabletes</p>
-                <p class="opitions">Drones e cameras</p>
-                <p class="opitions">Audio</p>
-                <p class="opitions">Mobile</p>
-                <p class="opitions">TV e home theater</p>
-                <p class="opitions">Tecnologia vestivel</p>
-                <p class="opitions" id="row-celulares">celulares</p>
-                <p class="opitions" id="row-promoçoes">Promoções</p>
+                <a class="opitions" id="row-loja" href="/html/loja.html">Loja</a> 
+                <a href="" class="opitions" id="row-computadores">Computadores</a>
+                <a href="" class="opitions">Tabletes</a>
+                <a href="" class="opitions">Drones e cameras</a>
+                <a href="" class="opitions">Audio</a>
+                <a href="" class="opitions">Mobile</a>
+                <a href="" class="opitions">TV e home theater</a>
+                <a href="" class="opitions">Tecnologia vestivel</a>
+                <a href="" class="opitions" id="row-celulares">celulares</a>
+                <a href="" class="opitions" id="row-promoçoes">Promoções</a>
             </div>
         </div>
     </header>
@@ -58,7 +60,7 @@
                     Preços incriveis para todos os seus favoritos
                 </h2>
                 <p>Compre mais por menos em marcas selecionadas</p>
-                <button>comprar agora</button>
+                <a href="/html/loja.html"><button>comprar agora</button></a>
             </div>
         </div>
         <div class="img-promo2">

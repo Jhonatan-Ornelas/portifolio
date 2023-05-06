@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/store.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/header-media.css">
+    <script defer src="/javaScript/loja.js"></script>
+    <title>all-products</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="row-top">
+                <a class="logo" href="/html/index.html">TechShield</a>
+                <div class="search">
+                    <input type="text" placeholder="buscar"></input>
+                    <button id="btn-click" title="icon"></button>
+                </div>
+                <div class="perfil">
+                    <div class="login-user">
+                        <div class="icon-user"></div>
+                        <a class="login" href="/html/login.html">Login</a>
+                    </div>
+                    <a class="sing" href="/html/sing-in.html">sing up</a>
+                    <div class="carrinho">
+                        <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon">
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <a class="opitions" id="row-loja" href="/html/loja.html">Loja</a>
+                <a href="" class="opitions" id="row-computadores">Computadores</a>
+                <a href="" class="opitions">Tabletes</a>
+                <a href="" class="opitions">Drones e cameras</a>
+                <a href="" class="opitions">Audio</a>
+                <a href="" class="opitions">Mobile</a>
+                <a href="" class="opitions">TV e home theater</a>
+                <a href="" class="opitions">Tecnologia vestivel</a>
+                <a href="" class="opitions" id="row-celulares">celulares</a>
+                <a href="" class="opitions" id="row-promoçoes">Promoções</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="all">
+            <h1>Todos os produtos</h1>
+            <div class="produtos-categorias">
+                <div class="categorias">
+                    <div id="categorias">
+                        <button class="categorias-value" onclick="filterProduct('all')">todas</button>
+                        <button class="categorias-value" onclick="filterProduct('Promoções')">Promoções</button>
+                        <button class="categorias-value" onclick="filterProduct('Mais vendidos')">Mais vendidos</button>
+                        <button class="categorias-value" onclick="filterProduct('Computadores')">Computadores</button>
+                        <button class="categorias-value" onclick="filterProduct('tablets')">tablets</button>
+                        <button class="categorias-value" onclick="filterProduct('Drones-e-cameras')">Drones e câmeras</button>
+                        <button class="categorias-value" onclick="filterProduct('Headphones')">Headphones</button>
+                        <button class="categorias-value" onclick="filterProduct('Alto-falantes')">Alto-falantes</button>
+                        <button class="categorias-value" onclick="filterProduct('Mobile')">Mobile</button>
+                        <button class="categorias-value" onclick="filterProduct('TV e home theater')">TV e home theater</button>
+                        <button class="categorias-value" onclick="filterProduct('Tecnologia vestivel')">Tecnologia vestivel</button>
+                    </div>
+                </div>
+                <div id="produtos">
+                    <div class="ordem"></div>
+                    <div class="produtos-cards">
+                        <div class="item">
+                            <p class="promoçao">PROMOÇÃO</p>
+                            <div class="item-img">
+                                <img class="item-img-promo" src="/img/promoçoes/" alt="">
+                            </div>
+                            <div class="description-item">
+                                <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                                <p class="item-price"><span>R$600,00</span>R$585,00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="suport">
+            <div class="overlay-suport">
+                <div class="overlay-suport-texto">
+                    <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
+                    <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
+                    <button>Central de Ajuda</button>
+                </div>
+            </div>
+            <div class="overlay-suport-bg"></div>
+        </div>
+        <div class="sobre-nos">
+            <div class="coluna" id="coluna-1">
+                <h2>Endereço</h2>
+                <p>Rua Prates, 194 - Bom Retiro</p>
+                <p>SP 01121-000</p>
+                <p>info@meusite.com</p>
+                <p>Telefone: (11) 3456-7890</p>
+            </div>
+            <div class="coluna" id="coluna-2">
+                <h2>Loja</h2>
+                <p>Loja</p>
+                <p>Computadores</p>
+                <p>tablets</p>
+                <p>Drones e câmeras</p>
+                <p>Áudio</p>
+                <p>Mobile</p>
+                <p>TV e home theater</p>
+                <p>Tecnologia vestivel</p>
+                <p>Promoções</p>
+            </div>
+            <div class="coluna" id="coluna-3">
+                <h2>Suporte</h2>
+                <p>Contato</p>
+                <p>Central de ajuda</p>
+                <p>Sobre nós</p>
+                <p>Carreiras</p>
+            </div>
+            <div class="coluna" id="coluna-4">
+                <h2>Política</h2>
+                <p>Entregas e devoluções</p>
+                <p>Termos e condições</p>
+                <p>Métodos de pagamento</p>
+                <p>Política de Cookies</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
