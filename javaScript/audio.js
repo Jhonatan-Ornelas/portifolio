@@ -1,0 +1,3 @@
+window.onload = () => {
+    filterProduct('Headphones')
+}
