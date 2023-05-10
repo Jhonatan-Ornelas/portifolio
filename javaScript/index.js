@@ -88,33 +88,33 @@ carousel.addEventListener('mouseleave', dragStop);
 firstImg = carousel.querySelectorAll(".item")[0];
 
 arrowIcons = document.querySelectorAll(".btn-lateral");
-let firstImgWidth = firstImg.clientWidth ;//getting first img width & adding 1px margin value
-let scrollWidth = carousel.scrollWidth - carousel.clientWidth ;// getting max scrollable width
+let firstImgWidth = firstImg.clientWidth;//getting first img width & adding 1px margin value
+let scrollWidth = carousel.scrollWidth - carousel.clientWidth;// getting max scrollable width
 const tolerance = 5; // Valor de tolerância para a comparação
 
 // const showHideIcons = () => {
 //     // showing and prev/next icon according to scroll left value
 //     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? 'none' : 'block';
 //     arrowIcons[1].style.display = Math.abs(carousel.scrollLeft - scrollWidth) <= tolerance ? 'none' : 'block';
-    
+
 // }
 
 let resizeInterval = ''
- 
+
 const atulizeWidth = () => {
     // Limpa o intervalo anterior, caso exista
-  if (resizeInterval) {
-    clearInterval(resizeInterval);
-  }
+    if (resizeInterval) {
+        clearInterval(resizeInterval);
+    }
 
-  // Coloque aqui o código que você deseja executar a cada 60 ms
-  const repeatedFunction = () => {
-    scrollWidth = carousel.scrollWidth - carousel.clientWidth ;
-    scrollWidthTwo = carouselTwo.scrollWidth - carouselTwo.clientWidth;
-  };
+    // Coloque aqui o código que você deseja executar a cada 60 ms
+    const repeatedFunction = () => {
+        scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+        scrollWidthTwo = carouselTwo.scrollWidth - carouselTwo.clientWidth;
+    };
 
-  // Define o novo intervalo
-  resizeInterval = setInterval(repeatedFunction, 60);
+    // Define o novo intervalo
+    resizeInterval = setInterval(repeatedFunction, 60);
 }
 
 
@@ -140,8 +140,8 @@ arrowIcons.forEach(icon => {
         setTimeout(() => showHideIcons(), 60);//calling shoeHideIcons after 60ms
     })
 })
- 
-window.addEventListener('resize',atulizeWidth())
+
+window.addEventListener('resize', atulizeWidth())
 // arrowIcons.forEach(icon => {
 //     icon.addEventListener("click",()=>{
 //         //if you didn't understand if/else ternary
@@ -229,3 +229,147 @@ arrowIconsTwo.forEach(icon => {
         // setTimeout(() => showHideIconsTwo(), 60);//calling shoeHideIcons after 60ms
     })
 })
+
+
+
+///CARRINHO/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//abrir e fechar carrinho
+function abrirCarrinho() {
+    const abaCarrinho = document.getElementById('abaCarrinho');
+    const fundoEscuro = document.getElementById('fundoEscuro');
+    abaCarrinho.classList.add('aberto');
+    fundoEscuro.classList.add('visivel');
+}
+
+function fecharCarrinho() {
+    const abaCarrinho = document.getElementById('abaCarrinho');
+    const fundoEscuro = document.getElementById('fundoEscuro');
+    abaCarrinho.classList.remove('aberto');
+    fundoEscuro.classList.remove('visivel');
+}
+
+//ADICIONAR O ITEM A O CARRINHO DE COMPRARS///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let list = document.querySelector('.container');
+let listCard = document.querySelector('.list-card');
+let body = document.querySelector('body');
+let total = document.querySelector('.price');
+let quantity = document.querySelector('.carrinho-quantidade');
+
+
+
+// let productsCart = [
+//     {
+//         id: 1,
+//         name: 'PRODUCT NAME 1',
+//         image: '/img/1.PNG',
+//         price: 120000
+//     },
+//     {
+//         id: 2,
+//         name: 'PRODUCT NAME 2',
+//         image: '/img/2.PNG',
+//         price: 120000
+//     },
+//     {
+//         id: 3,
+//         name: 'PRODUCT NAME 3',
+//         image: '/img/3.PNG',
+//         price: 220000
+//     },
+//     {
+//         id: 4,
+//         name: 'PRODUCT NAME 4',
+//         image: '/img/4.PNG',
+//         price: 123000
+//     },
+//     {
+//         id: 5,
+//         name: 'PRODUCT NAME 5',
+//         image: '/img/5.PNG',
+//         price: 320000
+//     },
+//     {
+//         id: 6,
+//         name: 'PRODUCT NAME 6',
+//         image: '/img/6.PNG',
+//         price: 120000
+//     }
+// ];
+let listCards = [];
+// cria o card
+
+// function initApp() {
+//     productsCart.forEach((value, id) => {
+//         let newDiv = document.createElement('div');
+//         newDiv.classList.add('item');
+//         newDiv.innerHTML = `
+//     <img src="${value.image}">
+//     <div class="title">${value.name}</div>
+//     <div class="price">${value.price.toLocaleString()}</div>
+//     <button onclick="addToCard(${id})">Add To Card</button>`;
+//         list.appendChild(newDiv);
+//     })
+// }
+// initApp();
+//adiciona o card
+
+let productMap = {};
+productsCart.data.forEach((product, index) => {
+    productMap[product.id] = index;
+});
+
+function addToCard(id) {
+    if (productMap[id] === undefined) {
+        console.log("Product with ID " + id + " does not exist.");
+        return;
+    }
+
+    let productIndex = productMap[id];
+    if (listCards[id] == null) {
+        // copy product form list to list card
+        listCards[id] = JSON.parse(JSON.stringify(productsCart.data[productIndex]));
+        listCards[id].quantity = 1;
+    }
+    reloadCard();
+}
+//atualiza o card
+function reloadCard() {
+    listCard.innerHTML = '';
+    let count = 0;
+    let totalPrice = 0;
+    listCards.forEach((value, id) => {
+        totalPrice = totalPrice + value.priceP;
+        count = count + value.quantity;
+        if (value != null) {
+            let newDiv = document.createElement('li');
+            newDiv.innerHTML = `<li class="product-card">
+            <img src="${value.image}" alt="">
+            <div class="product-card-info">
+                <h4 class="product-card-name">${value.productName}</h4>
+                <span class="product-card-price">$${value.priceP.toLocaleString()}</span>
+                <div class="product-card-quantidade">
+                    <button onclick="changeQuantity(${id}, ${value.quantity - 1})">-</button>
+                    <span>${value.quantity}</span>
+                    <button onclick="changeQuantity(${id}, ${value.quantity + 1})">+</button>
+                </div>
+            </div>
+        </li>`;
+            listCard.appendChild(newDiv);
+        }
+    })
+    total.innerText = totalPrice.toLocaleString();
+    quantity.innerText = count;
+}
+//muda a quantidade de produtos
+function changeQuantity(id, quantity) {
+    
+    let productIndex = productMap[id];
+    if (quantity == 0) {
+        delete listCards[id];
+    } else {
+        listCards[id].quantity = quantity;
+        listCards[id].priceP = quantity * productsCart.data[productIndex].priceP;
+    }
+    reloadCard();
+}

@@ -1,248 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Efeito de Clique com CSS</title>
-  <!-- <style>
-        .click-effect {
-  background-color: lightblue;
-  padding: 10px 20px;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #ececec;
+        }
+        div{
+            width: 500px;
+        }
+        .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.botao-registro {
+  background-color: #751fff;
+  color: #fff;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s; /* Adiciona uma transição suave ao alterar a cor de fundo */
+  font-size: 16px;
+  padding: 10px 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  transition: all 0.3s;
 }
 
-.click-effect:hover {
-  background-color: deepskyblue;
+.botao-registro:hover {
+  background-color: #5c17cc;
 }
 
-.click-effect:active {
-  background-color: dodgerblue; /* Altera a cor de fundo quando o botão é clicado */
+.estilo-1 {
+  border-radius: 5px;
 }
 
-    </style> -->
-  <link rel="stylesheet" href="/css/teste.css">
-  <link rel="stylesheet" type="text/css" href="/css/fontawesome-css">
-  <script defer src="/javaScript/teste.js"></script>
+.estilo-2 {
+  border-radius: 50px;
+}
 
+.estilo-3 {
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.estilo-4 {
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.estilo-5 {
+  border-radius: 5px;
+  border: 2px solid #5c17cc;
+}
+
+.estilo-6 {
+  border-radius: 50px;
+  border: 2px solid #5c17cc;
+}
+
+.estilo-7 {
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #751fff, #5c17cc);
+}
+
+.estilo-8 {
+  border-radius: 50px;
+  background-image: linear-gradient(45deg, #751fff, #5c17cc);
+}
+
+.estilo-9 {
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, #751fff, #5c17cc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.estilo-10 {
+  border-radius: 50px;
+  background-image: linear-gradient(45deg, #751fff, #5c17cc);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+</head>
 <body>
-  <!-- <button class="click-effect">Clique aqui</button> -->
-  <!-- <div class="wrapper">
-      <div id="search-container">
-          <input type="search" id="search-input" placeholder="Search products name here..">
-          <button id="search">Search</button>
+    <div class="container">
+        <button class="botao-registro estilo-1">Registrar</button>
+        <button class="botao-registro estilo-2">Registrar</button>
+        <button class="botao-registro estilo-3">Registrar</button>
+        <button class="botao-registro estilo-4">Registrar</button>
+        <button class="botao-registro estilo-5">Registrar</button>
+        <button class="botao-registro estilo-6">Registrar</button>
+        <button class="botao-registro estilo-7">Registrar</button>
+        <button class="botao-registro estilo-8">Registrar</button>
+        <button class="botao-registro estilo-9">Registrar</button>
+        <button class="botao-registro estilo-10">Registrar</button>
       </div>
-      <div id="buttons">
-          <button class="button-value" onclick="filterProduct('all')">All</button>
-          <button class="button-value" onclick="filterProduct('Topwear')">Topwear</button>
-          <button class="button-value" onclick="filterProduct('Bottomwear')">Bottomwear</button>
-          <button class="button-value" onclick="filterProduct('Jacket')">Jacket</button>
-          <button class="button-value" onclick="filterProduct('Watch')">Watch</button>
-      </div>
-      <div id="products"></div>
-    </div> -->
-  <main>
-    <header>
-      <ul class="idicator">
-        <li data-filter="all" class="active"><a href="#">All</a></li>
-        <li data-filter="Blazer"><a href="#">Blazer</a></li>
-        <li data-filter="Watch"><a href="#">Watch</a></li>
-        <li data-filter="Shoes"><a href="#">Shoes</a></li>
-        <li data-filter="Mobile"><a href="#">Mobile</a></li>
-        <li data-filter="Accessories"><a href="#">Accessories</a></li>
-      </ul>
-      <div class="filter-condition">
-        <span>Views As a</span>
-        <select name="" id="select">
-          <option value="Default"> Defalt</option>
-          <option value="LowToHigh"> Low to high</option>
-          <option value="HighToLow"> High to low</option>
-        </select>
-      </div>
-    </header>
-    <div class="product-field">
-      <ul class="items">
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/wa1.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Watch</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$45.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/bz1.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Blazer</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$35.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/wa2.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Watch</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$40.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/bz2.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Blazer</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$42.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/wa3.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Watch</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$46.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/bz4.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Blazer</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$55.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/so.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Shoes</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$25.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/samsung.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Mobile</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$20.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/so1.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Shoes</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$15.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/one.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Mobile</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$33.78</h4>
-        </li>
-        <li data-category="" data-price="">
-          <picture>
-            <img src="/img/so3.png" alt="">
-          </picture>
-          <div class="detail">
-            <p class="icon">
-              <span><i class="far fa-heart"></i></span>
-              <span><i class="far fa-share-square"></i></span>
-              <span><i class="fas fa-shopping-basket"></i></span>
-            </p>
-            <strong>Shoes</strong>
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
-            <small>Buy Now</small>
-          </div>
-          <h4>$44.78</h4>
-        </li>
-      </ul>
-    </div>
-  </main>
+      
 </body>
-
 </html>

@@ -951,7 +951,7 @@ for (let i of products.data) {
     card.appendChild(container)
     document.getElementById('produtos-cards').appendChild(card)
 }
-
+const  titleCategorias =  document.querySelector('#all-categorias')
 //parameter passed from button (parameter same as category)
 function filterProduct(value) {
     //Button class code
@@ -965,7 +965,7 @@ function filterProduct(value) {
     //     }
     // });
     //select all cards
-
+    titleCategorias.innerText = `${value}`
     // Track already shown products
     let shownProductIds = new Set();
     let elements = document.querySelectorAll('.card');

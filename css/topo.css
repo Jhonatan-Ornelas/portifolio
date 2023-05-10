@@ -11,7 +11,10 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
+main{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden ;
+}
 /* main img ////////////////////////////////////////////////////////*/
 .img-promo {
     background-image: url('/img/celular.bg.png');
@@ -128,6 +131,7 @@
     margin-top: 15;
     margin-bottom: 20px;
 }
+
 
 .cell-red button {
     background-color: white;
@@ -529,6 +533,19 @@
     /* scroll-behavior:smooth; */
     /* transition: 500ms all ease; */
 }
+.item:hover .item-shopping-cart{
+    z-index: 1;
+    
+}
+.item-shopping-cart{
+    position: absolute;
+    z-index: -1;
+    height: 40px;
+    width: 40px;
+    bottom: 70px;
+    right: 10px;
+    transition:  1000ms ease-out all;
+}
 
 .item-2 {
     height: 350px;
@@ -670,6 +687,7 @@
     font-size: 36px;
     margin-bottom: 60px;
     font-weight: 600;
+    margin-top: 50px;
 }
 
 .categoria-items {
@@ -828,7 +846,7 @@
 }
 
 #Mais-Vendidos {
-    background-color: black;
+    background-color: black ;
 }
 
 #categora-item-Mais-Vendidos {

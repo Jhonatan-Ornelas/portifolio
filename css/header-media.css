@@ -90,7 +90,10 @@
     .suport {
         height: 480px;
     }
-
+    #row-tecnologia-vestivel{
+        position: absolute;
+        z-index: -1;
+    }
     .overlay-suport {
         width: 400px;
         height: 480px;
@@ -173,7 +176,10 @@
 /* suporte /////////////////////////////////////////////////////////// */
 
 @media screen and (max-width:750px) {
-.overlay-suport {
+    .row-top .logo {
+        font-size: 30px !important;
+    }
+    .overlay-suport {
     width: 300px;
 }
 }

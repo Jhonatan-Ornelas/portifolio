@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        input[type="search"] {
+            padding: 5px 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .carrinho {
+            display: flex;
+            align-items: center;
+        }
+
+        .carrinho img {
+            width: 24px;
+            height: 24px;
+            margin-right: 5px;
+        }
+
+        #quantidadeItens {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Adicione estas regras CSS ao seu arquivo styles.css */
+
+        .aba-carrinho {
+            position: fixed;
+            top: 0;
+            right: -400px;
+            width: 300px;
+            height: 100%;
+            background-color: #f8f8f8;
+            padding: 20px;
+            box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+            transition: right 0.3s;
+        }
+
+        .aba-carrinho.aberto {
+            right: 0;
+        }
+
+        .aba-carrinho ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .aba-carrinho li {
+            border-bottom: 1px solid #ccc;
+            padding: 5px 0;
+        }
+
+        .fundo-escuro {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s;
+        }
+
+        .fundo-escuro.visivel {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <input type="search" placeholder="Buscar produtos...">
+        <div class="carrinho" onclick="abrirCarrinho()">
+            <img src="/img/shopping.svg" alt="Carrinho" />
+            <span id="quantidadeItens"></span>
+        </div>
+    </header>
+    <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
+
+    <main>
+        <!-- Seu conteúdo principal vai aqui -->
+    </main>
+    <aside id="abaCarrinho" class="aba-carrinho">
+        <h2>Carrinho</h2>
+        <ul id="listaCarrinho"></ul>
+        <h3>Total: R$<span id="total"></span></h3>
+        <button onclick="fecharCarrinho()">Fechar</button>
+    </aside>
+    <script>
+
+        function abrirCarrinho() {
+            const abaCarrinho = document.getElementById('abaCarrinho');
+            const fundoEscuro = document.getElementById('fundoEscuro');
+            abaCarrinho.classList.add('aberto');
+            fundoEscuro.classList.add('visivel');
+            atualizarCarrinho();
+        }
+
+        function fecharCarrinho() {
+            const abaCarrinho = document.getElementById('abaCarrinho');
+            const fundoEscuro = document.getElementById('fundoEscuro');
+            abaCarrinho.classList.remove('aberto');
+            fundoEscuro.classList.remove('visivel');
+        }
+
+        function atualizarCarrinho() {
+            const listaCarrinho = document.getElementById('listaCarrinho');
+            const spanTotal = document.getElementById('total');
+
+            listaCarrinho.innerHTML = '';
+
+            carrinho.forEach((item, index) => {
+                const li = document.createElement('li');
+                li.textContent = `Produto ${item.id} - R$${item.preco.toFixed(2)}`;
+                listaCarrinho.appendChild(li);
+            });
+
+            spanTotal.textContent = total.toFixed(2);
+            atualizarQuantidadeItens();
+        }
+
+    </script>
+</body>
+
+</html>

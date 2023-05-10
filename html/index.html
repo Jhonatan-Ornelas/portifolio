@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/topo.css">
     <link rel="stylesheet" href="/css/media.css">
-    
+
     <link rel="stylesheet" href="/css/header-media.css">
+    <script src="/javaScript/data.js"></script>
     <script defer src="/javaScript/index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -35,9 +38,71 @@
                     <a class="sing" href="/html/sing-in.html">sing up</a>
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
-                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="toggleImage()">
+                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="abrirCarrinho()">
+                            <span class="carrinho-quantidade">1</span>
                     </div>
-
+                    <aside id="abaCarrinho" class="aba-carrinho">
+                        <div class="aba-carrinho-title">
+                            <h2>Shopping Cart</h2> 
+                            <p><span>1</span>item</p>
+                        </div>
+                        <ul class="list-card">
+                            <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                        </ul>
+                        <div class="check-out">
+                            <button type="button" title="back" class="close-shopping"><img src="/img/" alt=""></button>
+                            <h3>Total Price</h3>
+                            <p class="price">0</p>
+                            <button class="shopping-register">register</button>
+                        </div>
+                    </aside>
                 </div>
             </div>
             <div class="row">
@@ -49,13 +114,16 @@
                 <a href="/html/alto-falantes.html" class="opitions">Alto-falantes</a>
                 <a href="/html/mobile.html" class="opitions">Mobile</a>
                 <a href="/html/tv-e-home-theater.html" class="opitions">TV e home theater</a>
-                <a href="/html/tecnologia-vestivel.html" class="opitions">Tecnologia vestivel</a>
+                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Tecnologia
+                    vestivel</a>
                 <a href="/html/mobile.html" class="opitions" id="row-celulares">celulares</a>
                 <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promoções</a>
             </div>
         </div>
     </header>
+    <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
     <main>
+
         <div class="img-promo">
             <div class="text-image">
                 <h3>
@@ -73,13 +141,13 @@
                 <h3>Ofertas de Natal</h3>
                 <span>Até</span><span>30% off</span>
                 <p>em marcas de smartphone selecionadas</p>
-                <button>Comprar</button>
+                <a title="30% off" href="/html/mobile.html"><button>Comprar</button></a>
             </div>
             <div class="headset-roxo">
                 <h3>Novidade</h3>
                 <span>Leve seu som aonde você quiser</span>
                 <p>Os melhores headphones</p>
-                <button>Comprar</button>
+                <a href="/html/audio.html"><button>Comprar</button></a>
                 </div-headset-roxo>
             </div>
         </div>
@@ -106,11 +174,12 @@
             </div>
         </div>
         <div class="container">
-            
+
             <h2>Mais vendidos</h2>
             <div class="itens">
                 <button class="btn-lateral" id="btn-left">&#8249;</button>
-                <div class="item">
+                <div class="item" data-product-id="58" data-price="4499">
+                    <button class="item-shopping-cart" onclick="addToCard(58)"></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
                         <img class="item-img-promo" src="/img/relogio-2.webp" alt="">
@@ -120,7 +189,8 @@
                         <p class="item-price"><span>R$600,00</span>R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="59" data-price="4498">
+                    <button class="item-shopping-cart" onclick="addToCard(59)"></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
                         <img class="item-img-promo" src="/img/laptop-r-2.webp " alt="">
@@ -178,12 +248,12 @@
                         <p class="item-price"><span>R$600,00</span>R$585,00</p>
                     </div>
                 </div>
-                
-                <button class="btn-lateral" id="btn-right" >&#8250;</button>
+
+                <button class="btn-lateral" id="btn-right">&#8250;</button>
             </div>
-            
-            <button class="btn-ver-tudo">Ver tudo</button>
-            
+
+            <a href="/html/mais-vendidos.html"><button class="btn-ver-tudo">Ver tudo</button></a>
+
         </div>
         <!-- <div class="wrapper">
             <button id="btn-left">&#8249;</button>
@@ -205,68 +275,109 @@
         <div class="categoria">
             <h2>Compre por categoria</h2>
             <div class="categoria-items">
+
                 <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-Computadores"></div>
-                    </div>
+                    <a href="/html/computadores.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-Computadores"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Computadores</p>
                 </div>
-                <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-Mobile">
 
+
+
+                <div class="categoria-item">
+                    <a href="/html/mobile.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-Mobile">
+
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <p class="categoria-item-nome">Mobile</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-drones"></div>
-                    </div>
+                    <a href="/html/drones-e-cameras.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-drones"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Drones e Câmeras</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img" id="Promoções">
-                        <div id="categora-item-Promoções"></div>
-                    </div>
+                    <a href="/html/promocoes.html">
+                        <div class="categora-item-img" id="Promoções">
+                            <div id="categora-item-Promoções"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Promoções</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-Tablets"></div>
-                    </div>
+                    <a href="/html/tablets.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-Tablets"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Tablets</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img" id="Mais-Vendidos">
-                        <div id="categora-item-Mais-Vendidos"></div>
-                    </div>
+                    <a href="/html/mais-vendidos.html">
+                        <div class="categora-item-img" id="Mais-Vendidos">
+                            <div id="categora-item-Mais-Vendidos"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Mais Vendidos</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-TV"></div>
-                    </div>
+                    <a href="/html/tv-e-home-theater.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-TV"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">TV e home theater</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img">
-                        <div id="categora-item-Tecnologia-vestivel"></div>
-                    </div>
+                    <a href="/html/tecnologia-vestivel.html">
+                        <div class="categora-item-img">
+                            <div id="categora-item-Tecnologia-vestivel"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome">Tecnologia vestivel</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img-Alto-falantes">
-                        <div id="categora-item-Alto-falantes"></div>
-                    </div>
+                    <a href="/html/alto-falantes.html">
+                        <div class="categora-item-img-Alto-falantes">
+                            <div id="categora-item-Alto-falantes"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome-Alto-falantes">Alto-falantes</p>
                 </div>
+
+
                 <div class="categoria-item">
-                    <div class="categora-item-img-Head-phones">
-                        <div id="categora-item-Head-phones"></div>
-                    </div>
+                    <a href="/html/audio.html">
+                        <div class="categora-item-img-Head-phones">
+                            <div id="categora-item-Head-phones"></div>
+                        </div>
+                    </a>
                     <p class="categoria-item-nome-Head-phones">Head-phones</p>
                 </div>
+
             </div>
         </div>
         <div class="melhor-preço">
@@ -277,7 +388,7 @@
                     <span>R$ 150</span>
                     <h2>em laprops e tablets selecionados</h2>
                     <p>Aplicam-se termos e condições</p>
-                    <button>comprar</button>
+                    <a href="/html/computadores.html"><button>comprar</button></a>
                 </div>
             </div>
 
@@ -356,9 +467,9 @@
                         <p class="item-price"><span>R$600,00</span>R$585,00</p>
                     </div>
                 </div>
-                <button class="btn-lateral-2" id="btn-right-2" >&#8250;</button>
+                <button class="btn-lateral-2" id="btn-right-2">&#8250;</button>
             </div>
-            <button class="btn-ver-tudo">Ver tudo</button>
+            <a href="/html/promocoes.html"><button class="btn-ver-tudo">Ver tudo</button></a>
 
         </div>
         <div class="so-hoje">
@@ -370,7 +481,7 @@
                     <h2>em drones profissionais</h2>
                     <p>Quantidade limitada.</p>
                     <p> Consulte disponibilidade na página do produto.</p>
-                    <button>comprar</button>
+                    <a href="/html/drones-e-cameras.html"><button>comprar</button></a>
                 </div>
 
             </div>
@@ -380,7 +491,7 @@
             <h2>Newsletter</h2>
             <p>Assine para receber novidades e ofertas especiais</p>
             <!-- colocar depois action="/submit" method="post"  -->
-            <form  >
+            <form>
                 <label for="email">E-mail * </label>
                 <input id="email" type="email" id="email" placeholder="Insira seu email aqui" required>
                 <input id="submit" type="submit" value="Assinar">
@@ -409,15 +520,33 @@
         </div>
         <div class="coluna" id="coluna-2">
             <h2>Loja</h2>
-            <p>Loja</p>
-            <p>Computadores</p>
-            <p>tablets</p>
-            <p>Drones e câmeras</p>
-            <p>Áudio</p>
-            <p>Mobile</p>
-            <p>TV e home theater</p>
-            <p>Tecnologia vestivel</p>
-            <p>Promoções</p>
+            <a href="/html/loja.html">
+                <p>Loja</p>
+            </a>
+            <a href="/html/computadores.html">
+                <p>Computadores</p>
+            </a>
+            <a href="/html/tablets.html">
+                <p>tablets</p>
+            </a>
+            <a href="/html/drones-e-cameras.html">
+                <p>Drones e câmeras</p>
+            </a>
+            <a href="/html/audio.html">
+                <p>Headphones</p>
+            </a>
+            <a href="/html/mobile.html">
+                <p>Mobile</p>
+            </a>
+            <a href="/html/tv-e-home-theater.html">
+                <p>TV e home theater</p>
+            </a>
+            <a href="/html/tecnologia-vestivel.html">
+                <p>Tecnologia vestivel</p>
+            </a>
+            <a href="/html/promocoes.html">
+                <p>Promoções</p>
+            </a>
         </div>
         <div class="coluna" id="coluna-3">
             <h2>Suporte</h2>
