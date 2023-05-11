@@ -72,7 +72,7 @@ let products = {
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
         },
         {
-            id: '63',
+            id: '57',
             productName: 'Smartwatch Space Moon com carregador',
             category: "Promoções",
             price: "199.95",
@@ -96,7 +96,7 @@ let products = {
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
         },
         {
-            id: '50',
+            id: '34',
             productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
             category: "Promoções",
             price: "2,499.99",
@@ -766,7 +766,7 @@ let products = {
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
         },
         {
-            id: '50',
+            id: '34',
             productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
             category: "TV-e-home-theater",
             price: "2,499.99",
@@ -900,7 +900,8 @@ function priceToNumber(priceString) {
     return parseFloat(withDecimalPoint);
 }
 for (let i of products.data) {
-
+    let cardlink = document.createElement('a')
+    cardlink.setAttribute('href', '/html/pagina-do-produto.html')
     //Create card
     let card = document.createElement('div');
     //card should have category and should stay hidden initially
@@ -948,8 +949,19 @@ for (let i of products.data) {
     secondPrice.innerText = i.priceP
     price.appendChild(secondPrice)
 
+    //shipping-cart
+    let shippingCart = document.createElement('button')
+    shippingCart.classList.add('item-shopping-cart')
+    shippingCart.setAttribute('onclick', `addToCard(${i.id})`)
+    let shippingCartImg = document.createElement('img')
+    shippingCartImg.setAttribute('src', '/img/shopping-cart-6.png')
+    shippingCart.appendChild(shippingCartImg)
+
+    card.appendChild(shippingCart)
     card.appendChild(container)
-    document.getElementById('produtos-cards').appendChild(card)
+    cardlink.appendChild(card)
+    document.getElementById('produtos-cards').appendChild(cardlink)
+    
 }
 const  titleCategorias =  document.querySelector('#all-categorias')
 //parameter passed from button (parameter same as category)
@@ -962,7 +974,7 @@ function filterProduct(value) {
     //         button.classList.add('active')
     //     } else {
     //         button.classList.remove('active')
-    //     }
+    //     
     // });
     //select all cards
     titleCategorias.innerText = `${value}`
@@ -1102,5 +1114,32 @@ document.addEventListener('click', function (e) {
     });
   }
   
+//ANIMAÇAO CARRINHO
+let cartIcons = document.querySelectorAll('.item-shopping-cart');
 
+cartIcons.forEach(function(cartIcon) {
+    cartIcon.addEventListener('click', function(e) {
+        e.target.classList.add('animate-swing');
+
+        setTimeout(function() {
+            e.target.classList.remove('animate-swing');
+        }, 1000); // O tempo aqui deve ser igual ao tempo da animação
+    });
+});
   
+
+// Supondo que seus elementos tenham a classe 'product'
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const idClicado = document.querySelectorAll('.card');
+
+    idClicado.forEach(product => {
+        product.addEventListener('click', function(event) {
+            let productId = this.getAttribute('data-product-id');
+            localStorage.setItem('product-id', productId);
+        });
+    });
+});
+
+

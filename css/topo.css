@@ -15,6 +15,10 @@ main{
     font-family: 'Open Sans', sans-serif;
     overflow: hidden ;
 }
+
+/* .fundo-escuro.visivel{
+    height: 6840px;
+} */
 /* main img ////////////////////////////////////////////////////////*/
 .img-promo {
     background-image: url('/img/celular.bg.png');
@@ -50,7 +54,7 @@ main{
 
 .text-image h2 {
     font-size: 70px;
-    position: relative;
+    /* position: relative; */
     top: -12px;
     font-weight: 600;
 }
@@ -387,13 +391,13 @@ main{
 }
 
 .itens {
-    height: 360px;
+    height: 370px;
     width: 95%;
     /* background-color: coral; */
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    overflow: hidden;
+    overflow: hidden ;
     cursor: pointer;
     justify-content: start;
     scroll-behavior: smooth;
@@ -537,14 +541,50 @@ main{
     z-index: 1;
     
 }
+.item-2:hover .item-shopping-cart{
+    z-index: 1;
+}
 .item-shopping-cart{
     position: absolute;
     z-index: -1;
     height: 40px;
     width: 40px;
     bottom: 70px;
-    right: 10px;
-    transition:  1000ms ease-out all;
+    right: 30px;
+    transition:  500ms ease-out all;
+    border: none;
+    background-color: white;
+}
+
+.item-shopping-cart img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+.animate-swing {
+    animation: swing 1s ease;
+}
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
 }
 
 .item-2 {
@@ -566,13 +606,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .item-img-promo {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain !important;
     transition: transform 0.5s ease;
 }
 

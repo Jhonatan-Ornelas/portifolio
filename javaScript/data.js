@@ -11,6 +11,8 @@ let productsCart = {
             price: '',
             priceP: 516.99,
             image: '/img/computadores/Laptop-Pilates-14-touch-screen-12-GB-memoria.jpg',
+            specs:'Modelo: Laptop Pilates 14"<br>Tela: 14" touch screen Full HD<br>Memória RAM: 12 GB<br>Cor: Preto fosco<br>Processador: Intel Core i5 de última geração<br>Armazenamento: SSD de 256 GB<br>Sistema Operacional: Windows 11<br>Peso: 1.35 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm<br>Material: Liga de alumínio resistente<br>Teclado: Retroiluminado, padrão ANSI<br>Bateria: Até 10 horas de uso<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Conectividade: WiFi 6, Bluetooth 5.1<br>Webcam: HD com obturador de privacidade <br>',
+            descricao:'Descubra o Laptop Pilates 14", um dispositivo de alto desempenho com tela touch screen e 12GB de memória RAM. Com seu design elegante, é perfeito para todos, desde profissionais até estudantes. A interação intuitiva e a multitarefa eficiente são garantidas graças à tela sensível ao toque e à ampla memória. Tudo isso por um preço competitivo de $516.99. Com o Laptop Pilates 14", tecnologia de ponta e valor se unem.',
         },
         {
             id: 2,
@@ -19,6 +21,8 @@ let productsCart = {
             price: "1,099.99",
             priceP: 899.99,
             image: '/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg',
+            specs:'Tela: 16" touch screen Full HD<br>Memória RAM: 24 GB<br>Cor: Disponível em várias opções de cores elegantes<br>Processador: Potente processador de última geração para desempenho excepcional<br>Armazenamento: Espaço de armazenamento generoso para todos os seus arquivos e aplicativos<br>Sistema Operacional: Versão atualizada do sistema operacional para uma experiência aprimorada<br>Peso: Leve e portátil para facilitar o transporte<br>Dimensões: Design compacto e ergonômico para melhor usabilidade<br>Material: Construído com materiais duráveis e de alta qualidade<br>Teclado: Teclado retroiluminado para facilitar a digitação em ambientes com pouca luz<br> Bateria: Longa duração da bateria para maior produtividade em movimento<br>Conectividade: Wi-Fi rápido e Bluetooth para uma conexão sem fio estável<br> Webcam: Câmera de alta definição integrada para videochamadas e conferências<br>Outras características: Portas USB, HDMI e leitor de cartão para fácil conexão de dispositivos externos',
+            descricao:'Apresentando o Laptop Pilates 16", uma poderosa máquina com recursos avançados. Com uma tela touch screen de alta qualidade e impressionantes 24 GB de memória, ele eleva sua experiência de uso a um novo patamar. Seu design elegante e sofisticado é acompanhado por um desempenho excepcional, tornando-o perfeito para profissionais exigentes e entusiastas de tecnologia. O Laptop Pilates 16" oferece um diferencial incomparável por um preço competitivo de $899.99. Não perca a oportunidade de experimentar o futuro da computação com o Laptop Pilates 16".',
         },
         {
             id: 3,
@@ -27,6 +31,8 @@ let productsCart = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
+            specs:'Tamanho da tela: 15.6 polegadas<br>Resolução da tela: Full HD<br>Processador: Intel Core i7 de última geração<br>Memória RAM: 16 GB<br>Armazenamento: 512 GB SSD<br>Placa de vídeo: NVIDIA GeForce GTX 1660 Ti<br>Sistema Operacional: Windows 10<br>Teclado: Retroiluminado, layout padrão<br>Conectividade: Wi-Fi 802.11ac, Bluetooth 5.0<br>Portas: 2 x USB 3.1, 1 x USB-C, 1 x HDMI, 1 x RJ-45 (Ethernet), 1 x Entrada para fone de ouvido, 1 x Entrada para microfone<br>Sistema de refrigeração avançado para evitar superaquecimento<br>Peso: Aproximadamente 2.3 kg<br>Cor: Preto fosco<br>Material: Liga de alumínio resistente<br>Bateria: Até 6 horas de duração<br>Dimensões: 36.3 cm x 25.4 cm x 2.4 cm',
+            descricao:'O laptop para games JP é perfeito para os entusiastas de jogos que buscam uma experiência imersiva e de alta performance. Com uma tela de 15.6" de alta definição, armazenamento SSD de 512 GB e 16 GB de memória RAM, este laptop oferece velocidade, capacidade de armazenamento e desempenho excepcionais. Equipado com um processador potente e uma placa de vídeo dedicada, o laptop para games JP proporciona gráficos impressionantes e jogabilidade suave. Seu teclado retroiluminado e sistema de refrigeração avançado garantem conforto e desempenho durante longas sessões de jogo.',
         },
         {
             id: 4,
@@ -35,6 +41,8 @@ let productsCart = {
             price: '',
             priceP: 799.99,
             image: '/img/computadores/Desktop-Corr-12-GB-memória-WiFi-Bluetooth-Teclado-Mouse.jpg',
+            specs:'Processador: Intel Core i5 de última geração<br>Memória RAM: 12 GB DDR4<br>Armazenamento: Disco rígido de 1 TB<br>Conectividade: WiFi 802.11ac, Bluetooth 5.0<br>Sistema Operacional: Windows 10 Home<br>Portas: 4 x USB 3.0, 2 x USB 2.0, 1 x HDMI, 1 x VGA, 1 x Ethernet, 1 x Áudio<br>Teclado: Teclado padrão ABNT2 com teclas de atalho e retroiluminação<br>Mouse: Mouse óptico com roda de rolagem e botões programáveis<br>Cor: Preto fosco<br>Tamanho: Dimensões (L x A x P): 40 cm x 18 cm x 36 cm<br>Material: Gabinete em metal resistente<br>Fonte de Alimentação: Bivolt automático',
+            descricao:'O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote. O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote.',
         },
         {
             id: 5,
@@ -43,6 +51,8 @@ let productsCart = {
             price: '',
             priceP: 1399.99,
             image: '/img/computadores/Desktop-Corr-29-24GB-memória-Teclado-e-Mouse.jpg',
+            specs:'Modelo: Desktop Corr 29"<br>Tamanho da Tela: 29 polegadas<br>Resolução: Alta definição<br>Memória RAM: 24 GB<br>Armazenamento: HDD de 1 TB<br>Processador: Intel Core i7 de última geração<br>Placa de Vídeo: NVIDIA GeForce GTX 1650<br>Conectividade: Wi-Fi, Bluetooth<br>Portas: USB 3.0, HDMI, VGA, Ethernet<br>Sistema Operacional: Windows 10<br>Teclado: Retroiluminado, padrão ANSI<br>Mouse: Óptico, com fio<br>Cor: Preto<br>Material: Liga de alumínio resistente<br>Dimensões: 45 cm x 20 cm x 40 cm<br>Peso: 8 kg<br>Fonte de Alimentação: Bivolt',
+            descricao:'O Desktop Corr 29" é a escolha perfeita para quem busca um computador de alto desempenho e excelente capacidade de multitarefa. Com seus impressionantes 24 GB de memória, você poderá executar facilmente várias tarefas simultaneamente, sem perder velocidade ou eficiência. Não perca a oportunidade de levar para casa o Desktop Corr 29" e desfrutar de um computador de alto desempenho, com ampla capacidade de memória e uma experiência visual envolvente. Ele certamente elevará sua produtividade e entretenimento a um novo patamar.',
         },
         {
             id: 6,
@@ -51,6 +61,8 @@ let productsCart = {
             price: '',
             priceP: 799.99,
             image: '/img/computadores/Laptop-Pilates-16-12GBmemória-touch-screen.jpg',
+            specs:'Tamanho da Tela: 16 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia de Tela: Touch Screen<br>Capacidade de Memória RAM: 12 GB<br>Capacidade de Armazenamento: SSD de alta velocidade<br>Processador: Intel Core i5 de última geração<br>Sistema Operacional: Windows 11<br>Conectividade: Wi-Fi 6, Bluetooth 5.1<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Teclado: Retroiluminado, padrão ANSI<br>Bateria: Até 10 horas de uso contínuo<br>Peso: 1.35 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm<br>Material: Liga de alumínio resistente<br>Cor: Preto fosco',
+            descricao:'O Laptop Pilates 16" é um dispositivo tecnológico de alto desempenho que combina funcionalidades avançadas com um design elegante. Com uma tela touch screen de 16 polegadas e 12 GB de memória, ele oferece uma experiência interativa e multitarefa eficiente. O Laptop Pilates 16" é a escolha ideal para aqueles que valorizam a praticidade, o desempenho e a versatilidade. Seja para trabalho, estudo ou entretenimento, este laptop oferece a combinação perfeita de recursos avançados e preço acessível. Desfrute de uma experiência tecnológica de qualidade com o Laptop Pilates 16".',
         },
         {
             id: 7,
@@ -59,6 +71,8 @@ let productsCart = {
             price: '',
             priceP: 849.99,
             image: '/img/computadores/LaptopMSP-14-16GB-memória-cinza.jpg',
+            specs:'Tamanho da Tela: 14 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia de Tela: Touch Screen<br>Capacidade de Memória: 16 GB<br>Armazenamento: SSD de alta velocidade<br>Processador: Intel Core i5 de última geração<br>Sistema Operacional: Windows 10<br>Cor: Cinza<br>Material: Liga de alumínio resistente<br>Teclado: Retroiluminado, padrão ANSI<br>Conectividade: Wi-Fi 6, Bluetooth 5.1<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Webcam: HD com obturador de privacidade<br>Bateria: Duração de até 10 horas<br>Peso: 1.5 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm',
+            descricao:'O Laptop MSP 14" é a escolha perfeita para aqueles que buscam um desempenho excepcional aliado a um design elegante. Com seus impressionantes 16 GB de memória, você terá velocidade e capacidade de multitarefa para lidar com as tarefas mais exigentes. Sua tela de 14 polegadas proporciona uma experiência visual imersiva, ideal para trabalhar, estudar ou desfrutar de entretenimento. Experimente o diferencial do Laptop MSP 14" e aproveite toda a potência e funcionalidade que ele tem a oferecer. Ele foi projetado para atender às suas necessidades e elevar sua experiência tecnológica a um novo patamar.',
         },
         {
             id: 8,
@@ -67,6 +81,8 @@ let productsCart = {
             price: "269.99",
             priceP: 149.99,
             image: '/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg',
+            specs:'Tamanho da Tela: 29 polegadas<br>Tecnologia de Tela: IPS LED<br>Resolução: Full HD (1920x1080)<br>Taxa de Atualização: 60Hz<br>Tempo de Resposta: 5ms<br>Contraste: 1000:1<br>Brilho: 250 cd/m²<br>Ângulo de Visão: 178° (horizontal/vertical)<br>Conexões: 1x HDMI, 1x VGA<br>Recurso FreeSync<br>Suporte VESA: 100x100mm<br>Dimensões (LxAxP): 67,6cm x 40,2cm x 15,6cm<br>Peso: 5,2kg<br>Cor: Cinza',
+            descricao:'O Monitor HV- de 29" é um dispositivo visual de alto desempenho projetado para oferecer uma experiência imersiva e envolvente. Sua tecnologia IPS LED proporciona cores ricas e precisas, enquanto a resolução Full HD e a taxa de atualização de 60Hz garantem imagens claras e suaves. O design elegante e compacto do Monitor HV- complementa qualquer ambiente, seja em casa, no escritório ou no espaço de jogos. Sua qualidade de imagem impressionante, combinada com recursos avançados e um preço acessível de $149.99, faz dele uma excelente escolha para quem busca uma experiência visual de alta qualidade.',
         },
         //TABLETS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -77,6 +93,8 @@ let productsCart = {
             price: '',
             priceP: 189.99,
             image: '/img/tablets/Tablet-transparente-10,2-Wi-Fi-32GB.jpg',
+            specs:'Tamanho da Tela: 10,2 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: IPS LED<br>Capacidade de Armazenamento: 32 GB (expansível via cartão de memória)<br>Conectividade: Wi-Fi<br>Sistema Operacional: Android<br>Processador: Quad-Core<br>Memória RAM: 2 GB<br>Câmera Traseira: 8 MP<br>Câmera Frontal: 5 MP<br>Bateria: 5000 mAh<br>Cor: preto<br>Material: Vidro transparente e estrutura em metal<br>Peso: Aproximadamente 400g<br>Dimensões: 250 x 165 x 8 mm<br>Alto-falantes estéreo embutidos<br>Porta para fones de ouvido<br>Sensor de gravidade<br>Suporte a cartão SIM (opcional)',
+            descricao:'O Tablet Transparente de 10,2" Wi-Fi, 32 GB combina um design inovador com funcionalidades essenciais para oferecer uma experiência única. Sua tela transparente proporciona um visual impressionante e diferenciado, permitindo que você mergulhe em seus conteúdos favoritos de forma envolvente. Com a conectividade Wi-Fi, você pode aproveitar a internet sem restrições e acessar uma infinidade de recursos online. Além disso, o amplo espaço de armazenamento interno de 32 GB garante que você tenha espaço suficiente para guardar seus arquivos e aplicativos importantes. Com sua portabilidade e conveniência, o Tablet Transparente é perfeito para quem busca um dispositivo versátil que combina estilo e desempenho.',
         },
         {
             id: 10,
@@ -85,6 +103,8 @@ let productsCart = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
+            specs:'Tamanho da Tela: 10,4 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: IPS<br>Conectividade: Wi-Fi<br>Armazenamento Interno: 32 GB<br>Processador: Quad-Core<br>Sistema Operacional: Android<br>Câmeras: Câmera Traseira de 8 MP, Câmera Frontal de 5 MP<br>Slot para Cartão de Memória: Suporta cartões microSD de até 128 GB<br>Bateria: Capacidade de bateria de longa duração<br>Áudio: Alto-falantes estéreo integrados<br>Conexões: Porta USB-C, Entrada para fone de ouvido de 3,5 mm<br>Dimensões: Aproximadamente 24,7 cm x 15,5 cm x 0,8 cm<br>Peso: Aproximadamente 450 gramas<br>Cor: Space (acabamento em tom Space)<br>Material: Estrutura em alumínio resistente',
+            descricao:'O Tablet JP - Space é um dispositivo portátil de alta qualidade que combina recursos avançados e design elegante. Com sua tela de 10,4 polegadas, você pode desfrutar de uma experiência visual imersiva e vibrante. Sua conectividade Wi-Fi permite que você navegue na internet, assista a vídeos em streaming e acesse suas redes sociais favoritas com facilidade. O diferencial deste tablet é o seu design elegante e contemporâneo, com bordas finas e acabamento em tom Space. Isso proporciona uma experiência visual moderna e sofisticada. Além disso, sua bateria de longa duração permite que você use o tablet durante todo o dia sem se preocupar com recargas constantes.',
         },
         {
             id: 11,
@@ -93,6 +113,8 @@ let productsCart = {
             price: '',
             priceP: 479.99,
             image: '/img/tablets/Tablet-Pilates-Go-touch-screen-64-GB-com-capa.jpg',
+            specs:'Tamanho da Tela: 10.5 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: Touch Screen<br>Capacidade de Armazenamento: 64 GB<br>Cor: Preto<br>Material: Plástico durável<br>Sistema Operacional: Android 11<br>Processador: Octa-core<br>Memória RAM: 4 GB<br>Conectividade: Wi-Fi<br>Câmera Traseira: 8 MP<br>Câmera Frontal: 5 MP<br>Bateria: 5000 mAh<br>Alto-falantes: Integrados<br>Portas: USB-C, entrada para fone de ouvido<br>Dimensões: 250 mm x 160 mm x 8 mm<br>Peso: 400 gramas',
+            descricao:'O Tablet Pilates Go 10.5" é o dispositivo perfeito para acompanhar o seu dia a dia. Com sua tela touch screen de alta resolução, você pode desfrutar de uma experiência interativa e imersiva em jogos, vídeos, navegação na web e muito mais. Seu design elegante e leve torna o Tablet Pilates Go 10.5" fácil de segurar e transportar. A tecnologia touch screen oferece uma interação intuitiva e responsiva, permitindo que você navegue pelos aplicativos com facilidade. Além disso, o tablet vem com recursos avançados, como conectividade Wi-Fi, câmera traseira de alta resolução para capturar momentos especiais, bateria de longa duração e alto-falantes integrados para um áudio imersivo.',
         },
         {
             id: 12,
@@ -101,6 +123,8 @@ let productsCart = {
             price: "349.99",
             priceP: 249.99,
             image: '/img/promocoes/Tablet-Ove-FD-Plus-10-64GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 13,
@@ -109,6 +133,8 @@ let productsCart = {
             price: "100.99",
             priceP: 59.99,
             image: '/img/promocoes/Tablet-Mini-Sheer-Pro-7-polegadas.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 14,
@@ -117,6 +143,8 @@ let productsCart = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 15,
@@ -125,6 +153,8 @@ let productsCart = {
             price: '',
             priceP: 219.99,
             image: '/img/tablets/Tablet-Corr-Playtime-10-Wi-Fi-32GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 16,
@@ -133,6 +163,8 @@ let productsCart = {
             price: '',
             priceP: 899.99,
             image: '/img/tablets/Tablet-Space-S7-11-128GB-Wi-Fi.jpg',
+            specs:'',
+            descricao:'',
         },
         //Drones-e-cameras////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -142,6 +174,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/drones-e-cameras/Câmera-de-Segurança-Externa-Shak-Spotlight.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 18,
@@ -150,6 +184,8 @@ let productsCart = {
             price: "379.99",
             priceP: 329.99,
             image: '/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 19,
@@ -158,6 +194,8 @@ let productsCart = {
             price: '',
             priceP: 1749.99,
             image: '/img/drones-e-cameras/Quadcopter-Wave-Mini-4-com-controle-remoto.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 20,
@@ -166,6 +204,8 @@ let productsCart = {
             price: "1,699.99",
             priceP: 1299.99,
             image: '/img/promocoes/Camera-DSLR-Pantony-Old-School-lente-18-55mm.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 21,
@@ -174,6 +214,8 @@ let productsCart = {
             price: '',
             priceP: 579.99,
             image: '/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 22,
@@ -182,6 +224,8 @@ let productsCart = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 23,
@@ -190,6 +234,8 @@ let productsCart = {
             price: "",
             priceP: 999.99,
             image: '/img/drones-e-cameras/Drone-EXE-Mini-Controlador-Sky.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 24,
@@ -198,6 +244,8 @@ let productsCart = {
             price: "",
             priceP: 239.99,
             image: '/img/drones-e-cameras/Camera-digital-Pantony-180-20.0-megapixels.jpg',
+            specs:'',
+            descricao:'',
         },
         //HEADPHONES//////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -208,6 +256,8 @@ let productsCart = {
             price: "329.00",
             priceP: 279.00,
             image: '/img/promocoes/Headphone-Balo-700-wireless-cancelamento-de-ruido.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 26,
@@ -216,6 +266,8 @@ let productsCart = {
             price: "",
             priceP: 99.99,
             image: '/img/headphones/Headphone-Space-Buds-wireless.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 27,
@@ -224,6 +276,8 @@ let productsCart = {
             price: '',
             priceP: 479.99,
             image: '/img/headphones/Headphone-Drums-Pro-wireless.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 28,
@@ -232,6 +286,8 @@ let productsCart = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 29,
@@ -240,6 +296,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/headphones/Headphone-Pantony-wireless-certificado.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 30,
@@ -248,6 +306,8 @@ let productsCart = {
             price: '',
             priceP: 149.99,
             image: '/img/mais-vendidos/Headphone-branco-wireless.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 31,
@@ -256,6 +316,8 @@ let productsCart = {
             price: "159.55",
             priceP: 129.99,
             image: '/img/promocoes/Headset-pra-games-Surround.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 32,
@@ -264,6 +326,8 @@ let productsCart = {
             price: "",
             priceP: 17.99,
             image: '/img/headphones/Headphone-com-fio-MX50.jpg',
+            specs:'',
+            descricao:'',
         },
         //ALTO-FALANTES///////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -274,6 +338,8 @@ let productsCart = {
             price: "479.99",
             priceP: 199.99,
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 34,
@@ -282,6 +348,8 @@ let productsCart = {
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 35,
@@ -290,6 +358,8 @@ let productsCart = {
             price: '',
             priceP: 39.99,
             image: '/img/alto-falantes/Alto-falante-Pill-Shape-portátil-prata-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 36,
@@ -298,6 +368,8 @@ let productsCart = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-mini-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 37,
@@ -306,6 +378,8 @@ let productsCart = {
             price: '',
             priceP: 19.99,
             image: '/img/alto-falantes/Alto-falante-Studio-8-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 38,
@@ -314,6 +388,8 @@ let productsCart = {
             price: '',
             priceP: 549.99,
             image: '/img/alto-falantes/Alto-falante-SDK-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 39,
@@ -322,6 +398,8 @@ let productsCart = {
             price: '',
             priceP: 219.99,
             image: '/img/alto-falantes/Alto-falante-SXD-Mini-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 40,
@@ -330,6 +408,8 @@ let productsCart = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
 
         //MOBILE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -340,6 +420,8 @@ let productsCart = {
             price: '',
             priceP: 299.99,
             image: '/img/celular/Pantony-X21-5G-128GB-com-caneta-Z.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 42,
@@ -348,6 +430,8 @@ let productsCart = {
             price: '',
             priceP: 99.99,
             image: '/img/celular/Phantom-Exmax-JP-5G-16GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 43,
@@ -356,6 +440,8 @@ let productsCart = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 44,
@@ -364,6 +450,8 @@ let productsCart = {
             price: "579.99",
             priceP: 559.99,
             image: '/img/promocoes/OVE-Light-Space-5G-128-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 45,
@@ -372,6 +460,8 @@ let productsCart = {
             price: '',
             priceP: 599.99,
             image: '/img/celular/Pantony-Super-10W-5G-128-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 46,
@@ -380,6 +470,8 @@ let productsCart = {
             price: "1,999.99",
             priceP: 899.99,
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 47,
@@ -388,6 +480,8 @@ let productsCart = {
             price: "199.99",
             priceP: 129.99,
             image: '/img/promocoes/Protector-XPD-Go-5G-128GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 48,
@@ -396,6 +490,8 @@ let productsCart = {
             price: '',
             priceP: 129.99,
             image: '/img/celular/Pantony-S-MAX-5G-128-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         //TV-E-HOME-THEATER/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -405,6 +501,8 @@ let productsCart = {
             price: '',
             priceP: 349.99,
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 50,
@@ -413,6 +511,8 @@ let productsCart = {
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 51,
@@ -421,6 +521,8 @@ let productsCart = {
             price: '',
             priceP: 169.99,
             image: '/img/tv-e-home-theater/Smart-TV-Shel-40-Full-HD-LED-Class.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 52,
@@ -429,6 +531,8 @@ let productsCart = {
             price: '',
             priceP: 449.99,
             image: '/img/tv-e-home-theater/Projetor-para-Home-Theater-EPSON-4K-PRO-UHD-3LCD.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 53,
@@ -437,6 +541,8 @@ let productsCart = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smart-TV-Allure-55-UHD-4K-LED-Class.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 54,
@@ -445,6 +551,8 @@ let productsCart = {
             price: '',
             priceP: 209.99,
             image: '/img/tv-e-home-theater/Projetor-Mini-Vankyo-470-wireless.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 55,
@@ -453,6 +561,8 @@ let productsCart = {
             price: '',
             priceP: 189.99,
             image: '/img/tv-e-home-theater/Smart-Streamer-TV-42-Class-Full-HD.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 56,
@@ -470,6 +580,8 @@ let productsCart = {
             price: "199.95",
             priceP: 159.95,
             image: '/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 58,
@@ -478,6 +590,8 @@ let productsCart = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 59,
@@ -486,6 +600,8 @@ let productsCart = {
             price: '',
             priceP: 349.99,
             image: '/img/tecnologia-vestivel/Óculos-VR-Safay-GEN-2-256GB-controladores-de-toque.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 60,
@@ -494,6 +610,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/tecnologia-vestivel/Smartwatch-Fitness-FitWatch.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 61,
@@ -502,6 +620,8 @@ let productsCart = {
             price: '',
             priceP: 429.99,
             image: '/img/tecnologia-vestivel/Sistema-de-Realidade-Virtual-HV-para-PC.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 62,
@@ -510,6 +630,8 @@ let productsCart = {
             price: '',
             priceP: 169.99,
             image: '/img/tecnologia-vestivel/Rastreador-de-Atividades-Pantony-6P.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 63,
@@ -518,6 +640,8 @@ let productsCart = {
             price: '',
             priceP: 399.99,
             image: '/img/tecnologia-vestivel/Smartwatch-fitness-FitWatch-XDH.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 64,
@@ -526,6 +650,8 @@ let productsCart = {
             price: "999.00",
             priceP: 899.99,
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
+            specs:'',
+            descricao:'',
         },
 //3
 
@@ -543,6 +669,8 @@ let products2 = {
             price: "999.00",
             priceP: 899.99,
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
+            specs:'',
+            descricao:'',
         },
         {
 
@@ -552,6 +680,8 @@ let products2 = {
             price: "1.999.99",
             priceP: 899.99,
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 63,
@@ -560,6 +690,8 @@ let products2 = {
             price: "199.95",
             priceP: 159.95,
             image: '/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 40,
@@ -568,6 +700,8 @@ let products2 = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 33,
@@ -576,6 +710,8 @@ let products2 = {
             price: "479.99",
             priceP: 199.99,
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 50,
@@ -584,6 +720,8 @@ let products2 = {
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 20,
@@ -592,6 +730,8 @@ let products2 = {
             price: "1,699.99",
             priceP: 1299.99,
             image: '/img/promocoes/camera-DSLR-Pantony-Old-School-lente-18-55mm.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 14,
@@ -600,6 +740,8 @@ let products2 = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 13,
@@ -608,6 +750,8 @@ let products2 = {
             price: "100.99",
             priceP: 59.99,
             image: '/img/promocoes/Tablet-Mini-Sheer-Pro-7-polegadas.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 12,
@@ -616,6 +760,8 @@ let products2 = {
             price: "349.99",
             priceP: 249.99,
             image: '/img/promocoes/Tablet-Ove-FD-Plus-10-64GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 2,
@@ -624,6 +770,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 899.99,
             image: '/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 25,
@@ -632,6 +780,8 @@ let products2 = {
             price: "329.00",
             priceP: 279.00,
             image: '/img/promocoes/Headphone-Balo-700-wireless-cancelamento-de-ruido.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 36,
@@ -640,6 +790,8 @@ let products2 = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-mini-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 10,
@@ -648,6 +800,8 @@ let products2 = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 18,
@@ -656,6 +810,8 @@ let products2 = {
             price: "379.99",
             priceP: 329.99,
             image: '/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 28,
@@ -664,6 +820,8 @@ let products2 = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 3,
@@ -672,6 +830,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 31,
@@ -680,6 +840,8 @@ let products2 = {
             price: "159.55",
             priceP: 129.99,
             image: '/img/promocoes/Headset-pra-games-Surround.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 22,
@@ -688,6 +850,8 @@ let products2 = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 53,
@@ -696,6 +860,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smart-TV-Allure-55-UHD-4K-LED-Class.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 56,
@@ -704,6 +870,8 @@ let products2 = {
             price: "499.99",
             priceP: 599.99,
             image: '/img/promocoes/Smart-TV-65-UHD-4K-LED-Class-Nano.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 8,
@@ -712,6 +880,8 @@ let products2 = {
             price: "269.99",
             priceP: 149.99,
             image: '/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 47,
@@ -720,6 +890,8 @@ let products2 = {
             price: 199.99,
             priceP: "129.99",
             image: '/img/promocoes/Protector-XPD-Go-5G-128GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 43,
@@ -728,6 +900,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 44,
@@ -736,6 +910,8 @@ let products2 = {
             price: "579.99",
             priceP: 559.99,
             image: '/img/promocoes/OVE-Light-Space-5G-128-GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 58,
@@ -744,6 +920,8 @@ let products2 = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
+            specs:'',
+            descricao:'',
         },
         //MAIS VENDIDOS//////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -754,6 +932,8 @@ let products2 = {
             price: '',
             priceP: 349.99,
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 10,
@@ -762,6 +942,8 @@ let products2 = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 58,
@@ -770,6 +952,8 @@ let products2 = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 21,
@@ -778,6 +962,8 @@ let products2 = {
             price: '',
             priceP: 579.99,
             image: '/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 38,
@@ -786,6 +972,8 @@ let products2 = {
             price: '',
             priceP: 549.99,
             image: '/img/alto-falantes/Alto-falante-SDK-portátil-Bluetooth.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 56,
@@ -802,6 +990,8 @@ let products2 = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 3,
@@ -810,6 +1000,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 22,
@@ -818,6 +1010,8 @@ let products2 = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 30,
@@ -826,6 +1020,8 @@ let products2 = {
             price: '',
             priceP: 149.99,
             image: '/img/mais-vendidos/Headphone-branco-wireless.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 14,
@@ -834,6 +1030,8 @@ let products2 = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
+            specs:'',
+            descricao:'',
         },
         {
             id: 43,
@@ -842,6 +1040,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
+            specs:'',
+            descricao:'',
         },
     ],
 }

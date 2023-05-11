@@ -214,7 +214,7 @@ h1 {
 .item-img {
     height: 40%;
     width: 230px;
-    background: transparent;
+    background-color: white;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -226,11 +226,11 @@ h1 {
     width: 100px;
     height: 100%;
     object-fit: contain;
-    transition: transform 0.5s ease;
 }
 
 .item-img-promo:hover {
     transform: scale(1.5);
+    transition: transform 0.5s ease;
 }
 
 .promoçao {
@@ -282,10 +282,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: normal !important;
-    justify-content: start !important;
+    justify-content:flex-end !important;
     font-family: 'Roboto', sans-serif;
     /* background-color: #c4c2c2 !important;  */
     height: 90px !important;
+    padding-bottom: 40px;
 }
 
 .item-price span {
@@ -296,3 +297,54 @@ h1 {
 .promocao {
     text-decoration: line-through;
 }
+
+.card:hover .item-shopping-cart{
+    z-index: 2;
+}
+.item-shopping-cart{
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 50px;
+    bottom: 40px;
+    right: 10px;
+    transition:  500ms ease-out all;
+    border: none;
+    background:transparent;
+}
+/* .item-shopping-cart:hover{
+    animation: swing 1s ease;
+} */
+
+.item-shopping-cart img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    cursor: pointer; 
+}
+.animate-swing {
+    animation: swing 1s ease;
+}
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 15deg);
+    }
+
+    40% {
+        transform: rotate3d(0, 0, 1, -10deg);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+

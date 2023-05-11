@@ -5,20 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Shield</title>
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/topo.css">
     <link rel="stylesheet" href="/css/media.css">
 
     <link rel="stylesheet" href="/css/header-media.css">
-    <script src="/javaScript/data.js"></script>
+    <script defer src="/javaScript/data.js"></script>
     <script defer src="/javaScript/index.js"></script>
+    <script defer src="/javaScript/shopping-cart.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+        <title>Tech Shield</title>
 </head>
 
 <body>
@@ -39,15 +40,15 @@
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
                             onmouseover="changeImage()" onmouseout="resetImage()" onclick="abrirCarrinho()">
-                            <span class="carrinho-quantidade">1</span>
+                        <span class="carrinho-quantidade"></span>
                     </div>
                     <aside id="abaCarrinho" class="aba-carrinho">
                         <div class="aba-carrinho-title">
-                            <h2>Shopping Cart</h2> 
-                            <p><span>1</span>item</p>
+                            <h2>Shopping Cart</h2>
+                            <span class="carrinho-quantidade-tab">0</span>
                         </div>
                         <ul class="list-card">
-                            <li class="product-card">
+                            <!-- <li class="product-card">
                                 <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
                                 <div class="product-card-info">
                                     <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
@@ -58,7 +59,7 @@
                                         <button>+</button>
                                     </div>
                                 </div>
-                            </li>
+                            </li> -->
                             <!-- <li class="product-card">
                                 <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
                                 <div class="product-card-info">
@@ -97,9 +98,10 @@
                             </li> -->
                         </ul>
                         <div class="check-out">
-                            <button type="button" title="back" class="close-shopping"><img src="/img/" alt=""></button>
+                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png"
+                                    alt="" onclick="fecharCarrinho()"></button>
                             <h3>Total Price</h3>
-                            <p class="price">0</p>
+                            <p class="price price-color">0</p>
                             <button class="shopping-register">register</button>
                         </div>
                     </aside>
@@ -178,73 +180,94 @@
             <h2>Mais vendidos</h2>
             <div class="itens">
                 <button class="btn-lateral" id="btn-left">&#8249;</button>
-                <div class="item" data-product-id="58" data-price="4499">
-                    <button class="item-shopping-cart" onclick="addToCard(58)"></button>
+                <a href="/html/pagina-do-produto.html">
+                    <div class="item" data-product-id="58" data-price="4499">
+                        <button class="item-shopping-cart" onclick="addToCard(58)"><img src="/img/shopping-cart-6.png"
+                                alt=""></button>
+                        <p class="promoçao">PROMOÇÃO</p>
+                        <div class="item-img">
+                            <img class="item-img-promo"
+                                src="/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg" alt="">
+                        </div>
+                        <div class="description-item">
+                            <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                            <p class="item-price"><span>R$600,00</span>R$585,00</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="item" data-product-id="3" data-price="84999">
+                    <button class="item-shopping-cart" onclick="addToCard(3)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/relogio-2.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg" alt="">
                     </div>
                     <div class="description-item">
-                        <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
-                        <p class="item-price"><span>R$600,00</span>R$585,00</p>
-                    </div>
-                </div>
-                <div class="item" data-product-id="59" data-price="4498">
-                    <button class="item-shopping-cart" onclick="addToCard(59)"></button>
-                    <p class="promoçao">PROMOÇÃO</p>
-                    <div class="item-img">
-                        <img class="item-img-promo" src="/img/laptop-r-2.webp " alt="">
-                    </div>
-                    <div class="description-item">
-                        <p class="item-decricao">Laptop para games JP 15.6", 256 GB</p>
+                        <p class="item-decricao">Laptop para games JP 15.6", 512 GB</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="21" data-price="57999">
+                    <button class="item-shopping-cart" onclick="addToCard(21)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/drone-r.webp " alt="">
+                        <img class="item-img-promo"
+                            src="/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg " alt="">
                     </div>
                     <div class="description-item">
-                        <p class="item-decricao">Drone Quadcopter HKI Tech, câmera 360 e controle</p>
+                        <p class="item-decricao">Drone Quadcopter HKI Tech, câmera e controle</p>
                         <p class="item-price">R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="43" data-price="39999">
+                    <button class="item-shopping-cart" onclick="addToCard(43)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/celular-r.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Smartphone Z Pixel Max 128 GB, desbloqueado</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="28" data-price="19999">
+                    <button class="item-shopping-cart" onclick="addToCard(28)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/fone-buds.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Headphone In-ear wireless, cancelamento de ruído</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="59" data-price="34999">
+                    <button class="item-shopping-cart" onclick="addToCard(59)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/oculos-vr.webp" alt="">
+                        <img class="item-img-promo"
+                            src="/img/tecnologia-vestivel/Óculos-VR-Safay-GEN-2-256GB-controladores-de-toque.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Óculos VR Safay GEN 2, 256 GB, controladores de toque</p>
                         <p class="item-price">R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="8" data-price="14999">
+                    <button class="item-shopping-cart" onclick="addToCard(8)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/tv-box-xiaomi.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
-                        <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
+                        <p class="item-decricao">HV- 29" IPS LED FHD FreeSync Monitor JP</p>
                         <p class="item-price"><span>R$600,00</span>R$585,00</p>
                     </div>
                 </div>
@@ -397,70 +420,90 @@
             <h2>Promoções</h2>
             <div class="itens-2">
                 <button class="btn-lateral-2" id="btn-left-2">&#8249;</button>
-                <div class="item-2">
+                <div class="item-2" data-product-id="57" data-price="15995">
+                    <button class="item-shopping-cart" onclick="addToCard(57)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/smatwatch-samsung.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Smartwatch Space Moon com carregador</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="44" data-price="55999">
+                    <button class="item-shopping-cart" onclick="addToCard(44)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/Redmi Note 11-64G.webp" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/OVE-Light-Space-5G-128-GB.jpg" alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">OVE Light Space 5G, 128 GB</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="2" data-price="89999">
+                    <button class="item-shopping-cart" onclick="addToCard(2)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/ideaped-gaming.jpg" alt="">
+                        <img class="item-img-promo" src="/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Laptop Pilates 16", touch screen, 24 GB memória</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="40" data-price="9999">
+                    <button class="item-shopping-cart" onclick="addToCard(40)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo"" src=" /img/jbl-caixa-de-som.webp" alt="">
+                        <img class="item-img-promo"" src=" /img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg"
+                            alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Alto-falante portátil Turn5, Bluetooth</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="64" data-price="89999">
+                    <button class="item-shopping-cart" onclick="addToCard(64)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/ps-vr.webp" alt="">
+                        <img class="item-img-promo"
+                            src="/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg" alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Headset de Realidade Virtual Journey Glass XD</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="18" data-price="32999">
+                    <button class="item-shopping-cart" onclick="addToCard(18)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/teclado-gamer.webp" alt="">
+                        <img class="item-img-promo"
+                            src="/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg" alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Câmera de Segurança de Rede Interna H1C wireless, 1080p</p>
                         <p class="item-price"><span>R$600,00</span> R$585,00</p>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" data-product-id="58" data-price="4499">
+                    <button class="item-shopping-cart" onclick="addToCard(58)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <p class="promoçao">PROMOÇÃO</p>
                     <div class="item-img">
-                        <img class="item-img-promo" src="/img/hyper-x-phone.webp" alt="">
+                        <img class="item-img-promo"
+                            src="/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg" alt="">
                     </div>
                     <div class="description-item">
                         <p class="item-decricao">Fitboot Inspire, tracker de frequência cardíaca</p>
@@ -498,72 +541,71 @@
             </form>
         </div>
     </main>
-</body>
-<footer>
-    <div class="suport">
-        <div class="overlay-suport">
-            <div class="overlay-suport-texto">
-                <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
-                <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
-                <button>Central de Ajuda</button>
+    <footer>
+        <div class="suport">
+            <div class="overlay-suport">
+                <div class="overlay-suport-texto">
+                    <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
+                    <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
+                    <button>Central de Ajuda</button>
+                </div>
+            </div>
+            <div class="overlay-suport-bg"></div>
+        </div>
+        <div class="sobre-nos">
+            <div class="coluna" id="coluna-1">
+                <h2>Endereço</h2>
+                <p>Rua Prates, 194 - Bom Retiro</p>
+                <p>SP 01121-000</p>
+                <p>info@meusite.com</p>
+                <p>Telefone: (11) 3456-7890</p>
+            </div>
+            <div class="coluna" id="coluna-2">
+                <h2>Loja</h2>
+                <a href="/html/loja.html">
+                    <p>Loja</p>
+                </a>
+                <a href="/html/computadores.html">
+                    <p>Computadores</p>
+                </a>
+                <a href="/html/tablets.html">
+                    <p>tablets</p>
+                </a>
+                <a href="/html/drones-e-cameras.html">
+                    <p>Drones e câmeras</p>
+                </a>
+                <a href="/html/audio.html">
+                    <p>Headphones</p>
+                </a>
+                <a href="/html/mobile.html">
+                    <p>Mobile</p>
+                </a>
+                <a href="/html/tv-e-home-theater.html">
+                    <p>TV e home theater</p>
+                </a>
+                <a href="/html/tecnologia-vestivel.html">
+                    <p>Tecnologia vestivel</p>
+                </a>
+                <a href="/html/promocoes.html">
+                    <p>Promoções</p>
+                </a>
+            </div>
+            <div class="coluna" id="coluna-3">
+                <h2>Suporte</h2>
+                <p>Contato</p>
+                <p>Central de ajuda</p>
+                <p>Sobre nós</p>
+                <p>Carreiras</p>
+            </div>
+            <div class="coluna" id="coluna-4">
+                <h2>Política</h2>
+                <p>Entregas e devoluções</p>
+                <p>Termos e condições</p>
+                <p>Métodos de pagamento</p>
+                <p>Política de Cookies</p>
+                <p>FAQ</p>
             </div>
         </div>
-        <div class="overlay-suport-bg"></div>
-    </div>
-    <div class="sobre-nos">
-        <div class="coluna" id="coluna-1">
-            <h2>Endereço</h2>
-            <p>Rua Prates, 194 - Bom Retiro</p>
-            <p>SP 01121-000</p>
-            <p>info@meusite.com</p>
-            <p>Telefone: (11) 3456-7890</p>
-        </div>
-        <div class="coluna" id="coluna-2">
-            <h2>Loja</h2>
-            <a href="/html/loja.html">
-                <p>Loja</p>
-            </a>
-            <a href="/html/computadores.html">
-                <p>Computadores</p>
-            </a>
-            <a href="/html/tablets.html">
-                <p>tablets</p>
-            </a>
-            <a href="/html/drones-e-cameras.html">
-                <p>Drones e câmeras</p>
-            </a>
-            <a href="/html/audio.html">
-                <p>Headphones</p>
-            </a>
-            <a href="/html/mobile.html">
-                <p>Mobile</p>
-            </a>
-            <a href="/html/tv-e-home-theater.html">
-                <p>TV e home theater</p>
-            </a>
-            <a href="/html/tecnologia-vestivel.html">
-                <p>Tecnologia vestivel</p>
-            </a>
-            <a href="/html/promocoes.html">
-                <p>Promoções</p>
-            </a>
-        </div>
-        <div class="coluna" id="coluna-3">
-            <h2>Suporte</h2>
-            <p>Contato</p>
-            <p>Central de ajuda</p>
-            <p>Sobre nós</p>
-            <p>Carreiras</p>
-        </div>
-        <div class="coluna" id="coluna-4">
-            <h2>Política</h2>
-            <p>Entregas e devoluções</p>
-            <p>Termos e condições</p>
-            <p>Métodos de pagamento</p>
-            <p>Política de Cookies</p>
-            <p>FAQ</p>
-        </div>
-    </div>
-</footer>
-
+    </footer>
+</body>
 </html>
