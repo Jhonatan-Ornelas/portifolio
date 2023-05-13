@@ -1,3 +1,4 @@
+
 ///CARRINHO/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //abrir e fechar carrinho
 function abrirCarrinho() {
@@ -63,7 +64,7 @@ let quantityTab = document.querySelector('.carrinho-quantidade-tab')
 //         price: 120000
 //     }
 // ];
-let listCards = [];
+
 // cria o card
 
 // function initApp() {
@@ -80,7 +81,7 @@ let listCards = [];
 // }
 // initApp();
 //adiciona o card
-
+let listCards = JSON.parse(localStorage.getItem('listCards')) || [];
 let productMap = {};
 productsCart.data.forEach((product, index) => {
     productMap[product.id] = index;
@@ -97,6 +98,7 @@ function addToCard(id) {
         // copy product form list to list card
         listCards[id] = JSON.parse(JSON.stringify(productsCart.data[productIndex]));
         listCards[id].quantity = 1;
+        localStorage.setItem('listCards', JSON.stringify(listCards));
     }
     reloadCard();
 }
@@ -106,9 +108,10 @@ function reloadCard() {
     let count = 0;
     let totalPrice = 0;
     listCards.forEach((value, id) => {
-        totalPrice = totalPrice + value.priceP;
-        count = count + value.quantity;
-        if (value != null) {
+        if (value !== null) {
+            totalPrice = totalPrice + value.priceP;
+            count = count + value.quantity;
+    
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `<li class="product-card">
             <img src="${value.image}" alt="">
@@ -133,15 +136,28 @@ function reloadCard() {
     }
     quantityTab.innerText = count;
 }
+
+// inicialize totalQuantity
+let totalQuantity = parseInt(localStorage.getItem('totalQuantity')) || 0;
+
 //muda a quantidade de produtos
 function changeQuantity(id, quantity) {
-    
     let productIndex = productMap[id];
     if (quantity == 0) {
+        delete totalQuantity[id]; // Remove a quantidade deste produto do total
         delete listCards[id];
     } else {
+        // Atualiza a quantidade total
+        totalQuantity[id] = quantity; // Atualiza a quantidade deste produto no total
         listCards[id].quantity = quantity;
         listCards[id].priceP = quantity * productsCart.data[productIndex].priceP;
     }
+    // Atualiza o localStorage com a lista atualizada
+    localStorage.setItem('listCards', JSON.stringify(listCards));
+    // Salva a quantidade total no localStorage
+    localStorage.setItem('totalQuantity', JSON.stringify(totalQuantity));
     reloadCard();
 }
+
+reloadCard();
+

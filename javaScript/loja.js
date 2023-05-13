@@ -97,7 +97,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
             category: "Promoções",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -636,7 +636,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
             category: "Alto-falantes",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -694,7 +694,7 @@ let products = {
         //MOBILE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '41',
-            productName: 'Pantony X21 5G, 128 GB, com caneta Z',
+            productName: 'Pantony X21 5G, 128 GB',
             category: "Mobile",
             price: '',
             priceP: "299.99",
@@ -767,7 +767,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
             category: "TV-e-home-theater",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -902,6 +902,7 @@ function priceToNumber(priceString) {
 for (let i of products.data) {
     let cardlink = document.createElement('a')
     cardlink.setAttribute('href', '/html/pagina-do-produto.html')
+    cardlink.classList.add('cardlink')
     //Create card
     let card = document.createElement('div');
     //card should have category and should stay hidden initially
@@ -918,7 +919,7 @@ for (let i of products.data) {
     image.classList.add('item-img-promo')
     image.setAttribute('src', i.image);
     imgContainer.appendChild(image);
-    card.appendChild(imgContainer);
+    cardlink.appendChild(imgContainer);
     //container
     let container = document.createElement('div');
     container.classList.add('description-item');
@@ -941,7 +942,7 @@ for (let i of products.data) {
         let promocao = document.createElement('p')
         promocao.classList.add('promoçao')
         promocao.innerText = 'PROMOÇÃO'
-        card.appendChild(promocao)
+        cardlink.appendChild(promocao)
     }
 
     //secondPrice
@@ -957,10 +958,10 @@ for (let i of products.data) {
     shippingCartImg.setAttribute('src', '/img/shopping-cart-6.png')
     shippingCart.appendChild(shippingCartImg)
 
-    card.appendChild(shippingCart)
-    card.appendChild(container)
-    cardlink.appendChild(card)
-    document.getElementById('produtos-cards').appendChild(cardlink)
+    cardlink.appendChild(shippingCart)
+    cardlink.appendChild(container)
+    card.appendChild(cardlink)
+    document.getElementById('produtos-cards').appendChild(card)
     
 }
 const  titleCategorias =  document.querySelector('#all-categorias')
@@ -1129,7 +1130,6 @@ cartIcons.forEach(function(cartIcon) {
   
 
 // Supondo que seus elementos tenham a classe 'product'
-
 
 document.addEventListener('DOMContentLoaded', function() {
     const idClicado = document.querySelectorAll('.card');

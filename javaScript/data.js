@@ -1,7 +1,7 @@
 let productsCart = {
     data: [
         //PROMOÇOES ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      
+
         //COMPUTADORES//////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -11,8 +11,8 @@ let productsCart = {
             price: '',
             priceP: 516.99,
             image: '/img/computadores/Laptop-Pilates-14-touch-screen-12-GB-memoria.jpg',
-            specs:'Modelo: Laptop Pilates 14"<br>Tela: 14" touch screen Full HD<br>Memória RAM: 12 GB<br>Cor: Preto fosco<br>Processador: Intel Core i5 de última geração<br>Armazenamento: SSD de 256 GB<br>Sistema Operacional: Windows 11<br>Peso: 1.35 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm<br>Material: Liga de alumínio resistente<br>Teclado: Retroiluminado, padrão ANSI<br>Bateria: Até 10 horas de uso<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Conectividade: WiFi 6, Bluetooth 5.1<br>Webcam: HD com obturador de privacidade <br>',
-            descricao:'Descubra o Laptop Pilates 14", um dispositivo de alto desempenho com tela touch screen e 12GB de memória RAM. Com seu design elegante, é perfeito para todos, desde profissionais até estudantes. A interação intuitiva e a multitarefa eficiente são garantidas graças à tela sensível ao toque e à ampla memória. Tudo isso por um preço competitivo de $516.99. Com o Laptop Pilates 14", tecnologia de ponta e valor se unem.',
+            specs: '<p><span>Modelo:</span> Laptop Pilates 14"</p> <p><span>Tela:</span> 14" touch screen Full HD</p><p><span>Memória RAM:</span> 12 GB</p> <p><span>Cor:</span> Preto fosco</p><p><span>Processador:</span> Intel Core i5 de última geração</p><p><span>Armazenamento:</span> SSD de 256 GB</p><p><span>Sistema Operacional:</span> Windows 11</p><p><span>Peso:</span> 1.35 kg</p><p><span>Dimensões:</span> 32,2 cm x 22,9 cm x 1,8 cm</p><p><span>Material:</span> Liga de alumínio resistente</p><p><span>Teclado:</span> Retroiluminado, padrão ANSI</p><p><span>Bateria:</span> Até 10 horas de uso</p><p><span>Portas:</span> 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio</p><p><span>Conectividade:</span> WiFi 6, Bluetooth 5.1</p><p><span>Webcam:</span> HD com obturador de privacidade</p>',
+            descricao: 'Descubra o Laptop Pilates 14", um dispositivo de alto desempenho com tela touch screen e 12GB de memória RAM.<br> Com seu design elegante, é perfeito para todos, desde profissionais até estudantes.<br> A interação intuitiva e a multitarefa eficiente são garantidas graças à tela sensível ao toque e à ampla memória.<br> Tudo isso por um preço competitivo de $516.99. Com o Laptop Pilates 14", tecnologia de ponta e valor se unem.',
         },
         {
             id: 2,
@@ -21,8 +21,8 @@ let productsCart = {
             price: "1,099.99",
             priceP: 899.99,
             image: '/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg',
-            specs:'Tela: 16" touch screen Full HD<br>Memória RAM: 24 GB<br>Cor: Disponível em várias opções de cores elegantes<br>Processador: Potente processador de última geração para desempenho excepcional<br>Armazenamento: Espaço de armazenamento generoso para todos os seus arquivos e aplicativos<br>Sistema Operacional: Versão atualizada do sistema operacional para uma experiência aprimorada<br>Peso: Leve e portátil para facilitar o transporte<br>Dimensões: Design compacto e ergonômico para melhor usabilidade<br>Material: Construído com materiais duráveis e de alta qualidade<br>Teclado: Teclado retroiluminado para facilitar a digitação em ambientes com pouca luz<br> Bateria: Longa duração da bateria para maior produtividade em movimento<br>Conectividade: Wi-Fi rápido e Bluetooth para uma conexão sem fio estável<br> Webcam: Câmera de alta definição integrada para videochamadas e conferências<br>Outras características: Portas USB, HDMI e leitor de cartão para fácil conexão de dispositivos externos',
-            descricao:'Apresentando o Laptop Pilates 16", uma poderosa máquina com recursos avançados. Com uma tela touch screen de alta qualidade e impressionantes 24 GB de memória, ele eleva sua experiência de uso a um novo patamar. Seu design elegante e sofisticado é acompanhado por um desempenho excepcional, tornando-o perfeito para profissionais exigentes e entusiastas de tecnologia. O Laptop Pilates 16" oferece um diferencial incomparável por um preço competitivo de $899.99. Não perca a oportunidade de experimentar o futuro da computação com o Laptop Pilates 16".',
+            specs: '<p>touch screen Full HD</p><p><span>Memória RAM:</span> 24 GB</p><p><span>Cor:</span> Disponível em várias opções de cores elegantes</p><p><span>Processador:</span> Potente processador de última geração para desempenho excepcional</p><p><span>Armazenamento:</span> Espaço de armazenamento generoso para todos os seus arquivos e aplicativos</p><p><span>Sistema Operacional:</span> Versão atualizada do sistema operacional para uma experiência aprimorada</p><p><span>Peso:</span> Leve e portátil para facilitar o transporte</p><p><span>Dimensões:</span> Design compacto e ergonômico para melhor usabilidade</p><p><span>Material:</span> Construído com materiais duráveis e de alta qualidade</p><p><span>Teclado:</span> Teclado retroiluminado para facilitar a digitação em ambientes com pouca luz</p><p><span>Bateria:</span> Longa duração da bateria para maior produtividade em movimento</p><p><span>Conectividade:</span> Wi-Fi rápido e Bluetooth para uma conexão sem fio estável</p><p><span>Webcam:</span> Câmera de alta definição integrada para videochamadas e conferências</p><p><span>Outras características:</span> Portas USB, HDMI e leitor de cartão para fácil conexão de dispositivos externos</p>',
+            descricao: 'Apresentando o Laptop Pilates 16", uma poderosa máquina com recursos avançados. Com uma tela touch screen de alta qualidade e impressionantes 24 GB de memória, ele eleva sua experiência de uso a um novo patamar.<br> Seu design elegante e sofisticado é acompanhado por um desempenho excepcional, tornando-o perfeito para profissionais exigentes e entusiastas de tecnologia.<br> O Laptop Pilates 16" oferece um diferencial incomparável por um preço competitivo de $899.99.<br> Não perca a oportunidade de experimentar o futuro da computação com o Laptop Pilates 16".',
         },
         {
             id: 3,
@@ -31,8 +31,8 @@ let productsCart = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
-            specs:'Tamanho da tela: 15.6 polegadas<br>Resolução da tela: Full HD<br>Processador: Intel Core i7 de última geração<br>Memória RAM: 16 GB<br>Armazenamento: 512 GB SSD<br>Placa de vídeo: NVIDIA GeForce GTX 1660 Ti<br>Sistema Operacional: Windows 10<br>Teclado: Retroiluminado, layout padrão<br>Conectividade: Wi-Fi 802.11ac, Bluetooth 5.0<br>Portas: 2 x USB 3.1, 1 x USB-C, 1 x HDMI, 1 x RJ-45 (Ethernet), 1 x Entrada para fone de ouvido, 1 x Entrada para microfone<br>Sistema de refrigeração avançado para evitar superaquecimento<br>Peso: Aproximadamente 2.3 kg<br>Cor: Preto fosco<br>Material: Liga de alumínio resistente<br>Bateria: Até 6 horas de duração<br>Dimensões: 36.3 cm x 25.4 cm x 2.4 cm',
-            descricao:'O laptop para games JP é perfeito para os entusiastas de jogos que buscam uma experiência imersiva e de alta performance. Com uma tela de 15.6" de alta definição, armazenamento SSD de 512 GB e 16 GB de memória RAM, este laptop oferece velocidade, capacidade de armazenamento e desempenho excepcionais. Equipado com um processador potente e uma placa de vídeo dedicada, o laptop para games JP proporciona gráficos impressionantes e jogabilidade suave. Seu teclado retroiluminado e sistema de refrigeração avançado garantem conforto e desempenho durante longas sessões de jogo.',
+            specs: '<p><span>Tamanho da tela:</span> 15.6 polegadas</p><p><span>Resolução da tela:</span> Full HD</p><p><span>Processador:</span> Intel Core i7 de última geração</p><p><span>Memória RAM:</span> 16 GB</p><p><span>Armazenamento:</span> 512 GB SSD</p><p><span>Placa de vídeo:</span> NVIDIA GeForce GTX 1660 Ti</p><p><span>Sistema Operacional:</span> Windows 10</p><p><span>Teclado:</span> Retroiluminado, layout padrão</p><p><span>Conectividade:</span> Wi-Fi 802.11ac, Bluetooth 5.0</p><p><span>Portas:</span> 2 x USB 3.1, 1 x USB-C, 1 x HDMI, 1 x RJ-45 (Ethernet), 1 x Entrada para fone de ouvido, 1 x Entrada para microfone</p><p><span>Sistema de refrigeração:</span> Avançado para evitar superaquecimento</p><p><span>Peso:</span> Aproximadamente 2.3 kg</p><p><span>Cor:</span> Preto fosco</p><p><span>Material:</span> Liga de alumínio resistente</p><p><span>Bateria:</span> Até 6 horas de duração</p><p><span>Dimensões:</span> 36.3 cm x 25.4 cm x 2.4 cm</p>',
+            descricao: 'O laptop para games JP é perfeito para os entusiastas de jogos que buscam uma experiência imersiva e de alta performance. Com uma tela de 15.6" de alta definição, armazenamento SSD de 512 GB e 16 GB de memória RAM, este laptop oferece velocidade, capacidade de armazenamento e desempenho excepcionais. Equipado com um processador potente e uma placa de vídeo dedicada, o laptop para games JP proporciona gráficos impressionantes e jogabilidade suave. Seu teclado retroiluminado e sistema de refrigeração avançado garantem conforto e desempenho durante longas sessões de jogo.',
         },
         {
             id: 4,
@@ -41,8 +41,8 @@ let productsCart = {
             price: '',
             priceP: 799.99,
             image: '/img/computadores/Desktop-Corr-12-GB-memória-WiFi-Bluetooth-Teclado-Mouse.jpg',
-            specs:'Processador: Intel Core i5 de última geração<br>Memória RAM: 12 GB DDR4<br>Armazenamento: Disco rígido de 1 TB<br>Conectividade: WiFi 802.11ac, Bluetooth 5.0<br>Sistema Operacional: Windows 10 Home<br>Portas: 4 x USB 3.0, 2 x USB 2.0, 1 x HDMI, 1 x VGA, 1 x Ethernet, 1 x Áudio<br>Teclado: Teclado padrão ABNT2 com teclas de atalho e retroiluminação<br>Mouse: Mouse óptico com roda de rolagem e botões programáveis<br>Cor: Preto fosco<br>Tamanho: Dimensões (L x A x P): 40 cm x 18 cm x 36 cm<br>Material: Gabinete em metal resistente<br>Fonte de Alimentação: Bivolt automático',
-            descricao:'O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote. O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote.',
+            specs: '<p><span>Processador:</span> Intel Core i5 de última geração</p><p><span>Memória RAM:</span> 12 GB DDR4</p><p><span>Armazenamento:</span> Disco rígido de 1 TB</p><p><span>Conectividade:</span> WiFi 802.11ac, Bluetooth 5.0</p><p><span>Sistema Operacional:</span> Windows 10 Home</p><p><span>Portas:</span> 4 x USB 3.0, 2 x USB 2.0, 1 x HDMI, 1 x VGA, 1 x Ethernet, 1 x Áudio</p><p><span>Teclado:</span> Teclado padrão ABNT2 com teclas de atalho e retroiluminação</p><p><span>Mouse:</span> Mouse óptico com roda de rolagem e botões programáveis</p><p><span>Cor:</span> Preto fosco</p><p><span>Tamanho:</span> Dimensões (L x A x P): 40 cm x 18 cm x 36 cm</p><p><span>Material:</span> Gabinete em metal resistente</p><p><span>Fonte de Alimentação:</span> Bivolt automático</p>',
+            descricao: 'O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote. O Desktop Corr é uma solução completa para suas necessidades de computação. Com uma poderosa configuração e recursos essenciais, ele oferece um desempenho confiável e conveniência em um único pacote.',
         },
         {
             id: 5,
@@ -51,8 +51,8 @@ let productsCart = {
             price: '',
             priceP: 1399.99,
             image: '/img/computadores/Desktop-Corr-29-24GB-memória-Teclado-e-Mouse.jpg',
-            specs:'Modelo: Desktop Corr 29"<br>Tamanho da Tela: 29 polegadas<br>Resolução: Alta definição<br>Memória RAM: 24 GB<br>Armazenamento: HDD de 1 TB<br>Processador: Intel Core i7 de última geração<br>Placa de Vídeo: NVIDIA GeForce GTX 1650<br>Conectividade: Wi-Fi, Bluetooth<br>Portas: USB 3.0, HDMI, VGA, Ethernet<br>Sistema Operacional: Windows 10<br>Teclado: Retroiluminado, padrão ANSI<br>Mouse: Óptico, com fio<br>Cor: Preto<br>Material: Liga de alumínio resistente<br>Dimensões: 45 cm x 20 cm x 40 cm<br>Peso: 8 kg<br>Fonte de Alimentação: Bivolt',
-            descricao:'O Desktop Corr 29" é a escolha perfeita para quem busca um computador de alto desempenho e excelente capacidade de multitarefa. Com seus impressionantes 24 GB de memória, você poderá executar facilmente várias tarefas simultaneamente, sem perder velocidade ou eficiência. Não perca a oportunidade de levar para casa o Desktop Corr 29" e desfrutar de um computador de alto desempenho, com ampla capacidade de memória e uma experiência visual envolvente. Ele certamente elevará sua produtividade e entretenimento a um novo patamar.',
+            specs: '<p><span>Modelo:</span> Desktop Corr 29"</p><p><span>Tamanho da Tela:</span> 29 polegadas</p><p><span>Resolução:</span> Alta definição</p><p><span>Memória RAM:</span> 24 GB</p><p><span>Armazenamento:</span> HDD de 1 TB</p><p><span>Processador:</span> Intel Core i7 de última geração</p><p><span>Placa de Vídeo:</span> NVIDIA GeForce GTX 1650</p><p><span>Conectividade:</span> Wi-Fi, Bluetooth</p><p><span>Portas:</span> USB 3.0, HDMI, VGA, Ethernet</p><p><span>Sistema Operacional:</span> Windows 10</p><p><span>Teclado:</span> Retroiluminado, padrão ANSI</p><p><span>Mouse:</span> Óptico, com fio</p><p><span>Cor:</span> Preto</p><p><span>Material:</span> Liga de alumínio resistente</p><p><span>Dimensões:</span> 45 cm x 20 cm x 40 cm</p><p><span>Peso:</span> 8 kg</p><p><span>Fonte de Alimentação:</span> Bivolt</p>',
+            descricao: 'O Desktop Corr 29" é a escolha perfeita para quem busca um computador de alto desempenho e excelente capacidade de multitarefa. Com seus impressionantes 24 GB de memória, você poderá executar facilmente várias tarefas simultaneamente, sem perder velocidade ou eficiência. Não perca a oportunidade de levar para casa o Desktop Corr 29" e desfrutar de um computador de alto desempenho, com ampla capacidade de memória e uma experiência visual envolvente. Ele certamente elevará sua produtividade e entretenimento a um novo patamar.',
         },
         {
             id: 6,
@@ -61,8 +61,8 @@ let productsCart = {
             price: '',
             priceP: 799.99,
             image: '/img/computadores/Laptop-Pilates-16-12GBmemória-touch-screen.jpg',
-            specs:'Tamanho da Tela: 16 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia de Tela: Touch Screen<br>Capacidade de Memória RAM: 12 GB<br>Capacidade de Armazenamento: SSD de alta velocidade<br>Processador: Intel Core i5 de última geração<br>Sistema Operacional: Windows 11<br>Conectividade: Wi-Fi 6, Bluetooth 5.1<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Teclado: Retroiluminado, padrão ANSI<br>Bateria: Até 10 horas de uso contínuo<br>Peso: 1.35 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm<br>Material: Liga de alumínio resistente<br>Cor: Preto fosco',
-            descricao:'O Laptop Pilates 16" é um dispositivo tecnológico de alto desempenho que combina funcionalidades avançadas com um design elegante. Com uma tela touch screen de 16 polegadas e 12 GB de memória, ele oferece uma experiência interativa e multitarefa eficiente. O Laptop Pilates 16" é a escolha ideal para aqueles que valorizam a praticidade, o desempenho e a versatilidade. Seja para trabalho, estudo ou entretenimento, este laptop oferece a combinação perfeita de recursos avançados e preço acessível. Desfrute de uma experiência tecnológica de qualidade com o Laptop Pilates 16".',
+            specs: '<p><span>Tamanho da Tela:</span> 16 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tecnologia de Tela:</span> Touch Screen</p><p><span>Capacidade de Memória RAM:</span> 12 GB</p><p><span>Capacidade de Armazenamento:</span> SSD de alta velocidade</p><p><span>Processador:</span> Intel Core i5 de última geração</p><p><span>Sistema Operacional:</span> Windows 11</p><p><span>Conectividade:</span> Wi-Fi 6, Bluetooth 5.1</p><p><span>Portas:</span> 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio</p><p><span>Teclado:</span> Retroiluminado, padrão ANSI</p><p><span>Bateria:</span> Até 10 horas de uso contínuo</p><p><span>Peso:</span> 1.35 kg</p><p><span>Dimensões:</span> 32,2 cm x 22,9 cm x 1,8 cm</p><p><span>Material:</span> Liga de alumínio resistente</p><p><span>Cor:</span> Preto fosco</p>',
+            descricao: 'O Laptop Pilates 16" é um dispositivo tecnológico de alto desempenho que combina funcionalidades avançadas com um design elegante. Com uma tela touch screen de 16 polegadas e 12 GB de memória, ele oferece uma experiência interativa e multitarefa eficiente. O Laptop Pilates 16" é a escolha ideal para aqueles que valorizam a praticidade, o desempenho e a versatilidade. Seja para trabalho, estudo ou entretenimento, este laptop oferece a combinação perfeita de recursos avançados e preço acessível. Desfrute de uma experiência tecnológica de qualidade com o Laptop Pilates 16".',
         },
         {
             id: 7,
@@ -71,8 +71,8 @@ let productsCart = {
             price: '',
             priceP: 849.99,
             image: '/img/computadores/LaptopMSP-14-16GB-memória-cinza.jpg',
-            specs:'Tamanho da Tela: 14 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia de Tela: Touch Screen<br>Capacidade de Memória: 16 GB<br>Armazenamento: SSD de alta velocidade<br>Processador: Intel Core i5 de última geração<br>Sistema Operacional: Windows 10<br>Cor: Cinza<br>Material: Liga de alumínio resistente<br>Teclado: Retroiluminado, padrão ANSI<br>Conectividade: Wi-Fi 6, Bluetooth 5.1<br>Portas: 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio<br>Webcam: HD com obturador de privacidade<br>Bateria: Duração de até 10 horas<br>Peso: 1.5 kg<br>Dimensões: 32,2 cm x 22,9 cm x 1,8 cm',
-            descricao:'O Laptop MSP 14" é a escolha perfeita para aqueles que buscam um desempenho excepcional aliado a um design elegante. Com seus impressionantes 16 GB de memória, você terá velocidade e capacidade de multitarefa para lidar com as tarefas mais exigentes. Sua tela de 14 polegadas proporciona uma experiência visual imersiva, ideal para trabalhar, estudar ou desfrutar de entretenimento. Experimente o diferencial do Laptop MSP 14" e aproveite toda a potência e funcionalidade que ele tem a oferecer. Ele foi projetado para atender às suas necessidades e elevar sua experiência tecnológica a um novo patamar.',
+            specs: '<p><span>Tamanho da Tela:</span> 14 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tecnologia de Tela:</span> Touch Screen</p><p><span>Capacidade de Memória:</span> 16 GB</p><p><span>Armazenamento:</span> SSD de alta velocidade</p><p><span>Processador:</span> Intel Core i5 de última geração</p><p><span>Sistema Operacional:</span> Windows 10</p><p><span>Cor:</span> Cinza</p><p><span>Material:</span> Liga de alumínio resistente</p><p><span>Teclado:</span> Retroiluminado, padrão ANSI</p><p><span>Conectividade:</span> Wi-Fi 6, Bluetooth 5.1</p><p><span>Portas:</span> 2 x USB 3.0, 1 x HDMI, 1 x leitor de cartão SD, 1 x porta de carregamento, 1 x conector de áudio</p><p><span>Webcam:</span> HD com obturador de privacidade</p><p><span>Bateria:</span> Duração de até 10 horas</p><p><span>Peso:</span> 1.5 kg</p><p><span>Dimensões:</span> 32,2 cm x 22,9 cm x 1,8 cm</p>',
+            descricao: 'O Laptop MSP 14" é a escolha perfeita para aqueles que buscam um desempenho excepcional aliado a um design elegante.<br> Com seus impressionantes 16 GB de memória, você terá velocidade e capacidade de multitarefa para lidar com as tarefas mais exigentes. <br>Sua tela de 14 polegadas proporciona uma experiência visual imersiva, ideal para trabalhar, estudar ou desfrutar de entretenimento. <br>Experimente o diferencial do Laptop MSP 14" e aproveite toda a potência e funcionalidade que ele tem a oferecer.<br> Ele foi projetado para atender às suas necessidades e elevar sua experiência tecnológica a um novo patamar.',
         },
         {
             id: 8,
@@ -81,8 +81,8 @@ let productsCart = {
             price: "269.99",
             priceP: 149.99,
             image: '/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg',
-            specs:'Tamanho da Tela: 29 polegadas<br>Tecnologia de Tela: IPS LED<br>Resolução: Full HD (1920x1080)<br>Taxa de Atualização: 60Hz<br>Tempo de Resposta: 5ms<br>Contraste: 1000:1<br>Brilho: 250 cd/m²<br>Ângulo de Visão: 178° (horizontal/vertical)<br>Conexões: 1x HDMI, 1x VGA<br>Recurso FreeSync<br>Suporte VESA: 100x100mm<br>Dimensões (LxAxP): 67,6cm x 40,2cm x 15,6cm<br>Peso: 5,2kg<br>Cor: Cinza',
-            descricao:'O Monitor HV- de 29" é um dispositivo visual de alto desempenho projetado para oferecer uma experiência imersiva e envolvente. Sua tecnologia IPS LED proporciona cores ricas e precisas, enquanto a resolução Full HD e a taxa de atualização de 60Hz garantem imagens claras e suaves. O design elegante e compacto do Monitor HV- complementa qualquer ambiente, seja em casa, no escritório ou no espaço de jogos. Sua qualidade de imagem impressionante, combinada com recursos avançados e um preço acessível de $149.99, faz dele uma excelente escolha para quem busca uma experiência visual de alta qualidade.',
+            specs: '<p><span>Tamanho da Tela:</span> 29 polegadas</p><p><span>Tecnologia de Tela:</span> IPS LED</p><p><span>Resolução:</span> Full HD (1920x1080)</p><p><span>Taxa de Atualização:</span> 60Hz</p><p><span>Tempo de Resposta:</span> 5ms</p><p><span>Contraste:</span> 1000:1</p><p><span>Brilho:</span> 250 cd/m²</p><p><span>Ângulo de Visão:</span> 178° (horizontal/vertical)</p><p><span>Conexões:</span> 1x HDMI, 1x VGA</p><p><span>Recurso:</span> FreeSync</p><p><span>Suporte VESA:</span> 100x100mm</p><p><span>Dimensões (LxAxP):</span> 67,6cm x 40,2cm x 15,6cm</p><p><span>Peso:</span> 5,2kg</p><p><span>Cor:</span> Cinza</p>',
+            descricao: 'O Monitor HV- de 29" é um dispositivo visual de alto desempenho projetado para oferecer uma experiência imersiva e envolvente.<br> Sua tecnologia IPS LED proporciona cores ricas e precisas, enquanto a resolução Full HD e a taxa de atualização de 60Hz garantem imagens claras e suaves.<br> O design elegante e compacto do Monitor HV- complementa qualquer ambiente, seja em casa, no escritório ou no espaço de jogos. Sua qualidade de imagem impressionante, combinada com recursos avançados e um preço acessível de $149.99, faz dele uma excelente escolha para quem busca uma experiência visual de alta qualidade.',
         },
         //TABLETS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -93,8 +93,8 @@ let productsCart = {
             price: '',
             priceP: 189.99,
             image: '/img/tablets/Tablet-transparente-10,2-Wi-Fi-32GB.jpg',
-            specs:'Tamanho da Tela: 10,2 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: IPS LED<br>Capacidade de Armazenamento: 32 GB (expansível via cartão de memória)<br>Conectividade: Wi-Fi<br>Sistema Operacional: Android<br>Processador: Quad-Core<br>Memória RAM: 2 GB<br>Câmera Traseira: 8 MP<br>Câmera Frontal: 5 MP<br>Bateria: 5000 mAh<br>Cor: preto<br>Material: Vidro transparente e estrutura em metal<br>Peso: Aproximadamente 400g<br>Dimensões: 250 x 165 x 8 mm<br>Alto-falantes estéreo embutidos<br>Porta para fones de ouvido<br>Sensor de gravidade<br>Suporte a cartão SIM (opcional)',
-            descricao:'O Tablet Transparente de 10,2" Wi-Fi, 32 GB combina um design inovador com funcionalidades essenciais para oferecer uma experiência única. Sua tela transparente proporciona um visual impressionante e diferenciado, permitindo que você mergulhe em seus conteúdos favoritos de forma envolvente. Com a conectividade Wi-Fi, você pode aproveitar a internet sem restrições e acessar uma infinidade de recursos online. Além disso, o amplo espaço de armazenamento interno de 32 GB garante que você tenha espaço suficiente para guardar seus arquivos e aplicativos importantes. Com sua portabilidade e conveniência, o Tablet Transparente é perfeito para quem busca um dispositivo versátil que combina estilo e desempenho.',
+            specs: '<p><span>Tamanho da Tela:</span> 10,2 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tecnologia da Tela:</span> IPS LED</p><p><span>Capacidade de Armazenamento:</span> 32 GB (expansível via cartão de memória)</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Sistema Operacional:</span> Android</p><p><span>Processador:</span> Quad-Core</p><p><span>Memória RAM:</span> 2 GB</p><p><span>Câmera Traseira:</span> 8 MP</p><p><span>Câmera Frontal:</span> 5 MP</p><p><span>Bateria:</span> 5000 mAh</p><p><span>Cor:</span> Preto</p><p><span>Material:</span> Vidro transparente e estrutura em metal</p><p><span>Peso:</span> Aproximadamente 400g</p><p><span>Dimensões:</span> 250 x 165 x 8 mm</p><p><span>Alto-falantes estéreo embutidos</span></p><p><span>Porta para fones de ouvido</span></p><p><span>Sensor de gravidade</span></p><p><span>Suporte a cartão SIM (opcional)</span></p>',
+            descricao: 'O Tablet Transparente de 10,2" Wi-Fi, 32 GB combina um design inovador com funcionalidades essenciais para oferecer uma experiência única.<br> Sua tela transparente proporciona um visual impressionante e diferenciado, permitindo que você mergulhe em seus conteúdos favoritos de forma envolvente.<br> Com a conectividade Wi-Fi, você pode aproveitar a internet sem restrições e acessar uma infinidade de recursos online.<br> Além disso, o amplo espaço de armazenamento interno de 32 GB garante que você tenha espaço suficiente para guardar seus arquivos e aplicativos importantes. <br>Com sua portabilidade e conveniência, o Tablet Transparente é perfeito para quem busca um dispositivo versátil que combina estilo e desempenho.',
         },
         {
             id: 10,
@@ -103,8 +103,8 @@ let productsCart = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
-            specs:'Tamanho da Tela: 10,4 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: IPS<br>Conectividade: Wi-Fi<br>Armazenamento Interno: 32 GB<br>Processador: Quad-Core<br>Sistema Operacional: Android<br>Câmeras: Câmera Traseira de 8 MP, Câmera Frontal de 5 MP<br>Slot para Cartão de Memória: Suporta cartões microSD de até 128 GB<br>Bateria: Capacidade de bateria de longa duração<br>Áudio: Alto-falantes estéreo integrados<br>Conexões: Porta USB-C, Entrada para fone de ouvido de 3,5 mm<br>Dimensões: Aproximadamente 24,7 cm x 15,5 cm x 0,8 cm<br>Peso: Aproximadamente 450 gramas<br>Cor: Space (acabamento em tom Space)<br>Material: Estrutura em alumínio resistente',
-            descricao:'O Tablet JP - Space é um dispositivo portátil de alta qualidade que combina recursos avançados e design elegante. Com sua tela de 10,4 polegadas, você pode desfrutar de uma experiência visual imersiva e vibrante. Sua conectividade Wi-Fi permite que você navegue na internet, assista a vídeos em streaming e acesse suas redes sociais favoritas com facilidade. O diferencial deste tablet é o seu design elegante e contemporâneo, com bordas finas e acabamento em tom Space. Isso proporciona uma experiência visual moderna e sofisticada. Além disso, sua bateria de longa duração permite que você use o tablet durante todo o dia sem se preocupar com recargas constantes.',
+            specs: '<p><span>Tamanho da Tela:</span> 10,4 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tecnologia da Tela:</span> IPS</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Armazenamento Interno:</span> 32 GB</p><p><span>Processador:</span> Quad-Core</p><p><span>Sistema Operacional:</span> Android</p><p><span>Câmeras:</span> Câmera Traseira de 8 MP, Câmera Frontal de 5 MP</p><p><span>Slot para Cartão de Memória:</span> Suporta cartões microSD de até 128 GB</p><p><span>Bateria:</span> Capacidade de bateria de longa duração</p><p><span>Áudio:</span> Alto-falantes estéreo integrados</p><p><span>Conexões:</span> Porta USB-C, Entrada para fone de ouvido de 3,5 mm</p><p><span>Dimensões:</span> Aproximadamente 24,7 cm x 15,5 cm x 0,8 cm</p><p><span>Peso:</span> Aproximadamente 450 gramas</p><p><span>Cor:</span> Space (acabamento em tom Space)</p><p><span>Material:</span> Estrutura em alumínio resistente</p>',
+            descricao: 'O Tablet JP - Space é um dispositivo portátil de alta qualidade que combina recursos avançados e design elegante.<br> Com sua tela de 10,4 polegadas, você pode desfrutar de uma experiência visual imersiva e vibrante. <br>Sua conectividade Wi-Fi permite que você navegue na internet, assista a vídeos em streaming e acesse suas redes sociais favoritas com facilidade.<br> O diferencial deste tablet é o seu design elegante e contemporâneo, com bordas finas e acabamento em tom Space. Isso proporciona uma experiência visual moderna e sofisticada. <br>Além disso, sua bateria de longa duração permite que você use o tablet durante todo o dia sem se preocupar com recargas constantes.',
         },
         {
             id: 11,
@@ -113,8 +113,8 @@ let productsCart = {
             price: '',
             priceP: 479.99,
             image: '/img/tablets/Tablet-Pilates-Go-touch-screen-64-GB-com-capa.jpg',
-            specs:'Tamanho da Tela: 10.5 polegadas<br>Resolução da Tela: Full HD<br>Tecnologia da Tela: Touch Screen<br>Capacidade de Armazenamento: 64 GB<br>Cor: Preto<br>Material: Plástico durável<br>Sistema Operacional: Android 11<br>Processador: Octa-core<br>Memória RAM: 4 GB<br>Conectividade: Wi-Fi<br>Câmera Traseira: 8 MP<br>Câmera Frontal: 5 MP<br>Bateria: 5000 mAh<br>Alto-falantes: Integrados<br>Portas: USB-C, entrada para fone de ouvido<br>Dimensões: 250 mm x 160 mm x 8 mm<br>Peso: 400 gramas',
-            descricao:'O Tablet Pilates Go 10.5" é o dispositivo perfeito para acompanhar o seu dia a dia. Com sua tela touch screen de alta resolução, você pode desfrutar de uma experiência interativa e imersiva em jogos, vídeos, navegação na web e muito mais. Seu design elegante e leve torna o Tablet Pilates Go 10.5" fácil de segurar e transportar. A tecnologia touch screen oferece uma interação intuitiva e responsiva, permitindo que você navegue pelos aplicativos com facilidade. Além disso, o tablet vem com recursos avançados, como conectividade Wi-Fi, câmera traseira de alta resolução para capturar momentos especiais, bateria de longa duração e alto-falantes integrados para um áudio imersivo.',
+            specs: '<p><span>Tamanho da Tela:</span> 10.5 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tecnologia da Tela:</span> Touch Screen</p><p><span>Capacidade de Armazenamento:</span> 64 GB</p><p><span>Cor:</span> Preto</p>< p > <span>Material:</span> Plástico durável</p><p><span>Sistema Operacional:</span> Android 11</p><p><span>Processador:</span> Octa-core</p><p><span>Memória RAM:</span> 4 GB</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Câmera Traseira:</span> 8 MP</p><p><span>Câmera Frontal:</span> 5 MP</p><p><span>Bateria:</span> 5000 mAh</p><p><span>Alto-falantes:</span> Integrados</p><p><span>Portas:</span> USB-C, entrada para fone de ouvido</p><p><span>Dimensões:</span> 250 mm x 160 mm x 8 mm</p><p><span>Peso:</span> 400 gramas</p>',
+            descricao: 'O Tablet Pilates Go 10.5" é o dispositivo perfeito para acompanhar o seu dia a dia. Com sua tela touch screen de alta resolução, você pode desfrutar de uma experiência interativa e imersiva em jogos, vídeos, navegação na web e muito mais.<br> Seu design elegante e leve torna o Tablet Pilates Go 10.5" fácil de segurar e transportar. A tecnologia touch screen oferece uma interação intuitiva e responsiva, permitindo que você navegue pelos aplicativos com facilidade.<br> Além disso, o tablet vem com recursos avançados, como conectividade Wi-Fi, câmera traseira de alta resolução para capturar momentos especiais, bateria de longa duração e alto-falantes integrados para um áudio imersivo.',
         },
         {
             id: 12,
@@ -123,8 +123,8 @@ let productsCart = {
             price: "349.99",
             priceP: 249.99,
             image: '/img/promocoes/Tablet-Ove-FD-Plus-10-64GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da Tela:</span> 10.3 polegadas</p><p><span>Resolução da Tela:</span> Full HD</p><p><span>Tipo de Tela:</span> IPS LCD</p><p><span>Capacidade de Armazenamento:</span> 64 GB (expansível através de cartão microSD)</p><p><span>Memória RAM:</span> 4 GB</p><p><span>Processador:</span> Octa-core</p><p><span>Sistema Operacional:</span> Android</p><p><span>Conectividade:</span> Wi-Fi, Bluetooth</p><p><span>Câmera Traseira:</span> 8 MP</p><p><span>Câmera Frontal:</span> 5 MP</p><p><span>Bateria:</span> Capacidade de longa duração</p><p><span>Cores Disponíveis:</span> Preto, Prata, Azul</p><p><span>Material:</span> Estrutura em alumínio</p><p><span>Dimensões:</span> Aproximadamente 250 x 160 x 8 mm</p><p><span>Peso:</span> Aproximadamente 450 gramas</p>',
+            descricao: 'O Tablet Ove FD Plus é um dispositivo versátil e poderoso, projetado para atender às suas necessidades diárias.<br> Com sua tela de 10.3 polegadas, você desfrutará de uma experiência visual imersiva e nítida, seja navegando na web, assistindo a vídeos ou jogando jogos. <br>Compacto e leve, o Tablet Ove FD Plus é facilmente portátil, permitindo que você o leve para onde quiser. <br>Seu design elegante e moderno adiciona um toque de estilo ao seu dia a dia. Com um excelente custo-benefício, o Tablet Ove FD Plus oferece desempenho, armazenamento e recursos essenciais por um preço acessível. <br>Ele é a escolha perfeita para quem busca um tablet confiável e funcional para uso pessoal, estudos, entretenimento e produtividade.',
         },
         {
             id: 13,
@@ -133,8 +133,8 @@ let productsCart = {
             price: "100.99",
             priceP: 59.99,
             image: '/img/promocoes/Tablet-Mini-Sheer-Pro-7-polegadas.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da tela:</span> 7,9 polegadas</p><p><span>Resolução da tela:</span> HD</p><p><span>Sistema operacional:</span> Android</p><p><span>Processador:</span> Quad-core</p><p><span>Armazenamento interno:</span> 16 GB</p><p><span>Armazenamento expansível:</span> Suporta cartões de memória</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Portas:</span> USB</p><p><span>Bateria:</span> Duração de uso prolongada</p><p><span>Cor:</span> Disponível em várias opções</p><p><span>Material:</span> Construção resistente</p><p><span>Câmera:</span> Câmera frontal e traseira</p><p><span>Alto-falantes:</span> Som estéreo</p>',
+            descricao: 'O Tablet Mini Sheer Pro é um dispositivo compacto e acessível, projetado para proporcionar uma experiência tecnológica básica com praticidade e portabilidade. <br>Com seu tamanho de tela de 7,9 polegadas, é perfeito para levar em viagens, usar em deslocamentos ou desfrutar de conteúdo em qualquer lugar. <br>O Tablet Mini Sheer Pro oferece uma solução prática e acessível para quem busca um dispositivo compacto para atividades básicas do dia a dia.<br> Com seu tamanho conveniente, desempenho satisfatório e recursos essenciais, é uma opção ideal para estudantes, viajantes e usuários que buscam um tablet simples e funcional a um preço acessível.',
         },
         {
             id: 14,
@@ -143,8 +143,8 @@ let productsCart = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da Tela:</span> 12.3 polegadas</p><p><span>Resolução:</span> Full HD</p><p><span>Tecnologia da Tela:</span> Touch screen</p><p><span>Processador:</span> Octa-core de alta performance</p><p><span>Memória RAM:</span> 8 GB</p><p><span>Armazenamento:</span> 256 GB (expansível via cartão de memória)</p><p><span>Sistema Operacional:</span> Android 12</p><p><span>Conectividade:</span> Wi-Fi, Bluetooth</p><p><span>Câmeras:</span> Câmera traseira de alta resolução + Câmera frontal para selfies e videochamadas</p><p><span>Bateria:</span> Longa duração, até 10 horas de uso contínuo</p><p><span>Recursos Adicionais:</span> Leitor de impressão digital, GPS, USB-C, saída de áudio, alto-falantes estéreo</p><p><span>Cor:</span> Disponível em diversas opções, incluindo preto, prata e dourado</p><p><span>Material:</span> Estrutura em metal resistente e durável</p><p><span>Dimensões:</span> 29.5 cm x 20.5 cm x 0.8 cm</p><p><span>Peso:</span> Aproximadamente 600g</p>',
+            descricao: 'O Tablet Ocean Pro 11 é um dispositivo poderoso e versátil que oferece uma experiência de uso excepcional. <br>Com uma tela touch screen de 12.3 polegadas, ele proporciona uma visualização imersiva e nítida para todas as suas atividades, desde navegar na web até assistir a filmes e criar conteúdo. <br>Destacando-se pela sua tela ampla, desempenho poderoso e recursos avançados, o Tablet Ocean Pro 11 é ideal para aqueles que buscam uma experiência tecnológica aprimorada. <br>Seja para uso profissional, entretenimento ou produtividade, ele oferece tudo o que você precisa para realizar suas tarefas de forma eficiente e aproveitar ao máximo seu tempo digital.',
         },
         {
             id: 15,
@@ -153,8 +153,8 @@ let productsCart = {
             price: '',
             priceP: 219.99,
             image: '/img/tablets/Tablet-Corr-Playtime-10-Wi-Fi-32GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da Tela:</span> 10.3 polegadas</p><p><span>Resolução:</span> HD</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Armazenamento:</span> 32 GB (expansível via cartão de memória)</p><p><span>Sistema Operacional:</span> Android</p><p><span>Processador:</span> Quad-core</p><p><span>Memória RAM:</span> 2 GB</p><p><span>Câmeras:</span> Câmera frontal e traseira</p><p><span>Bateria:</span> 5000 mAh</p><p><span>Recursos Adicionais:</span> Bluetooth, Entrada para fone de ouvido, Microfone</p><p><span>Cor:</span> Variadas opções disponíveis (preto, branco, prata, azul, vermelho)</p><p><span>Material:</span> Corpo em plástico resistente</p><p><span>Dimensões:</span> Aproximadamente 25 cm x 16 cm x 0.9 cm</p><p><span>Peso:</span> Aproximadamente 450 gramas</p>',
+            descricao: 'O Tablet Corr Playtime 10.3" é um dispositivo versátil e acessível, projetado para proporcionar uma experiência de entretenimento satisfatória. <br>Sua tela de 10.3 polegadas oferece imagens nítidas e cores vibrantes, tornando-o perfeito para assistir filmes, jogar jogos e navegar na internet. Com sua bateria de longa duração, você pode aproveitar o tablet por horas sem se preocupar em recarregar.<br> Seu design compacto e leve facilita o transporte e o manuseio, tornando-o um companheiro ideal para viagens ou uso diário.',
         },
         {
             id: 16,
@@ -163,8 +163,8 @@ let productsCart = {
             price: '',
             priceP: 899.99,
             image: '/img/tablets/Tablet-Space-S7-11-128GB-Wi-Fi.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da Tela:</span> 11 polegadas</p><p><span>Resolução da Tela:</span> HD</p><p><span>Capacidade de Armazenamento:</span> 128 GB</p><p><span>Conectividade:</span> Wi-Fi</p><p><span>Processador:</span> Processador de última geração</p><p><span>Memória RAM:</span> 8 GB</p><p><span>Sistema Operacional:</span> Android 11</p><p><span>Câmera:</span> Câmera traseira de alta resolução e câmera frontal para chamadas de vídeo</p><p><span>Bateria:</span> Longa duração, até X horas de uso contínuo</p><p><span>Cor:</span> Disponível em diferentes opções de cores (consultar disponibilidade)</p><p><span>Material:</span> Construção durável em alumínio e vidro</p><p><span>Recursos Adicionais:</span> Sensor de impressão digital, alto-falantes estéreo, suporte a cartão microSD, Bluetooth, GPS</p>',
+            descricao: 'O Tablet Space S7 é um dispositivo de alto desempenho que oferece uma experiência excepcional para seus usuários. <br>Com sua tela de 11 polegadas, proporciona uma visualização imersiva de conteúdos, sejam filmes, jogos ou navegação na web. <br>Sua capacidade de armazenamento de 128 GB permite que você salve uma quantidade significativa de arquivos, aplicativos e mídia, proporcionando conveniência e praticidade.<br> Além disso, o Tablet Space S7 é projetado para oferecer um desempenho excepcional, graças ao seu processador poderoso e à memória RAM generosa. Isso significa que você pode executar aplicativos e jogos exigentes sem problemas, garantindo uma experiência suave e ágil.',
         },
         //Drones-e-cameras////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -174,8 +174,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/drones-e-cameras/Câmera-de-Segurança-Externa-Shak-Spotlight.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Compacto e discreto</p><p><span>Material:</span> Plástico resistente e durável</p><p><span>Resolução de Vídeo:</span> Full HD 1080p</p><p><span>Sensor de Imagem:</span> CMOS</p><p><span>Lente:</span> Grande angular</p><p><span>Visão Noturna:</span> Infravermelho com alcance de até 30 metros</p><p><span>Detecção de Movimento:</span> Sensor PIR avançado</p><p><span>Iluminação:</span> Foco de luz LED embutido</p><p><span>Armazenamento:</span> Suporte para cartão de memória microSD (não incluso) e armazenamento em nuvem</p><p><span>Conectividade:</span> Wi-Fi 802.11ac, Bluetooth</p><p><span>Alimentação:</span> Fonte de energia externa ou bateria recarregável (dependendo do modelo)</p><p><span>Resistência às Intempéries:</span> IP65 (proteção contra poeira e jatos de água)</p><p><span>Acesso Remoto:</span> Aplicativo dedicado para monitoramento e controle via smartphone ou tablet</p><p><span>Compatibilidade:</span> Compatível com sistemas iOS e Android</p><p><span>Recursos Adicionais:</span> Áudio bidirecional (permite a comunicação entre o usuário e o ambiente monitorado), gravação contínua ou por eventos, alertas por notificações push, integração com assistentes virtuais (ex: Amazon Alexa, Google Assistant)</p>',
+            descricao: 'A Câmera de Segurança Externa Shak Spotlight é um dispositivo de alta qualidade projetado para fornecer segurança e monitoramento eficazes para áreas externas.<br> Com recursos avançados e um design durável, esta câmera oferece tranquilidade e proteção para sua casa ou negócio.<br> A Câmera de Segurança Externa Shak Spotlight oferece uma solução confiável e eficiente para proteger seu espaço externo. Com sua qualidade de imagem excepcional, recursos avançados e capacidade de monitoramento remoto, você pode desfrutar de paz de espírito e confiança na segurança do seu ambiente.',
         },
         {
             id: 18,
@@ -184,8 +184,8 @@ let productsCart = {
             price: "379.99",
             priceP: 329.99,
             image: '/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Resolução de Vídeo:</span> Full HD 1080p</p><p><span>Conectividade:</span> Rede interna sem fio (Wi-Fi)</p><p><span>Alimentação:</span> Fonte de energia (inclusa)</p><p><span>Visão Noturna:</span> Infravermelho com alcance de até 30 metros</p><p><span>Ângulo de Visão:</span> Amplo ângulo de visão de 360 graus</p><p><span>Armazenamento:</span> Suporte para cartão de memória microSD (não incluso)</p><p><span>Material:</span> Carcaça resistente a intempéries, adequada para uso interno</p><p><span>Aplicativo:</span> Compatível com aplicativos iOS e Android para monitoramento remoto</p><p><span>Detecção de Movimento:</span> Sensor de movimento integrado com alertas instantâneos</p><p><span>Compatibilidade:</span> Funciona com assistentes de voz como Alexa e Google Assistant</p><p><span>Acesso Remoto:</span> Possibilidade de visualizar as imagens ao vivo e reproduzir gravações remotamente</p><p><span>Fácil Instalação:</span> Suporte de montagem e instruções incluídas</p><p><span>Dimensões:</span> 10 cm de altura x 6 cm de largura</p><p><span>Peso:</span> Aproximadamente 200 gramas</p><p><span>Cor:</span> Preto</p>',
+            descricao: 'A Câmera de Segurança de Rede Interna H1C Wireless oferece uma solução eficiente e prática para monitoramento de ambientes internos.<br> Com sua resolução de vídeo Full HD, visão noturna avançada e detecção de movimento integrada, você terá uma vigilância confiável e clara em tempo real.<br> Sua conectividade wireless facilita a instalação e o acesso remoto através do aplicativo, permitindo que você monitore sua casa ou escritório de qualquer lugar. Além disso, seu design moderno e recursos avançados tornam-na uma escolha ideal para quem busca segurança e tranquilidade.',
         },
         {
             id: 19,
@@ -194,8 +194,8 @@ let productsCart = {
             price: '',
             priceP: 1749.99,
             image: '/img/drones-e-cameras/Quadcopter-Wave-Mini-4-com-controle-remoto.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Compacto e portátil</p><p><span>Material:</span> Estrutura resistente em plástico ABS</p><p><span>Peso:</span> Leve e fácil de manusear</p><p><span>Controle Remoto:</span> Incluso, com alcance de até 300 metros</p><p><span>Bateria:</span> Bateria de alta capacidade para longos períodos de voo</p><p><span>Tempo de Voo:</span> Aproximadamente 25 minutos</p><p><span>Câmera:</span> Câmera embutida de alta resolução para captura de imagens e vídeos</p><p><span>Resolução de Vídeo:</span> Gravação em HD (1080p)</p><p><span>Estabilização:</span> Sistema avançado de estabilização para imagens suaves</p><p><span>Modos de Voo:</span> Diversos modos de voo disponíveis, como modo iniciante, modo acrobático e modo de acompanhamento</p><p><span>GPS Integrado:</span> Permite uma navegação precisa e retorno automático ao ponto de partida</p><p><span>Funções Inteligentes:</span> Decolagem e pouso automáticos, retorno ao ponto de partida, modo de voo programado e muito mais</p><p><span>Conectividade:</span> Conexão Wi-Fi para visualização em tempo real através do smartphone</p><p><span>Compatibilidade:</span> Compatível com dispositivos iOS e Android</p>',
+            descricao: 'O Quadcopter Wave Mini 4 é um drone de última geração projetado para proporcionar uma experiência de voo excepcional.<br>Com o controle remoto incluso, você tem total controle sobre o drone, permitindo explorar o céu com facilidade. O Quadcopter Wave Mini 4 com Controle Remoto é perfeito para entusiastas de drones e fotógrafos aéreos que desejam explorar o mundo de cima.<br> Sua tecnologia avançada, design compacto e recursos excepcionais garantem uma experiência de voo emocionante e imagens impressionantes. Ele reúne desempenho, versatilidade e diversão em um único pacote, tornando-o o parceiro ideal para suas aventuras aéreas.',
         },
         {
             id: 20,
@@ -204,8 +204,8 @@ let productsCart = {
             price: "1,699.99",
             priceP: 1299.99,
             image: '/img/promocoes/Camera-DSLR-Pantony-Old-School-lente-18-55mm.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Resolução do Sensor:</span> 24.2 megapixels</p><p><span>Tamanho do Sensor:</span> APS-C</p><p><span>Sensibilidade ISO:</span> 100-25600 (expansível até 51200)</p><p><span>Velocidade do Obturador:</span> 1/4000 a 30 segundos</p><p><span>Modos de Fotografia:</span> Programa Automático, Prioridade de Abertura, Prioridade de Velocidade, Manual</p><p><span>Sistema de Foco Automático:</span> 9 pontos AF com detecção de fase</p><p><span>Gravação de Vídeo:</span> Full HD 1080p a 30fps</p><p><span>Estabilização de Imagem:</span> Não possui estabilização de imagem incorporada na câmera (depende da estabilização da lente)</p><p><span>Conectividade:</span> Wi-Fi, Bluetooth</p><p><span>Armazenamento:</span> Slot para cartão SD/SDHC/SDXC</p><p><span>Tela LCD:</span> 3.0 polegadas, ajustável e giratória</p><p><span>Visor Óptico:</span> Sim, pentaprisma</p><p><span>Bateria:</span> Bateria recarregável de íon-lítio</p><p><span>Corpo:</span> Material resistente em liga de magnésio</p><p><span>Peso:</span> Aproximadamente 600g (somente o corpo)</p><p><span>Dimensões:</span> 129 x 101 x 78 mm</p>',
+            descricao: 'Com a câmera DSLR Pantony Old School, você terá em suas mãos uma ferramenta poderosa para capturar momentos especiais e criar imagens de tirar o fôlego. <br>Sua qualidade profissional, controles manuais, lente versátil e design clássico a tornam uma escolha excepcional para fotógrafos que valorizam a arte da fotografia.<br> Seja para retratos, paisagens ou momentos espontâneos, a câmera DSLR Pantony Old School proporciona resultados impressionantes e duradouros.',
         },
         {
             id: 21,
@@ -214,8 +214,8 @@ let productsCart = {
             price: '',
             priceP: 579.99,
             image: '/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Compacto e portátil</p><p><span>Material:</span> Plástico resistente e durável</p><p><span>Câmera:</span> Resolução HD para captura de fotos e vídeos aéreos de alta qualidade</p><p><span>Controle Remoto:</span> Incluído, com alcance de até 100 metros</p><p><span>Tempo de Voo:</span> Aproximadamente 15 minutos por carga de bateria</p><p><span>Bateria:</span> Bateria recarregável de lítio incluída</p><p><span>Modos de Voo:</span> Modo de seguimento, modo de retorno automático e modo acrobático</p><p><span>Estabilização:</span> Sistema de estabilização de voo para imagens nítidas e estáveis</p><p><span>Conexão:</span> Transmissão em tempo real das imagens capturadas para o dispositivo móvel através de conexão sem fio</p><p><span>Funções Extras:</span> Proteção contra colisões, pouso automático e modo headless</p><p><span>Compatibilidade:</span> Compatível com dispositivos iOS e Android para controle e visualização em tempo real</p>',
+            descricao: 'O Drone Quadcopter HKI Tech é o parceiro perfeito para entusiastas de drones que desejam explorar o mundo a partir de uma perspectiva aérea.<br> Com sua câmera integrada, você pode capturar imagens deslumbrantes do céu e gravar vídeos impressionantes de suas aventuras. <br>Com sua conexão sem fio, você pode transmitir em tempo real as imagens capturadas para o seu dispositivo móvel, permitindo que você compartilhe suas aventuras com facilidade.<br> O drone também é construído com materiais resistentes e duráveis, garantindo sua proteção durante o voo.',
         },
         {
             id: 22,
@@ -224,8 +224,8 @@ let productsCart = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
-            specs:'',
-            descricao:'',
+            specs: "<p><span>Cor:</span> Disponível em várias opções de cores vibrantes.</p><p><span>Tamanho:</span> Compacta e portátil, perfeita para levar em viagens e aventuras.</p><p><span>Material:</span> Construída com materiais duráveis e resistentes, garantindo a proteção da câmera em condições adversas.</p><p><span>À prova d'água:</span> Resistente à água em determinadas profundidades, permitindo fotografar em ambientes aquáticos.</p><p><span>Megapixel:</span> Sensor de alta resolução para capturar imagens detalhadas e nítidas.</p><p><span>Zoom:</span> Recurso de zoom óptico para aproximar objetos distantes.</p><p><span>Modos de cena:</span> Opções de configuração pré-definidas para diferentes condições de iluminação e ambientes.</p><p><span>Estabilização de imagem:</span> Tecnologia de estabilização para evitar fotos borradas causadas por tremores das mãos.</p><p><span>Gravação de vídeo:</span> Capacidade de gravar vídeos de alta qualidade em diferentes resoluções.</p><p><span>Armazenamento:</span> Slot para cartão de memória para expandir o armazenamento da câmera.</p><p><span>Conectividade:</span> Opções de transferência de dados, como USB e Bluetooth, para compartilhar fotos e vídeos com facilidade.</p><p><span>Bateria:</span> Bateria de longa duração para permitir sessões de fotografia prolongadas.</p><p><span>Tela LCD:</span> Visor LCD para visualizar e revisar suas fotos e vídeos.</p>",
+            descricao: "A câmera digital mini à prova d'água é o equipamento perfeito para capturar momentos inesquecíveis, mesmo nas situações mais desafiadoras. <br>Com sua capacidade à prova d'água, você pode fotografar em ambientes aquáticos sem preocupações. Com essa câmera, você terá a liberdade de explorar e documentar momentos únicos, sem se preocupar com danos causados pela água.<br> Registre cada emoção e preserve suas memórias de forma duradoura. A câmera digital mini à prova d'água é a companheira perfeita para capturar momentos inesquecíveis em qualquer ambiente, seja em terra ou debaixo d'água.",
         },
         {
             id: 23,
@@ -234,8 +234,8 @@ let productsCart = {
             price: "",
             priceP: 999.99,
             image: '/img/drones-e-cameras/Drone-EXE-Mini-Controlador-Sky.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Compacto e portátil</p><p><span>Material:</span> Plástico resistente</p><p><span>Tipo de câmera:</span> Câmera integrada</p><p><span>Resolução da câmera:</span> Alta resolução de imagem e vídeo</p><p><span>Estabilização:</span> Estabilização de voo avançada</p><p><span>Modos de voo:</span> Modo de acompanhamento automático, modo de voo programado, modo de voo acrobático</p><p><span>Transmissão de vídeo:</span> Transmissão em tempo real para dispositivo móvel</p><p><span>Controle:</span> Controlador Sky com recursos intuitivos</p><p><span>Autonomia de voo:</span> Bateria de longa duração para voos prolongados</p><p><span>Funções adicionais:</span> Controle por gestos, retorno automático, modo de altitude fixa, modo de pouso automático</p><p><span>Conectividade:</span> Wi-Fi, Bluetooth</p><p><span>Capacidade de armazenamento:</span> Slot para cartão de memória para armazenamento adicional</p><p><span>Segurança:</span> Tecnologia de voo seguro, proteção contra quedas e colisões</p><p><span>Compatibilidade:</span> Compatível com dispositivos iOS e Android</p><p><span>Dimensões:</span> Compacto e leve, facilitando o transporte</p><p><span>Acessórios inclusos:</span> Hélices de reposição, cabo de carregamento, manual do usuário</p>',
+            descricao: 'O Drone EXE Mini com Controlador Sky é uma poderosa e compacta aeronave não tripulada que oferece uma experiência de voo incrível. <br>Com recursos avançados e design inovador, ele é perfeito para entusiastas de drones que desejam explorar o céu. <br>Com o Drone EXE Mini com Controlador Sky, você terá a liberdade de explorar o mundo de uma perspectiva totalmente nova. <br>Suas características avançadas, facilidade de uso e qualidade de voo excepcional o tornam uma escolha ideal para entusiastas de drones e amantes da fotografia aérea. <br>Desfrute de voos emocionantes, imagens impressionantes e uma experiência inesquecível com este drone incrível.',
         },
         {
             id: 24,
@@ -244,8 +244,8 @@ let productsCart = {
             price: "",
             priceP: 239.99,
             image: '/img/drones-e-cameras/Camera-digital-Pantony-180-20.0-megapixels.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Resolução:</span> 20.0 megapixels</p><p><span>Zoom óptico:</span> Não aplicável</p><p><span>Zoom digital:</span> 4x</p><p><span>Tamanho do sensor:</span> Não especificado</p><p><span>Tamanho da tela:</span> 2.4 polegadas</p><p><span>Tipo de tela:</span> LCD colorido</p><p><span>Armazenamento interno:</span> Não aplicável</p><p><span>Cartão de memória suportado:</span> SD/SDHC (até 32GB)</p><p><span>Conectividade:</span> USB 2.0</p><p><span>Modos de cena:</span> Retrato, Paisagem, Esportes, Macro, Pôr do sol, Festa</p><p><span>Estabilização de imagem:</span> Não aplicável</p><p><span>Detecção de rosto:</span> Sim</p><p><span>Detecção de sorriso:</span> Sim</p><p><span>Gravação de vídeo:</span> Sim, em resolução HD (720p)</p><p><span>Formato de arquivo:</span> JPEG (imagens), AVI (vídeos)</p><p><span>Alimentação:</span> Bateria de lítio recarregável</p><p><span>Dimensões:</span> Não especificado</p><p><span>Peso:</span> Não especificado</p><p><span>Cor:</span> Não especificado</p><p><span>Material:</span> Plástico resistente</p>',
+            descricao: 'A câmera digital Pantony 180 é um equipamento versátil e de alta qualidade, projetado para capturar momentos especiais com detalhes impressionantes.<br> Com seus 20.0 megapixels, ela oferece imagens nítidas e ricas em cores, permitindo que você registre cada detalhe de forma vívida. Com a câmera digital Pantony 180, você poderá capturar momentos especiais com qualidade profissional e facilidade. <br>Seja para fotos cotidianas ou ocasiões especiais, esta câmera oferece um desempenho excepcional, permitindo que você crie memórias duradouras.',
         },
         //HEADPHONES//////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -256,8 +256,8 @@ let productsCart = {
             price: "329.00",
             priceP: 279.00,
             image: '/img/promocoes/Headphone-Balo-700-wireless-cancelamento-de-ruido.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Ajustável para se adaptar a diferentes tamanhos de cabeça</p><p><span>Material:</span> Plástico durável e almofadas acolchoadas</p><p><span>Conectividade:</span> Bluetooth 5.0 para conexão wireless estável</p><p><span>Cancelamento de ruído ativo:</span> Reduz efetivamente o ruído ambiente</p><p><span>Drivers de alta qualidade:</span> Proporcionam um som rico e balanceado</p><p><span>Resposta de frequência:</span> 20Hz - 20kHz</p><p><span>Impedância:</span> 32 ohms</p><p><span>Sensibilidade:</span> 105dB</p><p><span>Microfone embutido:</span> Permite fazer chamadas com as mãos livres</p><p><span>Bateria:</span> Até 20 horas de reprodução contínua</p><p><span>Tempo de carregamento:</span> Aproximadamente 2 horas</p><p><span>Controles integrados:</span> Botões de volume, reprodução/pausa e atendimento de chamadas</p><p><span>Compatibilidade:</span> Dispositivos Bluetooth, como smartphones, tablets e computadores</p><p><span>Alcance sem fio:</span> Até 10 metros</p><p><span>Design dobrável:</span> Facilita o armazenamento e transporte do headphone</p><p><span>Peso:</span> Aproximadamente 300 gramas</p>',
+            descricao: 'O headphone Balo 700 é a escolha ideal para os amantes de música que valorizam a liberdade sem fio e desejam uma experiência sonora imersiva. <br>Com cancelamento de ruído, você pode desfrutar da sua música favorita sem interrupções indesejadas. <br>O design confortável e ajustável permite que você use o headphone por longos períodos sem desconforto. <br>A qualidade de som premium proporciona uma experiência auditiva excepcional, com graves potentes e agudos cristalinos<br>. Além disso, o controle de reprodução integrado facilita o ajuste do volume, pausar/reproduzir músicas e atender chamadas com facilidade. <br>Compatível com uma variedade de dispositivos, o headphone Balo 700 oferece conveniência e estilo em um único pacote.',
         },
         {
             id: 26,
@@ -266,8 +266,8 @@ let productsCart = {
             price: "",
             priceP: 99.99,
             image: '/img/headphones/Headphone-Space-Buds-wireless.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores, incluindo preto, branco, azul e vermelho.</p><p><span>Tamanho:</span> Design compacto e dobrável, facilitando o transporte e o armazenamento.</p><p><span>Material:</span> Construído com materiais duráveis e de alta qualidade para garantir sua longevidade.</p><p><span>Conectividade:</span> Tecnologia Bluetooth para conexão sem fio com dispositivos compatíveis.</p><p><span>Resposta de frequência:</span> Faixa ampla de resposta de frequência, oferecendo graves profundos e agudos nítidos.</p><p><span>Impedância:</span> Baixa impedância para facilitar o uso com uma ampla variedade de dispositivos.</p><p><span>Sensibilidade:</span> Sensibilidade otimizada para reprodução precisa de áudio em diferentes níveis de volume.</p><p><span>Cancelamento de ruído passivo:</span> Almofadas de isolamento acústico que bloqueiam ruídos externos para uma experiência imersiva de audição.</p><p><span>Microfone embutido:</span> Permite fazer chamadas com as mãos livres, proporcionando clareza de voz.</p><p><span>Controles de reprodução:</span> Botões intuitivos para controlar facilmente a reprodução de músicas, ajustar o volume e atender chamadas.</p><p><span>Bateria:</span> Bateria de longa duração que permite várias horas de reprodução contínua.</p><p><span>Compatibilidade:</span> Compatível com uma ampla gama de dispositivos Bluetooth, como smartphones, tablets e laptops.</p>',
+            descricao: 'O headphone Space Buds oferece uma experiência sonora excepcional em um design compacto e moderno. <br>Com a conveniência da conexão sem fio, você pode desfrutar da liberdade de movimento sem se preocupar com fios emaranhados.<br> Os drivers de alta qualidade proporcionam um som nítido e envolvente, tornando cada música uma experiência única.<br> O conforto duradouro é garantido pelas almofadas acolchoadas e pelo ajuste ergonômico, permitindo que você aproveite suas músicas favoritas por horas a fio.<br> Os controles integrados facilitam o gerenciamento da reprodução, volume e chamadas diretamente no headphone.<br> Com cancelamento de ruído passivo, você pode se concentrar na sua música, bloqueando os sons indesejados ao seu redor.<br> Além disso, o headphone Space Buds possui um design elegante e minimalista que combina estilo e funcionalidade.<br> Seu preço acessível o torna uma opção atraente para aqueles que buscam qualidade de som e conveniência sem comprometer o orçamento.',
         },
         {
             id: 27,
@@ -276,8 +276,8 @@ let productsCart = {
             price: '',
             priceP: 479.99,
             image: '/img/headphones/Headphone-Drums-Pro-wireless.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto fosco</p><p><span>Conectividade:</span> Bluetooth 5.0</p><p><span>Cancelamento de ruído ativo:</span> Sim</p><p><span>Alcance sem fio:</span> até 10 metros</p><p><span>Tipo de driver:</span> Dinâmico</p><p><span>Resposta de frequência:</span> 20Hz - 20kHz</p><p><span>Impedância:</span> 32 ohms</p><p><span>Sensibilidade:</span> 105dB</p><p><span>Material do fone de ouvido:</span> Plástico de alta resistência e couro sintético</p><p><span>Tipo de carregamento:</span> Cabo USB-C</p><p><span>Tempo de reprodução contínua:</span> Até 20 horas</p><p><span>Tempo de carregamento:</span> Aproximadamente 2 horas</p><p><span>Controles:</span> Botões de reprodução, pausa, volume e avanço/retrocesso</p><p><span>Microfone embutido:</span> Sim, para chamadas e assistentes de voz</p><p><span>Dobrável:</span> Sim, para facilitar o transporte</p><p><span>Peso:</span> Aproximadamente 300g</p>',
+            descricao: 'O headphone Drums Pro oferece som de alta qualidade sem fio para uma experiência auditiva imersiva.<br> Com tecnologia avançada, ele proporciona graves potentes e agudos nítidos. O design ergonômico e confortável permite longas sessões de audição sem desconforto. <br>Com conectividade Bluetooth, você pode se movimentar livremente sem se preocupar com fios. Além disso, possui cancelamento de ruído ativo para bloquear sons indesejados e garantir clareza de áudio. <br>Com uma bateria de longa duração, você pode desfrutar de horas de reprodução contínua. <br>O headphone Drums Pro é perfeito para audiófilos exigentes que valorizam a qualidade sonora e o conforto durante o uso.',
         },
         {
             id: 28,
@@ -286,8 +286,8 @@ let productsCart = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Conectividade:</span> Bluetooth 5.0</p><span>Cancelamento de ruído ativo:</span> Reduz os sons externos para uma experiência de áudio imersiva</p><p><span>Resposta de frequência:</span> 20Hz a 20kHz</p><p><span>Drivers de alta qualidade:</span> Proporcionam áudio nítido e balanceado</p><p><span>Bateria de longa duração:</span> Até 10 horas de reprodução contínua</p><p><span>Carregamento rápido:</span> Recarregue em apenas 1 hora</p><p><span>Controles intuitivos:</span> Botões de fácil acesso para controle de reprodução, pausa e ajuste de volume</p><p><span>Microfone embutido:</span> Realize chamadas com qualidade de áudio cristalina</p><p><span>Design ergonômico:</span> Confortável para uso prolongado</p><p><span>Material:</span> Plástico resistente e leve</p><p><span>Tamanho:</span> Compacto e portátil, perfeito para viagens e uso diário</p><p><span>Acessórios inclusos:</span> Estojo de transporte e cabo de carregamento USB</p>',
+            descricao: 'Este headphone in-ear wireless oferece uma experiência sonora imersiva com cancelamento de ruído ativo, permitindo que você se desconecte do mundo externo e se concentre apenas na música.<br> Com conexão sem fio, você tem total liberdade de movimento sem a preocupação de fios emaranhados. <br>Seu design ergonômico e leve proporciona conforto durante horas de uso. Além disso, o headphone possui controles intuitivos para facilitar a reprodução, pausa e ajuste de volume.<br> Com uma bateria de longa duração, você pode desfrutar de suas músicas favoritas por muito mais tempo. <br>O headphone in-ear wireless é perfeito para quem busca praticidade, qualidade de som excepcional e uma experiência auditiva imersiva.',
         },
         {
             id: 29,
@@ -296,8 +296,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/headphones/Headphone-Pantony-wireless-certificado.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Ajustável para se adequar a diferentes tamanhos de cabeça</p><p><span>Material:</span> Combinação de plástico resistente e almofadas de espuma macia para maior conforto</p><p><span>Conectividade:</span> Bluetooth 5.0 para conexão sem fio fácil e estável</p><p><span>Som de alta qualidade:</span> Drivers de alta fidelidade que reproduzem um áudio claro e detalhado</p><p><span>Certificação de qualidade:</span> Garantia de que o produto atende aos padrões de qualidade e desempenho</p><p><span>Bateria de longa duração:</span> Até 20 horas de reprodução contínua com uma única carga</p><p><span>Cancelamento de ruído passivo:</span> Almofadas auriculares projetadas para bloquear ruídos externos e fornecer uma experiência imersiva</p><p><span>Microfone embutido:</span> Permite chamadas telefônicas com mãos livres e uso de assistentes de voz</p><p><span>Controles integrados:</span> Botões de fácil acesso para ajustar o volume, pausar/reproduzir músicas e atender chamadas</p><p><span>Portabilidade:</span> Dobrável e compacto para facilitar o transporte em viagens ou durante o uso diário</p><p><span>Compatibilidade:</span> Funciona com dispositivos compatíveis com Bluetooth, como smartphones, tablets e laptops</p>',
+            descricao: 'O headphone Pantony wireless certificado oferece uma experiência sonora excepcional com qualidade, conforto e conveniência. Com sua conectividade Bluetooth de última geração, design elegante e recursos avançados, você pode desfrutar da sua música favorita com liberdade e estilo.<br> Sinta-se imerso em um som de alta qualidade e aproveite a liberdade sem fios com o headphone Pantony.',
         },
         {
             id: 30,
@@ -306,8 +306,8 @@ let productsCart = {
             price: '',
             priceP: 149.99,
             image: '/img/mais-vendidos/Headphone-branco-wireless.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Branco</p><p><span>Tamanho:</span> Ajustável para se adaptar a diferentes tamanhos de cabeça</p> <p><span>Material:</span> Plástico resistente e almofadas de espuma macia</p> <p><span>Conectividade:</span> Bluetooth 5.0 para uma conexão estável e sem fios</p> <p><span>Resposta de frequência:</span> 20Hz - 20kHz para um som equilibrado</p> <p><span>Impedância:</span> 32 ohms para uma reprodução precisa do áudio</p> <p><span>Sensibilidade:</span> 105dB para um som claro e envolvente</p> <p><span>Cancelamento de ruído passivo:</span> Almofadas de espuma que isolam o som ambiente</p> <p><span>Bateria:</span> Até 20 horas de reprodução contínua com carga completa</p> <p><span>Tempo de carregamento:</span> Aproximadamente 2 horas via cabo USB</p> <p><span>Microfone embutido:</span> Permite fazer chamadas em modo hands-free</p> <p><span>Controles:</span> Botões de volume, reprodução/pausa e atendimento de chamadas no fone de ouvido</p>  <p><span>Compatibilidade:</span> Funciona com dispositivos Bluetooth, como smartphones, tablets e laptops</p>',
+            descricao: 'O headphone wireless branco oferece liberdade de movimento, som de alta qualidade e conforto excepcional. <brCom sua cor elegante e design dobrável, ele combina estilo e praticidade. <br>A conectividade Bluetooth permite que você desfrute da sua música favorita sem fios, enquanto a longa duração da bateria garante horas de reprodução contínua.<br> Seu microfone integrado permite que você faça chamadas com clareza e conveniência. O headphone branco wireless é perfeito para quem busca uma experiência auditiva imersiva e sem complicações. ',
         },
         {
             id: 31,
@@ -316,8 +316,8 @@ let productsCart = {
             price: "159.55",
             priceP: 129.99,
             image: '/img/promocoes/Headset-pra-games-Surround.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto com detalhes em vermelho</p><p><span>Tamanho:</span> Ajustável para se adequar a diferentes tamanhos de cabeça</p><p><span>Material:</span> Diadema acolchoado e conchas auriculares de alta qualidade</p><p><span>Conectividade:</span> Conexão sem fio via Bluetooth ou dongle USB</p> <p><span>Som Surround:</span> Tecnologia de som surround 10.2 para uma experiência de áudio imersiva</p> <p><span>Microfone:</span> Microfone retrátil com cancelamento de ruído e função de silenciamento</p>  <p><span>Controles:</span> Botões de volume e silenciamento integrados no fone de ouvido</p>  <p><span>Compatibilidade:</span> Compatível com PC, consoles de jogos e dispositivos móveis</p>  <p><span>Bateria:</span> Bateria recarregável com duração de até 10 horas de uso contínuo</p><p><span>Extras:</span> Almofadas auriculares macias e respiráveis para maior conforto durante as longas sessões de jogo</p>',
+            descricao: 'O headset para games Surround Sound 10.2 é a escolha ideal para os entusiastas de jogos que buscam uma experiência imersiva e realista.<br> Com sua tecnologia de som surround 10.2, você poderá ouvir todos os detalhes do jogo, desde passos sutis até explosões intensas, proporcionando uma vantagem competitiva.<br> O microfone de alta qualidade garante uma comunicação clara com seus companheiros de equipe, permitindo uma coordenação eficiente durante as partidas. <br>Além disso, o headset oferece um conforto excepcional, com almofadas macias e ajuste personalizável para se adequar a diferentes tamanhos de cabeça',
         },
         {
             id: 32,
@@ -326,8 +326,8 @@ let productsCart = {
             price: "",
             priceP: 17.99,
             image: '/img/headphones/Headphone-com-fio-MX50.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> Único</p><p><span>Material:</span> Plástico resistente e metal</p>   <p><span>Conexão:</span> Cabo com plugue P2 de 3.5mm</p>  <p><span>Resposta de frequência:</span> 20Hz - 20kHz</p>  <p><span>Impedância:</span> 32 Ohms</p>  <p><span>Sensibilidade:</span> 103dB</p>  <p><span>Comprimento do cabo:</span> 1.2 metros</p> <p><span>Controle de volume:</span> Não</p> <p><span>Microfone embutido:</span> Não</p>  <p><span>Dobrável:</span> Não</p>  <p><span>Peso:</span> 150g</p>',
+            descricao: 'O Headphone com fio MX50 oferece uma experiência sonora de qualidade a um preço acessível. Com seu design compacto e leve, é ideal para uso diário e viagens.<br> A conexão com fio permite que seja usado com uma variedade de dispositivos, como smartphones, tablets, laptops e outros equipamentos de áudio.<br> A qualidade de som nítida e equilibrada proporciona uma reprodução de áudio clara e precisa, permitindo que você desfrute da sua música favorita com riqueza de detalhes.<br> As almofadas auriculares confortáveis garantem um encaixe suave e agradável, mesmo durante longos períodos de uso.',
         },
         //ALTO-FALANTES///////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -338,18 +338,18 @@ let productsCart = {
             price: "479.99",
             priceP: 199.99,
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em preto, branco e prata.</p> <p><span>Tamanho:</span> Compacto e portátil, com dimensões de 15 cm x 10 cm x 7 cm.</p><p><span>Material:</span> Construído com materiais duráveis e de alta qualidade para garantir longa vida útil.</p> <p><span>Conectividade:</span> Bluetooth 5.0 para conexão sem fio rápida e estável.</p><p><span>Potência de saída:</span> Potência total de 10 Watts para um som potente e claro.</p> <p><span>Resposta de frequência:</span> Faixa de frequência de 80 Hz a 20 kHz para uma reprodução de áudio detalhada.</p> <p><span>Capacidade da bateria:</span> Bateria recarregável com capacidade de até 10 horas de reprodução contínua.</p> <p><span>Recursos adicionais:</span> Alça embutida para transporte conveniente, entrada auxiliar de 3,5 mm para conectar dispositivos não compatíveis com Bluetooth, função de viva-voz para chamadas telefônicas.</p>',
+            descricao: 'O Alto-falante Turn5 é a escolha ideal para quem busca portabilidade e excelente qualidade sonora. <br>Seu design compacto e a alça integrada facilitam o transporte, permitindo que você leve sua música favorita para onde quiser.<br> Com a conectividade Bluetooth, você pode emparelhar o alto-falante com dispositivos compatíveis sem a necessidade de fios.<br> A qualidade do som é impressionante, proporcionando uma experiência imersiva. <br>Você poderá desfrutar de graves profundos e agudos claros, graças à tecnologia avançada de áudio.<br> A bateria de longa duração permite reproduzir música por horas consecutivas, tornando-o perfeito para festas, encontros ao ar livre e viagens.',
         },
         {
             id: 34,
-            productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
+            productName: 'SonicFlow Soundbar Pro, Bluetooth, conectividade HDMI-ARC',
             category: "Alto-falantes",
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p><p><span>Tamanho:</span> 110 cm de comprimento</p> <p><span>Material:</span> Carcaça de metal resistente</p> <p><span>Potência de saída:</span> 200W RMS</p> <p><span>Conectividade:</span> Bluetooth 5.0, HDMI-ARC, entrada auxiliar de 3,5 mm, porta USB</p> <p><span>Configuração de áudio:</span> 2.1 canais</p>  <p><span>Alto-falantes:</span> 4 alto-falantes de alcance completo, 2 alto-falantes de subwoofer</p>  <p><span>Modos de som:</span> Estéreo, Surround, Modo Noturno</p>  <p><span>Recursos de áudio:</span> Dolby Digital, DTS Virtual:X</p> <p><span>Controles:</span> Botões no painel frontal, controle remoto infravermelho</p>  <p><span>Funções adicionais:</span> Controle de graves e agudos, sincronização labial, equalizador de som</p>',
+            descricao: 'O SonicFlow Soundbar Pro é um sistema de som avançado projetado para oferecer uma experiência sonora excepcional. <br>Com conectividade Bluetooth, você pode facilmente conectar dispositivos compatíveis e transmitir música sem fio, sem a necessidade de cabos. Além disso, o soundbar possui conectividade HDMI-ARC, permitindo que você conecte diretamente à sua TV e desfrute de um áudio aprimorado em seus filmes e programas favoritos. <br>Isso proporciona uma experiência mais imersiva e realista.',
         },
         {
             id: 35,
@@ -358,8 +358,8 @@ let productsCart = {
             price: '',
             priceP: 39.99,
             image: '/img/alto-falantes/Alto-falante-Pill-Shape-portátil-prata-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: "<p><span>Cor:</span> Prata</p> <p><span>Tamanho:</span> Compacto e portátil</p> <p><span>Material:</span> Plástico resistente</p>  <p><span>Conectividade:</span> Bluetooth, entrada auxiliar de 3,5 mm</p>  <p><span>Potência de saída:</span> 5W</p><p><span>Resposta de frequência:</span> 100Hz-20kHz</p> <p><span>Bateria:</span> Recarregável, autonomia de até 6 horas</p>  <p><span>Recursos adicionais:</span> Controle de volume, botões de reprodução/pausa, design à prova d'água (classificação IPX5)</p> <p><span>Compatibilidade:</span> Compatível com dispositivos Bluetooth, como smartphones, tablets e laptops</p>  <p><span>Dimensões:</span> 10 cm (altura) x 5 cm (largura) x 5 cm (profundidade)</p> <p><span>Peso:</span> 200 gramas</p>",
+            descricao: 'O Alto-falante Pill Shape é um alto-falante portátil com design elegante e moderno. <br>Sua cor prata adiciona um toque de estilo ao seu ambiente. Com conectividade Bluetooth, você pode facilmente conectar seus dispositivos móveis e reproduzir suas músicas favoritas de forma sem fio. <br>Apesar do seu tamanho compacto, o Alto-falante Pill Shape oferece um som potente e claro, proporcionando uma experiência de áudio imersiva. Sua portabilidade permite que você o leve para qualquer lugar, seja em uma viagem, no parque ou em uma festa.',
         },
         {
             id: 36,
@@ -368,8 +368,8 @@ let productsCart = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-mini-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Prata</p><p><span>Tamanho:</span> Compacto e portátil</p> <p><span>Material:</span> Plástico resistente</p>  <p><span>Conectividade:</span> Bluetooth 5.0</p> <p><span>Alcance Bluetooth:</span> Até 10 metros</p> <p><span>Potência de saída:</span> 5W</p> <p><span>Resposta de frequência:</span> 80Hz-20kHz</p> <p><span>Bateria:</span> Recarregável de íon de lítio</p>  <p><span>Tempo de reprodução:</span> Até 8 horas</p> <p><span>Tempo de carregamento:</span> Aproximadamente 2 horas</p> <p><span>Recursos adicionais:</span> Microfone embutido para chamadas em viva-voz, compatível com assistentes de voz</p>',
+            descricao: 'O Alto-falante Mini é um dispositivo portátil que oferece uma experiência sonora excepcional.<br> Com conectividade Bluetooth, você pode facilmente conectar seu smartphone, tablet ou qualquer dispositivo compatível para reproduzir suas músicas favoritas sem fios. <br>Este alto-falante possui um design compacto e leve, tornando-o perfeito para levar para qualquer lugar.<br> Com sua bateria recarregável, você pode desfrutar de até 8 horas de reprodução contínua, garantindo diversão durante todo o dia.',
         },
         {
             id: 37,
@@ -378,8 +378,8 @@ let productsCart = {
             price: '',
             priceP: 19.99,
             image: '/img/alto-falantes/Alto-falante-Studio-8-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho:</span> Compacto e portátil</p>  <p><span>Material:</span> Plástico resistente</p>  <p><span>Conectividade:</span> Bluetooth</p> <p><span>Potência de saída:</span> 3W</p> <p><span>Resposta de frequência:</span> 100Hz-18kHz</p>  <p><span>Tempo de reprodução:</span> Até 4 horas</p>  <p><span>Tempo de carregamento:</span> Aproximadamente 2 horas</p> <p><span>Recursos adicionais:</span> Suporte para cartão de memória, entrada auxiliar</p>',
+            descricao: 'O Alto-falante Studio 8 é a escolha perfeita para quem busca um dispositivo compacto e acessível, com recursos básicos para reprodução de áudio.<br> Com sua conectividade Bluetooth, você pode conectar facilmente seu smartphone, tablet ou outro dispositivo compatível para desfrutar de sua música favorita em qualquer lugar. <br>Seu design portátil e bateria recarregável permitem que você o leve para viagens, festas e atividades ao ar livre. <br>Além disso, o suporte para cartão de memória e a entrada auxiliar oferecem opções de reprodução versáteis.',
         },
         {
             id: 38,
@@ -388,8 +388,8 @@ let productsCart = {
             price: '',
             priceP: 549.99,
             image: '/img/alto-falantes/Alto-falante-SDK-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores elegantes</p> <p><span>Tamanho:</span> Compacto e portátil para fácil transporte (dimensões específicas variam)</p> <p><span>Material:</span> Construído com materiais duráveis e de alta qualidade</p> <p><span>Potência de saída:</span> 20W para um som potente e envolvente</p>   <p><span>Conectividade:</span> Bluetooth para emparelhamento sem fio com dispositivos compatíveis</p> <p><span>Bateria:</span> Bateria recarregável de longa duração para reprodução contínua</p>  <p><span>Recursos adicionais:</span> Microfone embutido para chamadas em viva-voz, entrada auxiliar para conectar dispositivos não Bluetooth</p>',
+            descricao: 'O Alto-falante SDK combina portabilidade, qualidade de som e conectividade sem fio em um dispositivo compacto e versátil.<br> Com sua potência de saída de 20W, você pode desfrutar de um som potente em qualquer lugar. <brA bateria de longa duração permite que você aproveite suas músicas por horas a fio, enquanto a tecnologia Bluetooth facilita a conexão com seus dispositivos favoritos. Além disso, a entrada auxiliar e o microfone embutido oferecem maior versatilidade e conveniência. <br>Seja para uso pessoal ou para compartilhar música em eventos, o Alto-falante SDK é uma escolha premium para quem valoriza a qualidade de som e a portabilidade.',
         },
         {
             id: 39,
@@ -398,8 +398,8 @@ let productsCart = {
             price: '',
             priceP: 219.99,
             image: '/img/alto-falantes/Alto-falante-SXD-Mini-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores vibrantes</p> <p><span>Tamanho:</span> Compacto e portátil, perfeito para viagens e uso em movimento</p>  <p><span>Material:</span> Construído em material resistente e durável</p>  <p><span>Conectividade:</span> Bluetooth 5.0 para fácil emparelhamento com dispositivos compatíveis</p>  <p><span>Potência de saída:</span> Proporciona som nítido e de alta qualidade</p> <p><span>Resposta de frequência:</span> Amplas faixas de frequência para reprodução precisa de áudio</p> <p><span>Bateria:</span> Bateria de longa duração para horas de reprodução contínua</p> <p><span>Recursos adicionais:</span> Microfone embutido para chamadas em viva-voz, entrada auxiliar para conexão com dispositivos não Bluetooth</p> <p><span>Controles intuitivos:</span> Botões de controle convenientes para ajustar o volume, reprodução e outras configurações</p>  <p><span>Design portátil:</span> Alça embutida para facilitar o transporte e uso em movimento</p> <p><span>Compatibilidade:</span> Compatível com uma ampla gama de dispositivos Bluetooth, como smartphones, tablets e laptops</p>',
+            descricao: 'O Alto-falante SXD Mini é um dispositivo portátil e compacto que oferece uma experiência sonora excepcional. <br>Com conectividade Bluetooth, você pode emparelhá-lo facilmente com seu smartphone, tablet ou outros dispositivos compatíveis para reproduzir suas músicas favoritas de forma sem fio.<br> Possui um design moderno e elegante, com opções de cores vibrantes para escolher.<br> Apesar do seu tamanho compacto, o Alto-falante SXD Mini oferece um som poderoso e de alta qualidade, proporcionando uma experiência de áudio imersiva.',
         },
         {
             id: 40,
@@ -408,20 +408,20 @@ let productsCart = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em diversas opções de cores vibrantes e modernas</p> <p><span>Tamanho:</span> Compacto e portátil, ideal para viagens e uso em movimento</p> <p><span>Material:</span> Construção durável com acabamento de alta qualidade</p>  <p><span>Conectividade:</span> Bluetooth 5.0 para conexão rápida e estável com dispositivos compatíveis</p>  <p><span>Potência de Saída:</span> Som nítido e potente com potência de X watts</p><p><span>Resposta de Frequência:</span> Amplidade de resposta de frequência para reprodução precisa de graves, médios e agudos</p>  <p><span>Bateria:</span> Bateria recarregável de longa duração, permitindo horas de reprodução contínua</p> <p><span>Resistência à Água:</span> Classificação IPX6 de resistência à água, tornando-o adequado para uso em ambientes externos ou próximo a piscinas</p>  <p><span>Recursos Adicionais:</span> Microfone embutido para chamadas em viva-voz e suporte a assistentes de voz como Siri e Google Assistant</p> <p><span>Acessórios:</span> Acompanha cabo de carregamento USB e alça de transporte para maior conveniência</p>',
+            descricao: 'O Alto-falante Portátil Turn5 oferece uma solução conveniente para levar a música com você onde quer que vá. <br>Sua conectividade Bluetooth permite que você reproduza suas músicas favoritas sem a necessidade de fios, enquanto sua bateria de longa duração garante horas de diversão contínua. <br>Com controles intuitivos e um design moderno, este alto-falante combina estilo e funcionalidade. Além disso, a entrada auxiliar oferece versatilidade adicional para conectar dispositivos não Bluetooth. Desfrute de som de qualidade, portabilidade e conveniência com o Alto-falante Portátil Turn5.',
         },
 
         //MOBILE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: 41,
-            productName: 'Pantony X21 5G, 128 GB, com caneta Z',
+            productName: 'Pantony X21 5G, 128 GB',
             category: "Mobile",
             price: '',
             priceP: 299.99,
             image: '/img/celular/Pantony-X21-5G-128GB-com-caneta-Z.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível nas cores preto, prata e azul</p> <p><span>Tamanho:</span> Dimensões aproximadas de 15,5 cm de altura, 7,2 cm de largura e 0,8 cm de espessura</p>  <p><span>Material:</span> Corpo em alumínio resistente e tela de vidro resistente a riscos</p> <p><span>Armazenamento:</span> 128 GB de armazenamento interno expansível via cartão microSD</p>  <p><span>Conectividade:</span> Suporte às redes 5G, 4G LTE, Wi-Fi e Bluetooth</p> <p><span>Processador:</span> Processador octa-core de alta performance para multitarefa rápida e eficiente</p>  <p><span>Tela:</span> Tela Super AMOLED de 6,5 polegadas com resolução Full HD+ para cores vibrantes e detalhes nítidos</p>  <p><span>Câmera:</span> Câmera traseira de 48 MP + 12 MP + 5 MP e câmera frontal de 16 MP para capturar fotos e vídeos de alta qualidade</p>  <p><span>Bateria:</span> Bateria de 4000 mAh com suporte a carregamento rápido</p>  <p><span>Sistema Operacional:</span> Executa o sistema operacional Android 12 com recursos avançados e atualizações de segurança</p>  <p><span>Segurança:</span> Desbloqueio facial e leitor de impressão digital para maior segurança e conveniência</p> <p><span>Recursos adicionais:</span> NFC para pagamentos móveis, GPS para navegação precisa e suporte a dual SIM</p>',
+            descricao: 'O Smartphone Pantony X21 5G destaca-se por sua conectividade 5G, que oferece velocidades de internet super rápidas para streaming, download de aplicativos e navegação na web. <br>Com uma generosa capacidade de armazenamento de 128 GB, você pode guardar uma grande quantidade de arquivos, fotos e vídeos. <br>A câmera de alta qualidade permite que você capture momentos especiais com clareza e detalhes impressionantes.<br> Além disso, o smartphone vem com a caneta Z, proporcionando uma experiência mais precisa ao escrever e desenhar na tela. ',
         },
         {
             id: 42,
@@ -430,8 +430,8 @@ let productsCart = {
             price: '',
             priceP: 99.99,
             image: '/img/celular/Phantom-Exmax-JP-5G-16GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em diversas cores vibrantes e elegantes para atender ao seu estilo pessoal</p> <p><span>Tamanho:</span> Compacto e leve, fácil de segurar e transportar</p> <p><span>Material:</span> Construído com materiais duráveis e de alta qualidade para maior resistência e durabilidade</p>  <p><span>Conectividade:</span> Suporte às redes 5G e 4G LTE para acesso rápido à internet e streaming de dados em alta velocidade</p>  <p><span>Armazenamento:</span> 16 GB de capacidade de armazenamento interno para aplicativos, fotos, vídeos e músicas</p>  <p><span>Tela:</span> Display de alta definição para uma experiência de visualização imersiva e nítida</p> <p><span>Câmera:</span> Câmera traseira de alta resolução para capturar fotos e vídeos com qualidade</p>  <p><span>Bateria:</span> Bateria de longa duração para uso prolongado ao longo do dia</p> <p><span>Sistema Operacional:</span> Sistema operacional atualizado para oferecer recursos avançados e desempenho otimizado</p> <p><span>Recursos adicionais:</span> Recursos como leitor de impressão digital, desbloqueio facial e suporte a cartão de memória para maior segurança e flexibilidade de armazenamento</p>',
+            descricao: 'O Smartphone Phantom Exmax JP 5G oferece conectividade 5G a um preço acessível, permitindo que você aproveite velocidades de internet mais rápidas e uma experiência de navegação suave. <br>Com 16 GB de armazenamento interno, você pode armazenar aplicativos essenciais, fotos e arquivos importantes.<br> Sua câmera de alta resolução permite que você capture momentos especiais com detalhes nítidos. <br>A bateria de longa duração garante que você possa usar o smartphone ao longo do dia sem interrupções.',
         },
         {
             id: 43,
@@ -440,8 +440,8 @@ let productsCart = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Armazenamento:</span> 128 GB de espaço interno para armazenar aplicativos, fotos, vídeos e arquivos</p>  <p><span>Tela:</span> Tela de alta resolução para uma experiência visual imersiva</p>  <p><span>Câmera:</span> Câmera traseira de alta qualidade para capturar fotos e vídeos nítidos</p>  <p><span>Bateria:</span> Bateria de longa duração para uso prolongado</p> <p><span>Processador:</span> Processador rápido e eficiente para um desempenho suave</p> <p><span>Memória RAM:</span> 8 GB de memória RAM para multitarefa eficiente</p>  <p><span>Conectividade:</span> Conexão 4G LTE para acesso rápido à internet</p> <p><span>Sistema Operacional:</span> Android atualizado para recursos e segurança aprimorados</p> <p><span>Desbloqueado:</span> Compatível com várias operadoras para maior flexibilidade</p>  <p><span>Recursos de segurança:</span> Leitor de impressão digital para desbloqueio seguro</p> <p><span>Material:</span> Construção durável e resistente</p>',
+            descricao: 'O Smartphone Z Pixel Max destaca-se por sua generosa capacidade de armazenamento de 128 GB, permitindo que você armazene uma grande quantidade de conteúdo sem se preocupar com a falta de espaço. <br>Sendo desbloqueado, você pode usá-lo com qualquer operadora, proporcionando flexibilidade e liberdade de escolha. <br>Sua tela nítida e vibrante oferece uma experiência de visualização imersiva para desfrutar de vídeos, jogos e fotos com qualidade. <br>A câmera de alta resolução permite que você capture momentos preciosos com clareza e riqueza de detalhes.',
         },
         {
             id: 44,
@@ -450,8 +450,8 @@ let productsCart = {
             price: "579.99",
             priceP: 559.99,
             image: '/img/promocoes/OVE-Light-Space-5G-128-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em diversas opções de cores elegantes e modernas</p> <p><span>Tamanho:</span> Dimensões compactas e ergonômicas para fácil manuseio e transporte</p> <p><span>Material:</span> Construção durável e de alta qualidade para garantir a resistência e durabilidade do smartphone</p>  <p><span>Armazenamento:</span> 128 GB de espaço interno para armazenar seus arquivos, aplicativos e mídia</p>  <p><span>Conectividade:</span> Tecnologia 5G para uma conexão rápida e estável com a internet</p> <p><span>Tela:</span> Tela de alta resolução de [insira aqui a resolução] polegadas para uma experiência visual imersiva</p>  <p><span>Câmera:</span> Câmera traseira de alta qualidade com [insira aqui a resolução] megapixels para capturar fotos e vídeos de alta definição</p>  <p><span>Câmera frontal:</span> Câmera frontal de [insira aqui a resolução] megapixels para selfies e videochamadas</p> <p><span>Bateria:</span> Bateria de [insira aqui a capacidade em mAh] mAh de longa duração para uso prolongado</p>  <p><span>Processador:</span> Processador [insira aqui o nome do processador] para um desempenho rápido e eficiente</p>  <p><span>Memória RAM:</span> [insira aqui a quantidade de memória RAM] GB de memória RAM para multitarefa suave</p>   <p><span>Sistema Operacional:</span> Sistema operacional [insira aqui o nome do sistema operacional] para recursos avançados e segurança aprimorada</p> <p><span>Design:</span> Design elegante, fino e leve para uma aparência sofisticada</p> <p><span>Recursos extras:</span> Sensor de impressão digital para desbloqueio seguro, suporte a cartão SIM duplo, tecnologia NFC para pagamentos móveis e conectividade Bluetooth</p>',
+            descricao: 'O OVE Light Space se destaca por sua conectividade 5G, proporcionando velocidades rápidas de internet e uma experiência de navegação suave. <br>Com seu amplo armazenamento de 128 GB, você terá espaço suficiente para armazenar todos os seus arquivos, aplicativos e mídia.<br> A tela de alta resolução oferece uma experiência visual envolvente, com cores vibrantes e detalhes nítidos.<br> A câmera de alta qualidade permite que você capture momentos preciosos com clareza e precisão. <br>Sua bateria de longa duração garante que você possa desfrutar de seu smartphone ao longo do dia sem precisar recarregar com frequência.',
         },
         {
             id: 45,
@@ -460,8 +460,8 @@ let productsCart = {
             price: '',
             priceP: 599.99,
             image: '/img/celular/Pantony-Super-10W-5G-128-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Material:</span> Estrutura de metal resistente para maior durabilidade e aparência premium</p><p><span>Cores disponíveis:</span> Preto, prata, azul e rosa</p><p><span>Dimensões:</span> 157,5 mm x 75,2 mm x 8,9 mm</p> <p><span>Peso:</span> 180 gramas</p> <p><span>Tela:</span> Tamanho: 6,5 polegadas</p> <p><span>Resolução:</span> Full HD+</p> <p><span>Tecnologia:</span> Display Super AMOLED para cores vibrantes e contrastes intensos</p> <p><span>Proteção:</span> Vidro resistente a riscos e impactos</p>  <p><span>Processador:</span> Qualcomm Snapdragon 765G Octa-core para alto desempenho e eficiência energética</p> <p><span>Memória RAM:</span> 8 GB para multitarefa suave e resposta ágil</p> <p><span>Armazenamento interno:</span> 128 GB para guardar seus arquivos, aplicativos e mídia</p>  <p><span>Expansão de memória:</span> Slot para cartão microSD de até 1 TB (opcional)</p>  <p><span>Câmera traseira principal:</span> 48 MP com estabilização óptica de imagem (OIS)</p> <p><span>Câmera ultra-wide:</span> 12 MP para capturar paisagens amplas</p> <p><span>Câmera macro:</span> 5 MP para fotos detalhadas de objetos próximos</p>  <p><span>Câmera de profundidade:</span> 2 MP para efeitos de desfoque de fundo (modo retrato)</p> <p><span>Câmera frontal:</span> 32 MP para selfies de alta qualidade</p> <p><span>Bateria:</span> Capacidade 4.500 mAh</p> <p><span>Carregamento rápido:</span> Suporte para carregamento rápido de 25W para recarregar rapidamente o dispositivo</p>  <p><span>Conectividade:</span> 5G - Suporte para redes 5G para velocidades de download e upload ultrarrápidas</p> <p><span>Wi-Fi 6:</span> Conexão Wi-Fi de alta velocidade para navegação e streaming sem interrupções</p> <p><span>Bluetooth 5.0:</span> Conexão Bluetooth estável para emparelhamento com outros dispositivos compatíveis</p> <p><span>NFC:</span> Recurso de pagamento por aproximação e emparelhamento rápido com outros dispositivos NFC</p> <p><span>Sistema Operacional:</span> Android 12 com interface personalizada da Pantony</p> <p><span>Atualizações:</span> Garantia de atualizações regulares do sistema operacional e patches de segurança</p>',
+            descricao: 'O Pantony Super se destaca por sua conectividade 5G, oferecendo velocidades incrivelmente rápidas para streaming de dados, downloads e jogos online sem interrupções. Com 128 GB de armazenamento interno, você terá espaço suficiente para guardar todos os seus arquivos, aplicativos e mídia.O recurso de carregamento sem fio de 10W torna o carregamento do dispositivo mais prático e sem a necessidade de fios. A tela de alta qualidade proporciona imagens nítidas e cores vibrantes para uma experiência visual envolvente.',
         },
         {
             id: 46,
@@ -470,8 +470,8 @@ let productsCart = {
             price: "1,999.99",
             priceP: 899.99,
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias cores elegantes e modernas, como preto, prata e azul</p><p><span>Tamanho:</span> Compacto e leve, fácil de segurar e transportar, com dimensões de aproximadamente 15,5 cm x 7,5 cm x 0,8 cm</p><p><span>Material:</span> Construído com materiais de alta qualidade, duráveis e resistentes</p> <p><span>Tela:</span> Tela de 6,5 polegadas com tecnologia AMOLED, resolução Full HD+ e alta taxa de atualização para imagens nítidas e vibrantes</p> <p><span>Armazenamento interno:</span> Generosa capacidade de 256 GB para armazenar uma ampla variedade de aplicativos, fotos, vídeos e arquivos</p>  <p><span>Memória RAM:</span> 8 GB de memória RAM para um desempenho rápido e fluido</p>  <p><span>Processador:</span> Processador octa-core de última geração para um desempenho poderoso e eficiente</p>  <p><span>Câmera traseira:</span> Sistema de câmera tripla de alta resolução, com um sensor principal de 48 MP, um sensor ultra wide de 16 MP e um sensor de profundidade de 5 MP, permitindo capturar fotos detalhadas e amplas paisagens</p> <p><span>Câmera frontal:</span> Câmera frontal de 32 MP para selfies impressionantes e chamadas de vídeo claras</p> <p><span>Bateria:</span> Bateria de alta capacidade com carregamento rápido para maior autonomia e menos tempo de espera</p> <p><span>Sistema operacional:</span> Executa o sistema operacional Android mais recente, oferecendo uma interface amigável e acesso a uma ampla gama de aplicativos e recursos</p>  <p><span>Conectividade:</span> Suporte a 5G, Wi-Fi, Bluetooth, GPS e NFC para conectividade rápida e confiável</p>+ <p><span>Recursos adicionais:</span> Leitor de impressão digital, reconhecimento facial, resistência à água e poeira, alto-falantes estéreo, suporte para cartão de memória externa</p>',
+            descricao: 'Diferencial: O Light Phantom JP se destaca por sua conectividade 5G, que oferece velocidades rápidas de internet e uma experiência de uso fluida.<br> Com seu amplo armazenamento interno de 256 GB, você terá espaço suficiente para todos os seus arquivos e aplicativos. <br>A câmera avançada garante fotos de alta qualidade, enquanto a tela de alta definição proporciona uma experiência visual envolvente.<br> Seu desempenho poderoso permite multitarefa eficiente, e seu design elegante adiciona um toque de estilo ao seu dia a dia. ',
         },
         {
             id: 47,
@@ -480,8 +480,8 @@ let productsCart = {
             price: "199.99",
             priceP: 129.99,
             image: '/img/promocoes/Protector-XPD-Go-5G-128GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível nas cores preto, prata e azul, permitindo escolher o estilo que mais combina com você.</p><p><span>Tamanho:</span> Compacto e leve, com dimensões de 15 cm de altura, 7 cm de largura e 0,8 cm de espessura, facilitando o transporte e manuseio.</p> <p><span>Material:</span> Construído em uma combinação de plástico resistente e metal de alta qualidade, proporcionando durabilidade e uma aparência elegante.</p> <p><span>Tela:</span> Display HD de 5,5 polegadas com tecnologia IPS para cores vibrantes e ótima visualização de conteúdo.</p> <p><span>Resolução da tela:</span> 1280 x 720 pixels, garantindo imagens nítidas e detalhadas.</p> <p><span>Processador:</span> Chipset quad-core de 1.2 GHz, proporcionando um desempenho rápido e eficiente para executar aplicativos e jogos.</p> <p><span>Armazenamento interno:</span> 128 GB de capacidade para armazenar uma ampla variedade de aplicativos, fotos, vídeos e arquivos.</p> <p><span>Memória RAM:</span> 4 GB de memória RAM para multitarefa suave e eficiente.</p> <p><span>Câmera:</span> Câmera traseira de 12 megapixels com flash LED para capturar fotos de alta qualidade, além de câmera frontal de 5 megapixels para selfies e chamadas de vídeo.</p> <p><span>Bateria:</span> Bateria de longa duração de 3000 mAh, permitindo uso prolongado sem a necessidade de recarga frequente.</p> <p><span>Sistema operacional:</span> Executa a versão mais recente do sistema operacional Android, garantindo acesso a recursos atualizados e uma ampla variedade de aplicativos.</p> <p><span>Conectividade:</span> Suporte a redes 4G LTE, Wi-Fi, Bluetooth 4.2 e GPS para uma conectividade rápida e confiável.</p> <p><span>Recursos adicionais:</span> Leitor de impressão digital para desbloqueio seguro do dispositivo, suporte para cartão microSD para expansão de armazenamento e entrada para fone de ouvido de 3,5 mm.</p>',
+            descricao: 'O Protector XPD Go é um smartphone acessível com recursos avançados de conectividade 5G, oferecendo velocidades de internet ultrarrápidas e maior capacidade de conexão.<br> Com seu generoso armazenamento interno, você pode armazenar uma variedade de conteúdo sem se preocupar com a falta de espaço.<br> Sua tela de alta definição proporciona uma experiência visual imersiva, enquanto o processador eficiente garante um desempenho rápido e sem atrasos. <br>A câmera principal de alta resolução permite que você capture fotos e vídeos nítidos e detalhados, e a bateria de longa duração mantém o dispositivo funcionando por mais tempo.',
         },
         {
             id: 48,
@@ -490,8 +490,8 @@ let productsCart = {
             price: '',
             priceP: 129.99,
             image: '/img/celular/Pantony-S-MAX-5G-128-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores elegantes, como preto, prata e azul.</p><p><span>Tamanho:</span> Compacto e portátil, com dimensões aproximadas de 15,5 cm de altura, 7,2 cm de largura e 0,9 cm de espessura.</p><p><span>Material:</span> Construído com materiais de alta qualidade para garantir durabilidade e resistência.</p><p><span>Rede:</span> Suporte para redes 5G de alta velocidade, permitindo uma conexão rápida e estável.</p> <p><span>Armazenamento:</span> 128 GB de armazenamento interno, oferecendo amplo espaço para aplicativos, fotos, vídeos e arquivos.</p><p><span>Tela:</span> Tela HD de alta definição com aproximadamente 6,2 polegadas, proporcionando uma experiência visual imersiva e vibrante.</p><p><span>Câmera:</span> Câmera traseira de alta resolução, com cerca de 12 MP, para capturar fotos nítidas e detalhadas. Câmera frontal para selfies e chamadas de vídeo.</p>   <p><span>Processador:</span> Processador poderoso e eficiente, garantindo um desempenho suave e ágil em todas as tarefas.</p> <p><span>Bateria:</span> Bateria de longa duração, permitindo que você aproveite seu smartphone por mais tempo sem precisar recarregar com frequência.</p> <p><span>Sistema Operacional:</span> Equipado com a versão mais recente do sistema operacional Android, oferecendo recursos avançados e uma interface intuitiva.</p>  <p><span>Conectividade:</span> Além da conectividade 5G, o smartphone também suporta Wi-Fi, Bluetooth e GPS para uma experiência completa de conectividade.</p>  <p><span>Recursos Adicionais:</span> Sensores de impressão digital para maior segurança, suporte para cartão de memória para expansão de armazenamento e recursos avançados de áudio para uma experiência de som imersiva.</p>',
+            descricao: 'O Pantony S MAX 5G é um smartphone de última geração com uma excelente relação custo-benefício.<br> Com 128 GB de armazenamento interno, você terá espaço suficiente para armazenar todos os seus aplicativos, fotos e vídeos. <br>O suporte para redes 5G garante uma conexão rápida e estável, permitindo que você navegue na internet, transmita conteúdo e faça chamadas de vídeo sem problemas.<br> Este smartphone possui uma tela de alta definição para uma experiência visual imersiva e vibrante.<br> Sua câmera traseira de alta resolução captura fotos nítidas e detalhadas, enquanto a câmera frontal é perfeita para selfies e chamadas de vídeo. ',
         },
         //TV-E-HOME-THEATER/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -501,18 +501,18 @@ let productsCart = {
             price: '',
             priceP: 349.99,
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da tela:</span> 50 polegadas</p> <p><span>Resolução:</span> UHD 4K (3840 x 2160 pixels)</p> <p><span>Tecnologia de exibição:</span> LED</p> <p><span>Taxa de atualização:</span> 60 Hz</p> <p><span>HDR (High Dynamic Range):</span> Suportado</p> <p><span>Cor:</span> Preto</p> <p><span>Material:</span> Moldura em plástico resistente e tela de LED</p>  <p><span>Contraste:</span> 5000:1</p> <p><span>Brilho:</span> 300 nits</p> <p><span>Ângulo de visão:</span> 178° horizontal e vertical</p>  <p><span>Conectividade:</span> Wi-Fi, Ethernet, Bluetooth</p> <p><span>Sistemas operacionais suportados:</span> Android, iOS</p>  <p><span>Aplicativos pré-instalados:</span> Netflix, Amazon Prime Video, YouTube, Disney+, entre outros</p>  <p><span>Entradas:</span> 3 x HDMI, 2 x USB, 1 x Ethernet, 1 x RF (Antena/Cabo), 1 x AV, 1 x saída de áudio óptica, 1 x fone de ouvido</p>  <p><span>Áudio:</span> Sistema de som estéreo, potência de saída de 20W</p>  <p><span>Controle remoto:</span> Incluso, com botões de atalho para aplicativos populares e controle de voz</p>  <p><span>Dimensões (L x A x P):</span> 1120 mm x 660 mm x 95 mm (com base)</p>  <p><span>Peso:</span> 12 kg (com base)</p>',
+            descricao: 'A Smart TV Shel 50" UHD 4K LED Class oferece uma experiência de entretenimento completa, com imagens de alta qualidade, acesso a conteúdo online e recursos avançados.<br> Com seu preço acessível, é uma ótima opção para quem busca uma TV com excelente custo-benefício e recursos modernos.  <br>Desfrute de imagens nítidas, detalhadas e vibrantes com a resolução 4K, que oferece quatro vezes mais pixels do que a resolução Full HD.',
         },
         {
             id: 50,
-            productName: 'Soundbar, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
             category: "TV-e-home-theater",
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho:</span> 90 cm de comprimento</p> <p><span>Material:</span> Estrutura em alumínio de alta qualidade</p>  <p><span>Conectividade:</span> Bluetooth, HDMI-ARC</p>  <p><span>Potência de saída:</span> 200 Watts</p>  <p><span>Canais de áudio:</span> 2.1</p>  <p><span>Resposta de frequência:</span> 50 Hz - 20 kHz</p>   <p><span>Tecnologia de áudio:</span> Dolby Digital, DTS Virtual:X</p>   <p><span>Modos de som:</span> Surround, Cinema, Música, Diálogo</p>   <p><span>Subwoofer:</span> Embutido para graves potentes</p>   <p><span>Controle remoto:</span> Incluso para ajustes de áudio e modos de som</p>   <p><span>Compatibilidade:</span> Com dispositivos de áudio e vídeo, como TVs, smartphones e tablets</p>    <p><span>Design:</span> Elegante e moderno, perfeito para qualquer ambiente</p>   <p><span>Montagem:</span> Na parede ou posicionamento sobre superfícies planas</p>   <p><span>Fonte de alimentação:</span> Bivolt</p>   <p><span>Dimensões:</span> 90 cm (L) x 7 cm (A) x 10 cm (P)</p>   <p><span>Peso:</span> 3,5 kg</p>',
+            descricao: 'A EchoSound é uma soundbar de alta qualidade com recursos avançados. <br>Com conectividade Bluetooth e HDMI-ARC, você pode desfrutar de um som imersivo e de alta fidelidade em qualquer dispositivo. <br>Seu diferencial está na sua capacidade de se integrar perfeitamente ao seu sistema de entretenimento doméstico, proporcionando uma experiência sonora envolvente.<br> Com um design elegante e potência sonora excepcional, a EchoSound elevará sua experiência de áudio a um novo nível. <br>Seu preço de $1999.99 reflete sua qualidade e desempenho excepcionais.',
         },
         {
             id: 51,
@@ -521,8 +521,8 @@ let productsCart = {
             price: '',
             priceP: 169.99,
             image: '/img/tv-e-home-theater/Smart-TV-Shel-40-Full-HD-LED-Class.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da tela:</span> 40 polegadas</p>   <p><span>Resolução:</span> Full HD (1920x1080 pixels)</p> <p><span>Tecnologia de exibição:</span> LED</p>  <p><span>Taxa de atualização:</span> 60Hz</p>  <p><span>Contraste dinâmico:</span> 5000:1</p>  <p><span>Brilho:</span> 300 cd/m²</p>  <p><span>Ângulo de visão:</span> 178°/178°</p>  <p><span>Tempo de resposta:</span> 8ms</p>  <p><span>Sistema operacional:</span> Smart TV OS</p>  <p><span>Processador:</span> Quad-Core</p>  <p><span>Memória RAM:</span> 1.5GB</p>  <p><span>Armazenamento interno:</span> 8GB</p>   <p><span>Conectividade:</span> Wi-Fi, Ethernet, Bluetooth</p>  <p><span>Aplicativos pré-instalados:</span> Netflix, YouTube, Prime Video, Disney+ e outros</p>   <p><span>Recursos adicionais:</span> Espelhamento de tela, navegador web, reprodução de mídia via USB</p>  <p><span>Entradas:</span> HDMI (3), USB (2), AV, RF, LAN, Componente, Saída de áudio óptica</p>  <p><span>Saídas de áudio:</span> Saída de áudio óptica, saída para fones de ouvido</p>   <p><span>Áudio:</span> Alto-falantes estéreo integrados (2x 10W)</p>   <p><span>Formatos de áudio suportados:</span> Dolby Digital Plus, DTS</p>  <p><span>Controle remoto:</span> Com botões dedicados para acesso rápido aos aplicativos</p>   <p><span>Design:</span> Slim e elegante, moldura na cor preta</p>   <p><span>Dimensões (com base):</span> 90 cm (L) x 58 cm (A) x 18 cm (P)</p>   <p><span>Peso (com base):</span> 8 kg</p>    <p><span>Suporte de parede:</span> VESA 200x200mm</p>    <p><span>Consumo de energia:</span> 60W (em uso), 0.5W (em espera)</p>    <p><span>Voltagem:</span> Bivolt (110-240V)</p>',
+            descricao: 'A Smart TV Shel 40" Full HD LED Class oferece uma experiência de entretenimento de alta qualidade com imagens nítidas e cores vibrantes em uma tela de 40 polegadas.<br> Com seu sistema operacional Smart TV OS, você pode acessar uma ampla variedade de aplicativos de streaming, como Netflix, YouTube e Prime Video, e aproveitar recursos como o espelhamento de tela e a navegação na web.<br> A conectividade Wi-Fi e Bluetooth permite que você se conecte facilmente a dispositivos sem fio, como smartphones e alto-falantes.<br> Com um design slim e elegante, essa TV se adapta perfeitamente a qualquer ambiente.',
         },
         {
             id: 52,
@@ -531,8 +531,8 @@ let productsCart = {
             price: '',
             priceP: 449.99,
             image: '/img/tv-e-home-theater/Projetor-para-Home-Theater-EPSON-4K-PRO-UHD-3LCD.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tecnologia de projeção:</span> 3LCD</p>  <p><span>Resolução nativa:</span> 4K PRO-UHD (3840x2160 pixels)</p>  <p><span>Luminosidade:</span> 2.400 lumens</p>   <p><span>Taxa de contraste:</span> 100.000:1</p>   <p><span>Gama de cores:</span> HDR10 e HLG</p>   <p><span>Tamanho de projeção:</span> Até 300 polegadas</p>  <p><span>Conectividade:</span> HDMI (2), USB (2), VGA, Ethernet, Wi-Fi</p>  <p><span>Áudio:</span> Alto-falante integrado (10W)</p>  <p><span>Recursos adicionais:</span> Keystone vertical, zoom óptico</p>  <p><span>Vida útil da lâmpada:</span> Até 6.000 horas (modo normal)</p>   <p><span>Ruído operacional:</span> 24 dB (modo Eco)</p>   <p><span>Dimensões:</span> 41.0 cm (largura) x 31.6 cm (profundidade) x 12.2 cm (altura)</p>    <p><span>Peso:</span> 6.8 kg</p>    <p><span>Cor:</span> Preto</p>    <p><span>Material:</span> Plástico resistente</p>',
+            descricao: 'O Projetor para Home Theater EPSON 4K PRO-UHD 3LCD oferece uma experiência cinematográfica incrível no conforto da sua casa. <br>Com sua resolução nativa 4K PRO-UHD, você desfrutará de imagens ultra detalhadas e realistas, com cores vibrantes e alto contraste.<br> Sua tecnologia 3LCD proporciona uma qualidade de imagem excepcional, com brilho de 2.400 lumens e taxa de contraste de 100.000:1.<br> O projetor pode exibir uma tela de até 300 polegadas, transformando qualquer ambiente em um verdadeiro cinema.',
         },
         {
             id: 53,
@@ -541,8 +541,8 @@ let productsCart = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smart-TV-Allure-55-UHD-4K-LED-Class.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho da tela:</span> 55 polegadas</p>  <p><span>Resolução:</span> Ultra HD 4K (3840 x 2160 pixels)</p>  <p><span>Tecnologia de painel:</span> LED</p> <p><span>Taxa de atualização:</span> 60 Hz</p> <p><span>HDR (High Dynamic Range):</span> Sim</p>  <p><span>Sistema operacional:</span> Smart TV OS</p> <p><span>Processador:</span> Quad-core</p>  <p><span>Memória RAM:</span> 2 GB</p>   <p><span>Armazenamento interno:</span> 16 GB</p>  <p><span>Conectividade:</span> Wi-Fi integrado, Ethernet, Bluetooth</p>   <p><span>Recursos de imagem:</span> HDR10, HLG, Micro Dimming, Upscaling</p>   <p><span>Áudio:</span> Sistema de alto-falantes estéreo integrado, potência de saída de áudio de 20W, Dolby Audio</p>   <p><span>Portas:</span> 3 x HDMI, 2 x USB, 1 x Entrada AV, 1 x Entrada RF, 1 x Ethernet, 1 x Saída de áudio digital óptica, 1 x Entrada de áudio para PC, 1 x Saída para fone de ouvido</p>   <p><span>Recursos inteligentes:</span> Navegador web, loja de aplicativos, reprodução de mídia via USB, controle de voz</p>   <p><span>Suporte de montagem:</span> Compatível com suporte VESA (não incluso)</p>   <p><span>Consumo de energia:</span> 100W (máximo), 0.5W (modo de espera)</p>   <p><span>Dimensões (LxAxP):</span> 124.4 cm x 72.1 cm x 7.8 cm (sem suporte)</p>   <p><span>Peso:</span> 15.6 kg (sem suporte)</p>   <p><span>Material:</span> Plástico e metal</p>   <p><span>Acessórios inclusos:</span> Controle remoto, cabos de alimentação</p>',
+            descricao: 'A Smart TV Allure 55" UHD 4K LED Class é uma televisão inteligente com resolução Ultra HD 4K, proporcionando imagens nítidas e detalhadas.<br> Com um tamanho de tela generoso de 55 polegadas, oferece uma experiência imersiva ao assistir seus programas favoritos e filmes.<br> Além da qualidade de imagem, a TV possui recursos inteligentes, permitindo que você acesse conteúdos online, aplicativos de streaming e navegue na internet diretamente pela televisão.<br> Com conectividade Wi-Fi embutida, é fácil conectar-se à sua rede doméstica e desfrutar de entretenimento sem fio.',
         },
         {
             id: 54,
@@ -551,8 +551,8 @@ let productsCart = {
             price: '',
             priceP: 209.99,
             image: '/img/tv-e-home-theater/Projetor-Mini-Vankyo-470-wireless.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Resolução:</span> 720p HD</p> <p><span>Tecnologia de projeção:</span> LCD</p>  <p><span>Brilho:</span> 4000 lúmens</p>   <p><span>Contraste:</span> 3000:1</p>   <p><span>Tamanho da projeção:</span> 32" a 170"</p>   <p><span>Distância de projeção:</span> 1,15m a 5m</p>  <p><span>Conectividade:</span> HDMI, USB, VGA, AV, Wi-Fi</p>  <p><span>Compatibilidade:</span> Suporte para dispositivos como laptops, smartphones, tablets, consoles de jogos, players de mídia</p>   <p><span>Alto-falantes integrados:</span> Sim</p>   <p><span>Keystone ajustável:</span> Sim</p>  <p><span>Vida útil da lâmpada:</span> 50.000 horas</p>  <p><span>Tamanho:</span> 22,1 cm x 14,6 cm x 7,9 cm</p>  <p><span>Peso:</span> 1,1 kg</p>  <p><span>Cor:</span> Preto</p>  <p><span>Material:</span> Plástico durável</p>',
+            descricao: 'O projetor Mini Vankyo 470 wireless é um dispositivo compacto e portátil que permite desfrutar de projeções de alta qualidade em qualquer lugar.<br> Com suporte a conexão sem fio, você pode transmitir conteúdo diretamente do seu dispositivo móvel ou laptop, sem a necessidade de cabos.<br> Com uma resolução de imagem nítida e brilhante, o projetor Mini Vankyo 470 oferece uma experiência imersiva de visualização em tela grande. <br>Sua tecnologia avançada de projeção garante cores vivas e detalhes nítidos, mesmo em ambientes com pouca luz.',
         },
         {
             id: 55,
@@ -561,8 +561,8 @@ let productsCart = {
             price: '',
             priceP: 189.99,
             image: '/img/tv-e-home-theater/Smart-Streamer-TV-42-Class-Full-HD.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da tela:</span> 42 polegadas</p>  <p><span>Resolução:</span> Full HD (1920 x 1080 pixels)</p>  <p><span>Tecnologia de exibição:</span> LED</p>  <p><span>Taxa de atualização:</span> 60Hz</p>  <p><span>Brilho:</span> 250 nits</p>  <p><span>Contraste:</span> 5000:1</p>  <p><span>Ângulo de visão:</span> 178 graus</p>  <p><span>Sistema operacional:</span> Smart TV com suporte a aplicativos populares</p>  <p><span>Conectividade:</span> Wi-Fi, HDMI, USB, Ethernet</p>  <p><span>Recursos de streaming:</span> Suporte a serviços de streaming como Netflix, Amazon Prime Video, Disney+, etc.</p>  <p><span>Controle remoto:</span> Incluído, com botões dedicados para aplicativos</p>  <p><span>Som:</span> Alto-falantes integrados (potência de saída: 10W)</p>  <p><span>Recursos de áudio:</span> Suporte a Dolby Digital, DTS</p>   <p><span>Recursos adicionais:</span> Reprodução de mídia via USB, Modo de economia de energia</p>',
+            descricao: 'A Smart Streamer TV 42" Class Full HD oferece uma experiência de entretenimento completa, permitindo que você desfrute de suas séries, filmes e programas favoritos com qualidade de imagem excepcional.<br> Com recursos inteligentes e conectividade conveniente, esta TV proporciona acesso rápido e fácil ao conteúdo online, tudo isso em um design elegante e compacto. <br>Aproveite a diversão do entretenimento em casa com a Smart Streamer TV.',
         },
         {
             id: 56,
@@ -571,6 +571,8 @@ let productsCart = {
             price: "499.99",
             priceP: 459.99,
             image: '/img/mais-vendidos/Smart-TV-65-UHD-4K-LED-Class-Nano.webp',
+            specs: '<p><span>Tamanho da tela:</span> 65 polegadas</p>  <p><span>Resolução:</span> UHD 4K (3840 x 2160 pixels)</p> <p><span>Tecnologia de exibição:</span> LED com tecnologia Nano</p>  <p><span>Taxa de atualização:</span> 60Hz</p>  <p><span>Brilho:</span> 350 nits</p>  <p><span>Contraste:</span> 5000:1</p>  <p><span>Ângulo de visão:</span> 178 graus</p>   <p><span>Sistema operacional:</span> Smart TV com suporte a aplicativos populares</p>   <p><span>Conectividade:</span> Wi-Fi, HDMI, USB, Ethernet</p>   <p><span>Recursos de streaming:</span> Suporte a serviços de streaming como Netflix, Amazon Prime Video, Disney+, etc.</p>   <p><span>Controle remoto:</span> Incluído, com controle de voz</p>   <p><span>Som:</span> Alto-falantes integrados (potência de saída: 20W)</p>  <p><span>Recursos de áudio:</span> Suporte a Dolby Digital Plus</p>  <p><span>Recursos adicionais:</span> Modo de jogo, Modo de economia de energia</p>',
+            descricao: 'A Smart TV 65" UHD 4K LED Class Nano oferece uma experiência de entretenimento incrível com sua tela de alta resolução UHD 4K e tecnologia Nano, que proporciona cores mais vivas e detalhes aprimorados. <br>Através da conectividade Wi-Fi, você pode explorar uma variedade de aplicativos de streaming, como Netflix, Amazon Prime Video e Disney+, e desfrutar de uma ampla gama de conteúdo online.<br> O controle remoto com controle de voz torna a navegação mais conveniente, permitindo que você encontre rapidamente seus programas favoritos.',
         },
         //TECNOLOGIA-VESTIVEL///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
@@ -580,8 +582,8 @@ let productsCart = {
             price: "199.95",
             priceP: 159.95,
             image: '/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores, como preto, prata e cinza.</p> <p><span>Tamanho:</span> O tamanho do Smartwatch Space Moon é adequado para a maioria dos pulsos, proporcionando conforto durante o uso.</p> <p><span>Material:</span> Construído com materiais duráveis e de alta qualidade, como aço inoxidável para a caixa e pulseira de silicone, garantindo resistência e conforto ao usuário.</p> <p><span>Tela:</span> Possui uma tela sensível ao toque nítida e colorida, que permite uma fácil interação e exibe informações claras e legíveis.</p> <p><span>Conectividade:</span> O Smartwatch Space Moon é compatível com dispositivos iOS e Android, permitindo sincronização perfeita com o seu smartphone para receber notificações de chamadas, mensagens e aplicativos.</p>  <p><span>Recursos:</span> Além de exibir as horas, o smartwatch oferece uma variedade de recursos, como monitoramento de frequência cardíaca, rastreamento de atividades e fitness, controle de reprodução de música e notificações de calendário.</p>  <p><span>Resistência à água:</span> Com classificação de resistência à água, o smartwatch pode ser usado em atividades diárias, como lavar as mãos ou suportar respingos de água. No entanto, não é adequado para mergulho ou exposição prolongada à água.</p> <p><span>Bateria:</span> A bateria do Smartwatch Space Moon oferece uma boa autonomia, permitindo o uso contínuo por um período prolongado antes de precisar ser recarregada.</p> <p><span>Carregador:</span> O smartwatch vem com um carregador específico para recarregar a bateria de forma rápida e conveniente.</p>',
+            descricao: 'O Smartwatch Space Moon é um relógio inteligente repleto de recursos avançados para acompanhar seu estilo de vida ativo.<br> Com um design elegante e moderno, este smartwatch oferece funcionalidades únicas e um diferencial em relação aos concorrentes.<br> Compatível com dispositivos iOS e Android, ele mantém você conectado e no controle durante todo o dia.<br> Possui uma tela sensível ao toque nítida e colorida, que exibe claramente as informações em tempo real.<br> Além disso, vem com um carregador conveniente para garantir que você nunca fique sem energia.',
         },
         {
             id: 58,
@@ -590,8 +592,8 @@ let productsCart = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Disponível em várias opções de cores, como preto, cinza, azul, rosa e verde.</p> <p><span>Tamanho:</span> Possui uma pulseira ajustável que se adapta a diferentes tamanhos de pulso.</p> <p><span>Material:</span> Feito com uma combinação de materiais duráveis, como plástico resistente e pulseira de silicone flexível.</p> <p><span>Tela:</span> Display OLED de alta resolução que exibe informações claras e nítidas.</p> <p><span>Bateria:</span> Bateria de longa duração, com capacidade para vários dias de uso contínuo.</p>  <p><span>Conectividade:</span> Compatível com smartphones iOS e Android, permitindo a sincronização de dados através de tecnologia Bluetooth.</p> <p><span>Sensores:</span> Equipado com sensores avançados de frequência cardíaca, acelerômetro e giroscópio para um monitoramento preciso.</p>   <p><span>Resistência à água:</span> Possui certificação IP67, o que significa que é resistente à água e pode ser usado durante atividades aquáticas superficiais.</p>   <p><span>Recursos adicionais:</span> Além do rastreamento de frequência cardíaca e atividades, o Fitboot Inspire também pode exibir a hora, alarmes, lembretes sedentários e notificações de aplicativos.</p>',
+            descricao: 'O Fitboot Inspire é um tracker de frequência cardíaca projetado para ajudar você a monitorar seu desempenho físico e melhorar sua saúde.<br> Com um design compacto e elegante, este dispositivo oferece recursos avançados de rastreamento e monitoramento, tornando-o um parceiro ideal para seus exercícios e atividades diárias.<br> O Fitboot Inspire acompanha sua frequência cardíaca durante todo o dia, fornecendo informações valiosas sobre seu condicionamento físico e ajudando a otimizar seus treinos.',
         },
         {
             id: 59,
@@ -600,8 +602,8 @@ let productsCart = {
             price: '',
             priceP: 349.99,
             image: '/img/tecnologia-vestivel/Óculos-VR-Safay-GEN-2-256GB-controladores-de-toque.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho:</span> Ajustável para se adequar a diferentes tamanhos de cabeça</p> <p><span>Material:</span> Plástico ABS resistente e confortável</p>  <p><span>Capacidade de Armazenamento:</span> 256 GB para armazenar jogos e aplicativos VR</p>  <p><span>Controladores de Toque:</span> Permite interação precisa e intuitiva com o mundo virtual</p> <p><span>Resolução de Exibição:</span> Alta resolução para uma experiência visual imersiva</p>   <p><span>Áudio:</span> Suporte a áudio espacial para uma experiência de som envolvente</p>    <p><span>Conectividade:</span> Portas USB e Bluetooth para conexão com outros dispositivos</p>   <p><span>Rastreamento:</span> Rastreamento preciso de movimentos para uma experiência VR mais realista</p>   <p><span>Compatibilidade:</span> Compatível com uma ampla gama de jogos e aplicativos VR</p>  <p><span>Conteúdo Adicional:</span> Inclui carregador, cabo USB e manual do usuário</p>',
+            descricao: 'Os Óculos VR Safay GEN 2 são uma experiência imersiva de realidade virtual, permitindo que você mergulhe em um mundo virtual incrível.<br> Com uma ampla capacidade de armazenamento de 256 GB, você terá espaço suficiente para baixar e desfrutar de uma ampla variedade de jogos e aplicativos VR.<br> Os controladores de toque fornecem uma interação intuitiva e realista, permitindo que você experimente o VR de uma forma totalmente imersiva. <br>Desfrute de uma qualidade visual impressionante e uma experiência de áudio envolvente, tornando cada sessão de jogo ou experiência VR uma aventura emocionante.',
         },
         {
             id: 60,
@@ -610,8 +612,8 @@ let productsCart = {
             price: '',
             priceP: 249.99,
             image: '/img/tecnologia-vestivel/Smartwatch-Fitness-FitWatch.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tamanho da tela:</span> 1,3 polegadas</p> <p><span>Resolução da tela:</span> 240x240 pixels</p>  <p><span>Material da caixa:</span> Liga de metal</p>  <p><span>Material da pulseira:</span> Silicone</p>  <p><span>Cor:</span> Preto</p>   <p><span>Resistência à água:</span> Sim, classificação IP67 (resistente a respingos e poeira)</p>   <p><span>Conectividade:</span> Bluetooth 4.2</p>  <p><span>Capacidade de armazenamento:</span> 4 GB</p>   <p><span>Monitor de Frequência Cardíaca:</span> Sim</p>   <p><span>Rastreamento de atividades:</span> Passos, distância, calorias queimadas</p>  <p><span>Monitor de Sono:</span> Sim, analisa qualidade e duração do sono</p>  <p><span>Notificações:</span> Chamadas, mensagens, notificações de aplicativos</p>   <p><span>Bateria:</span> Duração de até 7 dias (dependendo do uso)</p>   <p><span>Compatibilidade:</span> Android 5.0+ / iOS 9.0+</p>   <p><span>Sensores:</span> Acelerômetro, giroscópio, sensor de luz ambiente</p>   <p><span>Recursos adicionais:</span> Modos de exercício, monitor de estresse, lembrete sedentário, controle de música, alarme, cronômetro</p>',
+            descricao: 'O Smartwatch Fitness FitWatch é um dispositivo inteligente projetado para auxiliar na monitorização da saúde e no acompanhamento de atividades físicas.<br> Com recursos avançados e design moderno, ele se destaca no mercado de wearables. <br>É o parceiro perfeito para acompanhar seu estilo de vida ativo e promover uma vida mais saudável.<br> Com sua variedade de recursos e design elegante, ele se destaca como uma opção de qualidade no mercado de smartwatches fitness.',
         },
         {
             id: 61,
@@ -620,8 +622,8 @@ let productsCart = {
             price: '',
             priceP: 429.99,
             image: '/img/tecnologia-vestivel/Sistema-de-Realidade-Virtual-HV-para-PC.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho do headset:</span> Ajustável para diferentes tamanhos de cabeça</p> <p><span>Resolução:</span> Alta resolução para uma experiência visual imersiva</p>  <p><span>Taxa de atualização:</span> Alta taxa de atualização para uma experiência suave e sem atrasos</p>  <p><span>Campo de visão:</span> Amplo campo de visão para uma experiência mais envolvente</p>  <p><span>Tecnologia de rastreamento:</span> Sensores de rastreamento avançados para rastreamento de movimento preciso</p>  <p><span>Controladores:</span> Controladores de movimento para interação precisa no ambiente virtual</p>   <p><span>Áudio:</span> Áudio integrado para uma experiência sonora imersiva</p>   <p><span>Conectividade:</span> Conexão com PC através de cabos ou conexão sem fio, dependendo do modelo</p>   <p><span>Material:</span> Construção durável e confortável para uso prolongado</p>   <p><span>Compatibilidade:</span> Compatível com PC e uma variedade de jogos e aplicativos de realidade virtual</p>',
+            descricao: 'Descrição: O Sistema de Realidade Virtual HV é um conjunto completo de hardware e software que oferece uma experiência imersiva de realidade virtual para PC. <br>Compatível com uma ampla gama de jogos e aplicativos de RV, o HV proporciona uma experiência de jogo envolvente e realista, permitindo que os usuários mergulhem em mundos virtuais incríveis.<br> O sistema inclui um headset de RV de alta qualidade, controladores de movimento precisos e sensores de rastreamento para uma experiência de rastreamento de movimento precisa. ',
         },
         {
             id: 62,
@@ -630,8 +632,8 @@ let productsCart = {
             price: '',
             priceP: 169.99,
             image: '/img/tecnologia-vestivel/Rastreador-de-Atividades-Pantony-6P.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p> <p><span>Tamanho da tela:</span> 1.3 polegadas</p> <p><span>Material:</span> Pulseira de silicone e corpo em plástico resistente</p>  <p><span>Tamanho da pulseira:</span> Ajustável para se adequar a diferentes tamanhos de pulso</p>  <p><span>Peso:</span> Leve e confortável para uso diário</p>   <p><span>Resistência à água:</span> Classificação de resistência à água IP67, adequado para uso durante atividades aquáticas e chuva leve</p>   <p><span>Monitoramento de atividades:</span> Contagem de passos, distância percorrida, calorias queimadas e minutos ativos</p>  <p><span>Monitoramento de sono:</span> Rastreamento da qualidade do sono, incluindo duração e fases do sono</p>   <p><span>Monitoramento de frequência cardíaca:</span> Medição contínua da frequência cardíaca para acompanhar a saúde cardiovascular</p>   <p><span>Modos de exercício:</span> Diversos modos de exercício pré-programados para registrar atividades específicas, como corrida, caminhada, ciclismo, etc.</p>  <p><span>Notificações inteligentes:</span> Receba notificações de chamadas, mensagens e aplicativos diretamente no rastreador</p>  <p><span>Conectividade:</span> Bluetooth para sincronização com smartphones iOS e Android</p>  <p><span>Bateria:</span> Bateria recarregável de longa duração, com autonomia de até 7 dias</p>   <p><span>Compatibilidade:</span> Compatível com aplicativos de rastreamento de atividades populares, permitindo o acompanhamento detalhado dos dados</p>',
+            descricao: 'O Rastreador de Atividades Pantony 6P oferece um monitoramento abrangente e preciso, ajudando você a alcançar seus objetivos de saúde e fitness.<br> Sua combinação de recursos avançados, preço competitivo e design elegante o tornam uma escolha excepcional para aqueles que buscam um estilo de vida ativo e saudável.',
         },
         {
             id: 63,
@@ -640,8 +642,8 @@ let productsCart = {
             price: '',
             priceP: 399.99,
             image: '/img/tecnologia-vestivel/Smartwatch-fitness-FitWatch-XDH.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Tela:</span> Tela colorida sensível ao toque</p> <p><span>Resolução da tela:</span> Alta resolução para visualização clara</p>  <p><span>Tamanho da tela:</span> Tamanho ideal para fácil leitura e navegação</p>   <p><span>Material da pulseira:</span> Material resistente e confortável para uso diário</p>   <p><span>Resistência à água:</span> Resistente à água para uso durante atividades esportivas e no dia a dia</p>   <p><span>Monitor de frequência cardíaca:</span> Acompanha a frequência cardíaca em tempo real</p>   <p><span>Monitor de sono:</span> Analisa a qualidade do sono e fornece insights para melhorar o descanso</p>  <p><span>Rastreamento de atividades:</span> Registra passos, distância percorrida, calorias queimadas e muito mais</p>  <p><span>Modos esportivos:</span> Oferece diferentes modos de esportes para rastreamento específico</p>   <p><span>Notificações inteligentes:</span> Recebe notificações de chamadas, mensagens e aplicativos em tempo real</p>   <p><span>Conectividade:</span> Bluetooth para sincronização com o smartphone e acesso a recursos adicionais</p>   <p><span>Bateria de longa duração:</span> Garante uso contínuo por um período prolongado</p>   <p><span>Compatibilidade:</span> Compatível com dispositivos iOS e Android</p>   <p><span>Estilo:</span> Design elegante e moderno para combinar com seu estilo pessoal</p>  <p><span>Aplicativo:</span> App dedicado para análise detalhada dos dados coletados</p>',
+            descricao: 'O FitWatch XDH é um smartwatch fitness projetado para acompanhar seu estilo de vida ativo.<br> Com uma variedade de recursos de monitoramento, ele ajuda você a alcançar seus objetivos de saúde e condicionamento físico. <br>O smartwatch possui uma tela colorida e sensível ao toque, que exibe informações importantes, como passos, distância percorrida, calorias queimadas e frequência cardíaca em tempo real. <br>Ele também oferece recursos avançados, como monitoramento de sono, lembretes sedentários e notificações inteligentes, para mantê-lo motivado e conectado ao longo do dia.',
         },
         {
             id: 64,
@@ -650,10 +652,10 @@ let productsCart = {
             price: "999.00",
             priceP: 899.99,
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
-            specs:'',
-            descricao:'',
+            specs: '<p><span>Cor:</span> Preto</p>   <p><span>Tamanho:</span> Ajustável para diferentes tamanhos de cabeça</p>   <p><span>Material:</span> Plástico resistente e leve</p>   <p><span>Resolução de tela:</span> 2K (2560 x 1440 pixels)</p>   <p><span>Taxa de atualização:</span> 90Hz</p>   <p><span>Campo de visão:</span> 110 graus</p>  <p><span>Áudio:</span> Som estéreo de alta qualidade</p>  <p><span>Rastreamento de movimento:</span> Sensores de movimento integrados</p>  <p><span>Conectividade:</span> Bluetooth 5.0, USB-C</p>  <p><span>Compatibilidade:</span> PC e dispositivos móveis compatíveis com realidade virtual</p>  <p><span>Plataforma:</span> Suporta diferentes plataformas de jogos e aplicativos de realidade virtual</p>  <p><span>Controles:</span> Controle de toque integrado no headset</p>  <p><span>Alimentação:</span> Bateria recarregável de longa duração</p>',
+            descricao: 'O Headset de Realidade Virtual Journey Glass Xd oferece uma experiência imersiva e envolvente de realidade virtual.<br> Com alta resolução visual, áudio imersivo e rastreamento de movimento preciso, ele permite que os usuários mergulhem em um mundo virtual rico em detalhes e interatividade.<br> Seu design confortável e controles intuitivos garantem uma experiência de uso agradável, enquanto sua compatibilidade e portabilidade tornam-no ideal para uso em casa ou em movimento. <br>Com recursos adicionais, como ajuste de lentes e suporte a óculos de grau, o Journey Glass Xd se destaca como um headset de realidade virtual de alta qualidade.',
         },
-//3
+        //3
 
 
 
@@ -661,7 +663,7 @@ let productsCart = {
     ],
 };
 let products2 = {
-    data : [
+    data: [
         {
             id: 64,
             productName: 'Headset de Realidade Virtual Journey Glass Xd',
@@ -669,8 +671,8 @@ let products2 = {
             price: "999.00",
             priceP: 899.99,
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
 
@@ -680,8 +682,8 @@ let products2 = {
             price: "1.999.99",
             priceP: 899.99,
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 63,
@@ -690,8 +692,8 @@ let products2 = {
             price: "199.95",
             priceP: 159.95,
             image: '/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 40,
@@ -700,8 +702,8 @@ let products2 = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 33,
@@ -710,8 +712,8 @@ let products2 = {
             price: "479.99",
             priceP: 199.99,
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 50,
@@ -720,8 +722,8 @@ let products2 = {
             price: "2,499.99",
             priceP: 1999.99,
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 20,
@@ -730,8 +732,8 @@ let products2 = {
             price: "1,699.99",
             priceP: 1299.99,
             image: '/img/promocoes/camera-DSLR-Pantony-Old-School-lente-18-55mm.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 14,
@@ -740,8 +742,8 @@ let products2 = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 13,
@@ -750,8 +752,8 @@ let products2 = {
             price: "100.99",
             priceP: 59.99,
             image: '/img/promocoes/Tablet-Mini-Sheer-Pro-7-polegadas.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 12,
@@ -760,8 +762,8 @@ let products2 = {
             price: "349.99",
             priceP: 249.99,
             image: '/img/promocoes/Tablet-Ove-FD-Plus-10-64GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 2,
@@ -770,8 +772,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 899.99,
             image: '/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 25,
@@ -780,8 +782,8 @@ let products2 = {
             price: "329.00",
             priceP: 279.00,
             image: '/img/promocoes/Headphone-Balo-700-wireless-cancelamento-de-ruido.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 36,
@@ -790,8 +792,8 @@ let products2 = {
             price: "129.99",
             priceP: 99.99,
             image: '/img/promocoes/Alto-falante-mini-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 10,
@@ -800,8 +802,8 @@ let products2 = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 18,
@@ -810,8 +812,8 @@ let products2 = {
             price: "379.99",
             priceP: 329.99,
             image: '/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 28,
@@ -820,8 +822,8 @@ let products2 = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 3,
@@ -830,8 +832,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 31,
@@ -840,8 +842,8 @@ let products2 = {
             price: "159.55",
             priceP: 129.99,
             image: '/img/promocoes/Headset-pra-games-Surround.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 22,
@@ -850,8 +852,8 @@ let products2 = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 53,
@@ -860,8 +862,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smart-TV-Allure-55-UHD-4K-LED-Class.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 56,
@@ -870,8 +872,8 @@ let products2 = {
             price: "499.99",
             priceP: 599.99,
             image: '/img/promocoes/Smart-TV-65-UHD-4K-LED-Class-Nano.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 8,
@@ -880,8 +882,8 @@ let products2 = {
             price: "269.99",
             priceP: 149.99,
             image: '/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 47,
@@ -890,8 +892,8 @@ let products2 = {
             price: 199.99,
             priceP: "129.99",
             image: '/img/promocoes/Protector-XPD-Go-5G-128GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 43,
@@ -900,8 +902,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 44,
@@ -910,8 +912,8 @@ let products2 = {
             price: "579.99",
             priceP: 559.99,
             image: '/img/promocoes/OVE-Light-Space-5G-128-GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 58,
@@ -920,8 +922,8 @@ let products2 = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         //MAIS VENDIDOS//////////////////////////////////////////////
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -932,8 +934,8 @@ let products2 = {
             price: '',
             priceP: 349.99,
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 10,
@@ -942,8 +944,8 @@ let products2 = {
             price: "329.99",
             priceP: 259.99,
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 58,
@@ -952,8 +954,8 @@ let products2 = {
             price: "49.99",
             priceP: 44.99,
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 21,
@@ -962,8 +964,8 @@ let products2 = {
             price: '',
             priceP: 579.99,
             image: '/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 38,
@@ -972,8 +974,8 @@ let products2 = {
             price: '',
             priceP: 549.99,
             image: '/img/alto-falantes/Alto-falante-SDK-portátil-Bluetooth.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 56,
@@ -990,8 +992,8 @@ let products2 = {
             price: "229.99",
             priceP: 199.99,
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 3,
@@ -1000,8 +1002,8 @@ let products2 = {
             price: "1,099.99",
             priceP: 849.99,
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 22,
@@ -1010,8 +1012,8 @@ let products2 = {
             price: "699.99",
             priceP: 499.99,
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 30,
@@ -1020,8 +1022,8 @@ let products2 = {
             price: '',
             priceP: 149.99,
             image: '/img/mais-vendidos/Headphone-branco-wireless.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 14,
@@ -1030,8 +1032,8 @@ let products2 = {
             price: "929.99",
             priceP: 699.99,
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
         {
             id: 43,
@@ -1040,8 +1042,8 @@ let products2 = {
             price: "449.99",
             priceP: 399.99,
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
-            specs:'',
-            descricao:'',
+            specs: '',
+            descricao: '',
         },
     ],
 }
