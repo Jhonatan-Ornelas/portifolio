@@ -161,3 +161,137 @@ function changeQuantity(id, quantity) {
 
 reloadCard();
 
+
+
+//SEARCH /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+// selecione os elementos
+const searchInput = document.querySelector('#search');
+const searchButton = document.querySelector('#btn-click');
+const resultsDiv = document.querySelector('#results');
+
+// escute o evento de clique do botão
+searchButton.addEventListener('click', function() {
+    const searchValue = searchInput.value.trim().toLowerCase();
+
+    // se a pesquisa não estiver vazia, redireciona para a página de resultados
+    if (searchValue !== '') {
+        window.location.href = '/html/resultados.html?pesquisa=' + encodeURIComponent(searchValue);
+
+    }
+});
+
+
+// escuta o evento de input
+searchInput.addEventListener('input', function() {
+    const searchValue = this.value.trim().toLowerCase();
+
+    // esconde a div de resultados se a pesquisa estiver vazia
+    if (searchValue === '') {
+        resultsDiv.style.display = 'none';
+        return;
+    } else {
+        resultsDiv.style.display = 'block';
+    }
+
+    
+});
+
+function searchProducts(searchTerm) {
+    searchTerm = searchTerm.toLowerCase();
+    let matchedProducts = productsCart.data
+        .filter(product => 
+            product.productName.toLowerCase().includes(searchTerm) || 
+            product.category.toLowerCase().includes(searchTerm)
+        );
+
+    // Classificar produtos com base em quão semelhante o nome do produto é ao termo de pesquisa
+    matchedProducts.sort((a, b) => {
+        let aName = a.productName.toLowerCase();
+        let bName = b.productName.toLowerCase();
+        let aIndex = aName.indexOf(searchTerm);
+        let bIndex = bName.indexOf(searchTerm);
+        if (aIndex === bIndex) {
+            return 0;
+        }
+        if (aIndex === -1) {
+            return 1;
+        }
+        if (bIndex === -1) {
+            return -1;
+        }
+        return aIndex - bIndex;
+    });
+
+    return matchedProducts.slice(0, 8); // Retorna os 8 primeiros resultados
+}
+
+document.getElementById('search').addEventListener('input', function(e) {
+    let searchTerm = e.target.value;
+    let resultsDiv = document.getElementById('results');
+    resultsDiv.innerHTML = '';
+
+    if (searchTerm.trim() !== "") { // Verifica se o campo de pesquisa não está vazio
+        let results = searchProducts(searchTerm);
+        results.forEach(product => {
+            resultsDiv.innerHTML += `<a  href="/html/pagina-do-produto.html"><p class="search-product" data-product-id="${product.id}"  >${product.productName}</p></a>`;
+        });
+    }
+});
+
+
+//esconde a div quando clica fora do input
+// escute o evento blur do input de pesquisa
+searchInput.addEventListener('blur', function() {
+    // esconde a div de resultados
+    setTimeout(() => {
+        resultsDiv.style.display = 'none';
+    }, 300);
+    
+});
+
+
+// escute o evento focus do input de pesquisa
+searchInput.addEventListener('focus', function() {
+    // mostra a div de resultados se a pesquisa não estiver vazia
+    if (this.value.trim() !== '') {
+        resultsDiv.style.display = 'block';
+    }
+});
+
+//verifica qual item foi clicado
+document.addEventListener('DOMContentLoaded', function() {
+    const idClicado = document.querySelector("#results")
+
+   idClicado.addEventListener('click', function(event) {
+       // Verifique se o elemento clicado tem a classe 'search-product'
+       if (event.target.classList.contains('search-product')) {
+           let productId = event.target.getAttribute('data-product-id');
+           localStorage.setItem('product-id', productId);
+       }
+   });
+});
+
+//PESQUISA QUANDO PRCIONA ENTER
+searchInput.addEventListener('keydown', function(event) {
+    const searchValue = this.value.trim().toLowerCase();
+
+    if (event.keyCode === 13) { // 13 é o código da chave para Enter
+        if (searchValue !== '') {
+            // Faça a pesquisa aqui
+            window.location.href = '/html/resultados.html?pesquisa=' + encodeURIComponent(searchValue);
+        }
+        // Impedir que o formulário seja submetido e a página seja recarregada
+        event.preventDefault();
+    } else {
+        // se a pesquisa não estiver vazia, mostra a div de resultados
+        if (searchValue !== '') {
+            resultsDiv.style.display = 'block';
+        } else {
+            resultsDiv.style.display = 'none';
+        }
+    }
+});
+

@@ -17,7 +17,7 @@
         rel="stylesheet">
     </link>
     <script defer src="/javaScript/data.js"></script>
-    <script defer src="/javaScript/shopping-cart.js"></script>
+    <script defer src="/javaScript/header.js"></script>
     <title>all-products</title>
 </head>
 
@@ -27,8 +27,11 @@
             <div class="row-top">
                 <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
-                    <input type="text" placeholder="buscar"></input>
-                    <button id="btn-click" title="icon"></button>
+                    <div>
+                        <input id="search" type="text" placeholder="buscar"></input>
+                        <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    </div>
+                    <div id="results"></div>
                 </div>
                 <div class="perfil">
                     <div class="login-user">

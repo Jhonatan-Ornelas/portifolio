@@ -29,7 +29,7 @@ accordionButtons.forEach(function (button) {
 
 
 //CARREGAMENTO DA PAGINA
- 
+
 let accordionText = document.querySelector('.accordion-texto')
 let imageProductDescription = document.querySelector('.imagem-descricao-produto')
 let imagemDescricao = document.querySelector('.imagem-descricao')
@@ -50,10 +50,10 @@ function loadPage(id) {
   imageProductDescription.innerHTML = `<p>${producDescrcao}</p>`
   //cria imagem
   let productImage = document.createElement('img')
-  productImage.setAttribute('src',product.image)
+  productImage.setAttribute('src', product.image)
   productImage.classList.add('productimg')
   imagemDescricao.appendChild(productImage)
-  
+
 }
 
 
@@ -87,11 +87,11 @@ function getRandomElements(arr, n) {
   let len = arr.length;
   let taken = new Array(len);
   if (n > len)
-      throw new RangeError("getRandomElements: more elements taken than available");
+    throw new RangeError("getRandomElements: more elements taken than available");
   while (n--) {
-      let x = Math.floor(Math.random() * len);
-      result[n] = arr[x in taken ? taken[x] : x];
-      taken[x] = --len in taken ? taken[len] : len;
+    let x = Math.floor(Math.random() * len);
+    result[n] = arr[x in taken ? taken[x] : x];
+    taken[x] = --len in taken ? taken[len] : len;
   }
   return result;
 }
@@ -135,15 +135,15 @@ for (let i of randomProducts) {
   container.appendChild(price)
   //firstPrice
   if (i.price != '') {
-      let firstPrice = document.createElement('span')
-      firstPrice.innerText = '$' + i.price
-      firstPrice.classList.add('promocao')
-      price.appendChild(firstPrice)
-      //promoçaoText
-      let promocao = document.createElement('p')
-      promocao.classList.add('promoçao')
-      promocao.innerText = 'PROMOÇÃO'
-      cardlink.appendChild(promocao)
+    let firstPrice = document.createElement('span')
+    firstPrice.innerText = '$' + i.price
+    firstPrice.classList.add('promocao')
+    price.appendChild(firstPrice)
+    //promoçaoText
+    let promocao = document.createElement('p')
+    promocao.classList.add('promoçao')
+    promocao.innerText = 'PROMOÇÃO'
+    cardlink.appendChild(promocao)
   }
 
   //secondPrice
@@ -159,18 +159,20 @@ for (let i of randomProducts) {
   shippingCartImg.setAttribute('src', '/img/shopping-cart-6.png')
   shippingCart.appendChild(shippingCartImg)
 
-  cardlink.appendChild(shippingCart)
   cardlink.appendChild(container)
+  card.appendChild(shippingCart)
   card.appendChild(cardlink)
   document.getElementById('outras-opecoes').appendChild(card)
-  
+
 }
 
-window.onload = function() {
-      setTimeout(function() {
-          document.body.style.visibility = 'visible';
-      }, 200);
-  
+window.onload = function () {
+  setTimeout(function () {
+
+    let imgDescription = document.querySelector('.imagem-descricao')
+    imgDescription.style.visibility = 'visible';
+  }, 100);
+
 };
 
 //SCROLL carouselTwo//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -192,43 +194,71 @@ const tolerance = 5; // Valor de tolerância para a comparação
 let resizeInterval = ''
 
 const atulizeWidth = () => {
-    // Limpa o intervalo anterior, caso exista
-    if (resizeInterval) {
-        clearInterval(resizeInterval);
-    }
+  // Limpa o intervalo anterior, caso exista
+  if (resizeInterval) {
+    clearInterval(resizeInterval);
+  }
 
-    // Coloque aqui o código que você deseja executar a cada 60 ms
-    const repeatedFunction = () => {
-        scrollWidth = carousel.scrollWidth - carousel.clientWidth;
-        // scrollWidthTwo = carouselTwo.scrollWidth - carouselTwo.clientWidth;
-    };
+  // Coloque aqui o código que você deseja executar a cada 60 ms
+  const repeatedFunction = () => {
+    scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+    // scrollWidthTwo = carouselTwo.scrollWidth - carouselTwo.clientWidth;
+  };
 
-    // Define o novo intervalo
-    resizeInterval = setInterval(repeatedFunction, 60);
+  // Define o novo intervalo
+  resizeInterval = setInterval(repeatedFunction, 60);
 }
 
 
 const showHideIcons = () => {
-    if (carousel.scrollLeft <= tolerance) {
-        arrowIcons[0].style.color = 'transparent';
-    } else {
-        arrowIcons[0].style.color = 'black';
-    }
+  if (carousel.scrollLeft <= tolerance) {
+    arrowIcons[0].style.color = 'transparent';
+  } else {
+    arrowIcons[0].style.color = 'black';
+  }
 
-    if (carousel.scrollLeft >= scrollWidth - tolerance) {
-        arrowIcons[1].style.color = 'transparent';
-    } else {
-        arrowIcons[1].style.color = 'black';
-    }
+  if (carousel.scrollLeft >= scrollWidth - tolerance) {
+    arrowIcons[1].style.color = 'transparent';
+  } else {
+    arrowIcons[1].style.color = 'black';
+  }
 };
 
 arrowIcons.forEach(icon => {
-    icon.addEventListener("click", () => {
-        //if clicked icon is left, reduce width value from the carousel scroll left else add to it
-        carousel.scrollLeft += icon.id == "btn-left" ? -firstImgWidth : firstImgWidth;
-        showHideIcons();
-        setTimeout(() => showHideIcons(), 60);//calling shoeHideIcons after 60ms
-    })
+  icon.addEventListener("click", () => {
+    //if clicked icon is left, reduce width value from the carousel scroll left else add to it
+    carousel.scrollLeft += icon.id == "btn-left" ? -firstImgWidth : firstImgWidth;
+    showHideIcons();
+    setTimeout(() => showHideIcons(), 60);//calling shoeHideIcons after 60ms
+  })
 })
 
 window.addEventListener('resize', atulizeWidth())
+
+
+//ANIMAÇAO DO CARRINHO
+let cartIcons = document.querySelectorAll('.item-shopping-cart');
+
+cartIcons.forEach(function (cartIcon) {
+    cartIcon.addEventListener('click', function (e) {
+        e.target.classList.add('animate-swing');
+
+        setTimeout(function () {
+            e.target.classList.remove('animate-swing');
+        }, 1000); // O tempo aqui deve ser igual ao tempo da animação
+    });
+});
+
+// ENVIA PARA A PAGINA DO PRODUTO O ID CORRETO
+
+document.addEventListener('DOMContentLoaded', function () {
+  const idClicado = document.querySelectorAll('.card');
+
+  idClicado.forEach(product => {
+      product.addEventListener('click', function (event) {
+          let productId = this.getAttribute('data-product-id');
+          localStorage.setItem('product-id', productId);
+      });
+  });
+});
+

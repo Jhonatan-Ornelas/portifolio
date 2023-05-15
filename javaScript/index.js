@@ -244,7 +244,7 @@ arrowIconsTwo.forEach(icon => {
 //ITEM PAGE LOAD
 document.addEventListener('DOMContentLoaded', function() {
     const idClicado = document.querySelectorAll('.item');
-
+    console.log(idClicado)
     idClicado.forEach(product => {
         product.addEventListener('click', function(event) {
             let productId = this.getAttribute('data-product-id');
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     const idClicado = document.querySelectorAll('.item-2');
-
+    
     idClicado.forEach(product => {
         product.addEventListener('click', function(event) {
             let productId = this.getAttribute('data-product-id');
@@ -263,3 +263,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+

@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/store.css">
-    <link rel="stylesheet" href="/css/header.css">
+
     <link rel="stylesheet" href="/css/header-media.css">
-    <script defer src="/javaScript/loja.js"></script>
-    <script defer src="/javaScript/tablets.js"></script>
+    <!-- <script defer src="/javaScript/loja.js"></script> -->
+    <title>all-products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    </link>
     <script defer src="/javaScript/data.js"></script>
+    <script defer src="/javaScript/results.js"></script>
     <script defer src="/javaScript/header.js"></script>
-    <title>all-products</title>
 </head>
 
 <body>
@@ -42,11 +44,11 @@
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
                             onclick="abrirCarrinho()">
-                            <span class="carrinho-quantidade"></span>
+                        <span class="carrinho-quantidade"></span>
                     </div>
                     <aside id="abaCarrinho" class="aba-carrinho">
                         <div class="aba-carrinho-title">
-                            <h2>Shopping Cart</h2> 
+                            <h2>Shopping Cart</h2>
                             <span class="carrinho-quantidade-tab">0</span>
                         </div>
                         <ul class="list-card">
@@ -100,7 +102,8 @@
                             </li> -->
                         </ul>
                         <div class="check-out">
-                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png" alt="" onclick="fecharCarrinho()"></button>
+                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png"
+                                    alt="" onclick="fecharCarrinho()"></button>
                             <h3>Total Price</h3>
                             <p class="price price-color">0</p>
                             <button class="shopping-register">register</button>
@@ -133,20 +136,27 @@
                     <div class="filtro">Filtrar por</div>
                     <div id="categorias">
                         <p>Categoria</p>
-                        <button class="button-value" onclick="filterProduct('all')">Todas</button>
-                        <button class="button-value" onclick="filterProduct('Promoções')">Promoções</button>
-                        <button class="button-value" onclick="filterProduct('Mais-vendidos')">Mais vendidos</button>
-                        <button class="button-value" onclick="filterProduct('Computadores')">Computadores</button>
-                        <button class="button-value" onclick="filterProduct('tablets')">tablets</button>
-                        <button class="button-value" onclick="filterProduct('Drones-e-cameras')">Drones e
-                            câmeras</button>
-                        <button class="button-value" onclick="filterProduct('Headphones')">Headphones</button>
-                        <button class="button-value" onclick="filterProduct('Alto-falantes')">Alto-falantes</button>
-                        <button class="button-value" onclick="filterProduct('Mobile')">Mobile</button>
-                        <button class="button-value" onclick="filterProduct('TV-e-home-theater')">TV e home
-                            theater</button>
-                        <button class="button-value" onclick="filterProduct('Tecnologia-vestivel')">Tecnologia
-                            vestivel</button>
+                        <a href="/html/loja.html"><button class="button-value"
+                                onclick="filterProduct('all')">Todas</button></a>
+                        <a href="/html/promocoes.html"><button class="button-value"
+                                onclick="filterProduct('Promoções')">Promoções</button></a>
+                        <a href="/html/mais-vendidos.html"><button class="button-value" onclick="filterProduct('Mais-vendidos')">Mais
+                                vendidos</button></a>
+                        <a href="/html/computadores.html"><button class="button-value"
+                                onclick="filterProduct('Computadores')">Computadores</button></a>
+                        <a href="/html/tablets.html"><button class="button-value" onclick="filterProduct('tablets')">tablets</button></a>
+                        <a href="/html/drones-e-cameras.html"><button class="button-value" onclick="filterProduct('Drones-e-cameras')">Drones e
+                                câmeras</button></a>
+                        <a href="/html/audio.html"><button class="button-value"
+                                onclick="filterProduct('Headphones')">Headphones</button></a>
+                        <a href="/html/alto-falantes.html"><button class="button-value"
+                                onclick="filterProduct('Alto-falantes')">Alto-falantes</button></a>
+                        <a href="/html/mobile.html"><button class="button-value" onclick="filterProduct('Mobile')">Mobile</button></a>
+                        <a href="/html/tv-e-home-theater.html"><button class="button-value" onclick="filterProduct('TV-e-home-theater')">TV e home
+                                theater</button></a>
+                        <a href="/html/tecnologia-vestivel.html"><button class="button-value"
+                                onclick="filterProduct('Tecnologia-vestivel')">Tecnologia
+                                vestivel</button></a>
                     </div>
                 </div>
                 <div id="produtos">

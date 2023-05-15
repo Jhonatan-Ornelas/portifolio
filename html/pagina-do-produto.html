@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="/css/header-media.css">
     <script defer src="/javaScript/data.js"></script>
-    <script defer src="/javaScript/shopping-cart.js"></script>
+    <script defer src="/javaScript/header.js"></script>
     <link rel="stylesheet" href="/css/pagina-do-prduto.css">
     <script defer src="/javaScript/pagina-do-produto.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +28,11 @@
             <div class="row-top">
                 <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
-                    <input type="text" placeholder="buscar"></input>
-                    <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    <div>
+                        <input id="search" type="text" placeholder="buscar"></input>
+                        <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    </div>
+                    <div id="results"></div>
                 </div>
                 <div class="perfil">
                     <div class="login-user">

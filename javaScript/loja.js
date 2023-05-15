@@ -886,7 +886,7 @@ let products = {
             priceP: "899.99",
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
         },
-//3
+        //3
 
 
 
@@ -958,13 +958,14 @@ for (let i of products.data) {
     shippingCartImg.setAttribute('src', '/img/shopping-cart-6.png')
     shippingCart.appendChild(shippingCartImg)
 
-    cardlink.appendChild(shippingCart)
+    
     cardlink.appendChild(container)
+    card.appendChild(shippingCart)
     card.appendChild(cardlink)
     document.getElementById('produtos-cards').appendChild(card)
-    
+
 }
-const  titleCategorias =  document.querySelector('#all-categorias')
+const titleCategorias = document.querySelector('#all-categorias')
 //parameter passed from button (parameter same as category)
 function filterProduct(value) {
     //Button class code
@@ -1087,15 +1088,15 @@ window.onload = () => {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 document.addEventListener('click', function (e) {
     if (!e.target.closest('.custom-select')) {
-      closeCustomSelect();
+        closeCustomSelect();
     }
-  });
-  
-  document.getElementById('select').addEventListener('click', function () {
+});
+
+document.getElementById('select').addEventListener('click', function () {
     this.querySelector('.custom-select-options').classList.toggle('show');
-  });
-  
-  document.querySelectorAll('.custom-select-options li').forEach(function (li) {
+});
+
+document.querySelectorAll('.custom-select-options li').forEach(function (li) {
     li.addEventListener('click', function () {
         const value = this.getAttribute('data-value');
         const text = this.textContent;
@@ -1108,34 +1109,34 @@ document.addEventListener('click', function (e) {
         sortingValue(value);
     });
 });
-  
-  function closeCustomSelect() {
+
+function closeCustomSelect() {
     document.querySelectorAll('.custom-select-options').forEach(function (options) {
-      options.classList.remove('show');
+        options.classList.remove('show');
     });
-  }
-  
+}
+
 //ANIMAÇAO CARRINHO
 let cartIcons = document.querySelectorAll('.item-shopping-cart');
 
-cartIcons.forEach(function(cartIcon) {
-    cartIcon.addEventListener('click', function(e) {
+cartIcons.forEach(function (cartIcon) {
+    cartIcon.addEventListener('click', function (e) {
         e.target.classList.add('animate-swing');
 
-        setTimeout(function() {
+        setTimeout(function () {
             e.target.classList.remove('animate-swing');
         }, 1000); // O tempo aqui deve ser igual ao tempo da animação
     });
 });
-  
+
 
 // Supondo que seus elementos tenham a classe 'product'
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const idClicado = document.querySelectorAll('.card');
 
     idClicado.forEach(product => {
-        product.addEventListener('click', function(event) {
+        product.addEventListener('click', function (event) {
             let productId = this.getAttribute('data-product-id');
             localStorage.setItem('product-id', productId);
         });

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/css/header-media.css">
     <script defer src="/javaScript/data.js"></script>
     <script defer src="/javaScript/index.js"></script>
-    <script defer src="/javaScript/shopping-cart.js"></script>
+    <script defer src="/javaScript/header.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -28,8 +28,11 @@
             <div class="row-top">
                 <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
-                    <input type="text" placeholder="buscar"></input>
-                    <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    <div>
+                        <input id="search" type="text" placeholder="buscar"></input>
+                        <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    </div>
+                    <div id="results"></div>
                 </div>
                 <div class="perfil">
                     <div class="login-user">
@@ -181,8 +184,9 @@
             <div class="itens">
                 <button class="btn-lateral" id="btn-left">&#8249;</button>
 
-                <div class="item" data-product-id="58" data-price="4499"><button class="item-shopping-cart"
-                        onclick="addToCard(58)"><img src="/img/shopping-cart-6.png" alt=""></button>
+                <div class="item" data-product-id="58" data-price="4499">
+                    <button class="item-shopping-cart" onclick="addToCard(58)"><img src="/img/shopping-cart-6.png"
+                            alt=""></button>
                     <a href="/html/pagina-do-produto.html">
 
                         <p class="promoçao">PROMOÇÃO</p>
@@ -574,10 +578,12 @@
             <h2>Newsletter</h2>
             <p>Assine para receber novidades e ofertas especiais</p>
             <!-- colocar depois action="/submit" method="post"  -->
-            <form>
+            <form action="https://api.staticforms.xyz/submit" method="post">
                 <label for="email">E-mail * </label>
-                <input id="email" type="email" id="email" placeholder="Insira seu email aqui" required>
+                <input id="email" type="email" name="email" placeholder="Insira seu email aqui" required>
                 <input id="submit" type="submit" value="Assinar">
+                <input type="hidden" name="accessKey" value="84018234-538e-48ee-bcac-9329769982eb">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/html/newsletter-sucesuful.html">
             </form>
         </div>
     </main>
@@ -632,7 +638,7 @@
             </div>
             <div class="coluna" id="coluna-3">
                 <h2>Suporte</h2>
-                <p>Contato</p>
+                <p><a href="/html/contato.html">Contato</a></p>
                 <p>Central de ajuda</p>
                 <p>Sobre nós</p>
                 <p>Carreiras</p>
