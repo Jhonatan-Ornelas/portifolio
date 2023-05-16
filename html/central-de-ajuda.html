@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="/css/header-media.css">
+    <link rel="stylesheet" href="/css/central-de-ajuda.css">
+    <script defer src="/javaScript/data.js"></script>
+    <script defer src="/javaScript/header.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="row-top">
+                <a class="logo" href="/html/index.html">TechShield</a>
+                <div class="search">
+                    <div>
+                        <input id="search" type="text" placeholder="buscar"></input>
+                        <button id="btn-click" title="icon" onclick="toggleBack()"></button>
+                    </div>
+                    <div id="results"></div>
+                </div>
+                <div class="perfil">
+                    <div class="login-user">
+                        <div class="icon-user"></div>
+                        <a class="login" href="/html/login.html">Login</a>
+                    </div>
+                    <a class="sing" href="/html/sing-in.html">sing up</a>
+                    <div class="carrinho">
+                        <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
+                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="abrirCarrinho()">
+                        <span class="carrinho-quantidade"></span>
+                    </div>
+                    <aside id="abaCarrinho" class="aba-carrinho">
+                        <div class="aba-carrinho-title">
+                            <h2>Shopping Cart</h2>
+                            <span class="carrinho-quantidade-tab">0</span>
+                        </div>
+                        <ul class="list-card">
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                            <!-- <li class="product-card">
+                                <img src="/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg" alt="">
+                                <div class="product-card-info">
+                                    <h4 class="product-card-name">Samsung Galaxy M11 64GB</h4>
+                                    <span class="product-card-price">$ 799</span>
+                                    <div class="product-card-quantidade">
+                                        <button>-</button>
+                                        <span>0</span>
+                                        <button>+</button>
+                                    </div>
+                                </div>
+                            </li> -->
+                        </ul>
+                        <div class="check-out">
+                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png"
+                                    alt="" onclick="fecharCarrinho()"></button>
+                            <h3>Total Price</h3>
+                            <p class="price price-color">0</p>
+                            <button class="shopping-register">register</button>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <div class="row">
+                <a class="opitions" id="row-loja" href="/html/loja.html">Loja</a>
+                <a href="/html/computadores.html" class="opitions" id="row-computadores">Computadores</a>
+                <a href="/html/tablets.html" class="opitions">Tablets</a>
+                <a href="/html/drones-e-cameras.html" class="opitions">Drones e cameras</a>
+                <a href="/html/audio.html" class="opitions">Headphones</a>
+                <a href="/html/alto-falantes.html" class="opitions">Alto-falantes</a>
+                <a href="/html/mobile.html" class="opitions">Mobile</a>
+                <a href="/html/tv-e-home-theater.html" class="opitions">TV e home theater</a>
+                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Tecnologia
+                    vestivel</a>
+                <a href="/html/mobile.html" class="opitions" id="row-celulares">celulares</a>
+                <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promoções</a>
+            </div>
+        </div>
+    </header>
+    <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
+    <main>
+        <section class="faq-section">
+            <div>
+                <h1>Central de Ajuda TechShield</h1>
+            </div>
+            <div>
+                <h2>FAQ - Perguntas Frequentes</h2>
+
+                <article class="faq">
+                    <details>
+                        <summary>Como faço para comprar um produto no seu site e é seguro?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Comprar em nosso site é fácil e seguro. Primeiro, use a barra de pesquisa no topo da nossa
+                            página inicial para procurar um produto específico, ou navegue por nossas várias categorias
+                            de produtos. Quando encontrar um produto que lhe interesse, clique nele para ver mais
+                            detalhes. Se decidir comprá-lo, clique no botão "Adicionar ao Carrinho". Você pode continuar
+                            comprando e adicionar mais itens ao seu carrinho, ou pode clicar no ícone do carrinho no
+                            canto superior direito da página para revisar o conteúdo do seu carrinho. Quando estiver
+                            pronto para finalizar a compra, clique em "Checkout". Você será solicitado a fornecer suas
+                            informações de envio e a escolher um método de pagamento. Aceitamos a maioria dos cartões de
+                            crédito, incluindo Visa, MasterCard e American Express, bem como PayPal. Após confirmar seu
+                            pedido, você receberá um e-mail de confirmação. Quanto à segurança, levamos muito a sério a
+                            proteção dos seus dados. Todas as transações são criptografadas usando a tecnologia SSL, que
+                            é o padrão da indústria para transações seguras online. Nunca armazenamos os detalhes do seu
+                            cartão de crédito em nossos servidores.</p>
+
+                    </details>
+
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como funciona o envio e a entrega dos produtos?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Nós nos esforçamos para enviar seu pedido o mais rápido possível. Após a confirmação do seu
+                            pedido, o tempo de processamento geralmente leva de 1 a 3 dias úteis. Após o envio, o tempo
+                            de entrega depende do método de envio escolhido durante o checkout e do seu local de
+                            entrega. Oferecemos várias opções de envio, desde entrega padrão até opções expressas. Os
+                            custos de envio serão calculados e exibidos durante o checkout. Para pedidos acima de um
+                            certo valor, também oferecemos frete grátis. Para rastrear seu pedido, você pode usar o
+                            número de rastreamento fornecido no e-mail de confirmação de envio. Por favor, observe que
+                            pode levar alguns dias até que as informações de rastreamento sejam atualizadas. Se tiver
+                            alguma dúvida sobre o envio ou a entrega do seu pedido, não hesite em entrar em contato
+                            conosco.</p>
+                    </details>
+
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como funcionam as devoluções e reembolsos?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Nós nos esforçamos para garantir que você esteja completamente satisfeito com sua compra. No
+                            entanto, se por algum motivo você não estiver satisfeito, você pode devolver o item para nós
+                            dentro de 30 dias após a entrega para um reembolso completo. Para iniciar uma devolução,
+                            entre em contato conosco através do nosso serviço de atendimento ao cliente. Nós
+                            forneceremos instruções detalhadas sobre como devolver o item. Por favor, note que o item
+                            deve ser devolvido em sua condição original, incluindo todas as embalagens e acessórios.
+                            Após recebermos o item devolvido e confirmarmos sua condição, processaremos seu reembolso. O
+                            reembolso será feito utilizando o mesmo método de pagamento que você usou na compra original
+                            e pode levar alguns dias para ser refletido na sua conta. Se você tiver alguma dúvida ou
+                            preocupação sobre devoluções e reembolsos, por favor, não hesite em nos contatar.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Quais são as principais políticas da empresa?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Nós valorizamos nossos clientes e temos várias políticas em vigor para garantir que sua
+                            experiência de compra conosco seja positiva. Estas incluem nossa Política de Privacidade,
+                            que descreve como coletamos, usamos e protegemos suas informações pessoais; nossa Política
+                            de Devoluções, que permite que você devolva itens dentro de 30 dias após a entrega para um
+                            reembolso completo; e nossa Política de Envio, que detalha nossas opções de envio e tempo de
+                            entrega. Além disso, temos uma Política de Conformidade com o GDPR para clientes na União
+                            Europeia, e uma Política de Segurança para assegurar a proteção dos detalhes do seu cartão
+                            de crédito e outras informações sensíveis. Todas as nossas políticas estão disponíveis para
+                            leitura em nosso site. Se você tiver alguma dúvida ou preocupação sobre qualquer uma de
+                            nossas políticas, por favor, não hesite em entrar em contato conosco.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como posso entrar em contato com o Suporte ao Cliente?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Estamos comprometidos em fornecer um excelente suporte ao cliente. Se você tiver alguma
+                            pergunta, problema ou solicitação, existem várias maneiras de entrar em contato conosco.
+                            Você pode nos enviar um e-mail a qualquer momento para suporte@techshield.com. Além disso,
+                            temos um chat ao vivo em nosso site que está disponível durante o horário comercial. Se
+                            preferir falar com um de nossos representantes de atendimento ao cliente, você pode ligar
+                            para nós no número (12) 3465-9048. Nosso horário de atendimento telefônico é de segunda a
+                            sexta-feira, das 9h às 18h. Além disso, temos uma seção de Perguntas Frequentes (FAQ) em
+                            nosso site onde você pode encontrar respostas para perguntas comuns. Seja qual for o seu
+                            problema, estamos aqui para ajudar e nos esforçamos para responder a todas as consultas o
+                            mais rápido possível.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como posso gerenciar minha conta de usuário?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Gerenciar sua conta de usuário conosco é simples. Após fazer login no nosso site usando seu
+                            e-mail e senha, você terá acesso à sua área pessoal de usuário. Lá, você pode visualizar e
+                            atualizar suas informações pessoais, alterar sua senha e preferências de contato, verificar
+                            o status de seus pedidos recentes e visualizar seu histórico de pedidos. Se você esqueceu
+                            sua senha, clique no link "Esqueceu sua senha?" na página de login e siga as instruções para
+                            redefini-la. Se você deseja excluir sua conta, entre em contato com nosso suporte ao cliente
+                            para assistência. Por favor, esteja ciente de que excluir sua conta irá remover todos os
+                            detalhes da sua conta e histórico de pedidos de nossos sistemas. Se tiver qualquer problema
+                            ou dúvida sobre sua conta de usuário, não hesite em entrar em contato conosco.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como posso encontrar informações sobre seus produtos e serviços?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Oferecemos uma ampla variedade de produtos e serviços, e todas as informações relevantes
+                            podem ser encontradas diretamente em nosso site. Cada produto em nosso site tem sua própria
+                            página, que inclui detalhes como descrição, especificações, imagens, preço e informações de
+                            disponibilidade. Se você está procurando por um produto específico, você pode usar a função
+                            de busca em nosso site para localizá-lo rapidamente. Além disso, nós categorizamos nossos
+                            produtos e serviços para facilitar a navegação. Se você tiver dúvidas sobre um produto ou
+                            serviço específico, ou se precisar de ajuda para escolher o produto certo para suas
+                            necessidades, não hesite em entrar em contato com nosso suporte ao cliente. Estamos sempre
+                            aqui para ajudar e fornecer todas as informações que você precisa para fazer uma compra
+                            informada.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como funcionam os cupons e descontos?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Periodicamente, oferecemos cupons e descontos especiais para nossos clientes. Estes podem
+                            incluir descontos percentuais, descontos em dinheiro ou frete grátis. Para usar um cupom,
+                            você deve inserir o código do cupom no campo apropriado durante o checkout. O desconto será
+                            aplicado automaticamente ao seu carrinho de compras. Por favor, note que apenas um cupom
+                            pode ser usado por pedido e que cada cupom tem uma data de validade, após a qual não pode
+                            ser usado. Além disso, alguns cupons podem ter condições específicas, como um valor mínimo
+                            de compra ou serem válidos apenas para certos produtos ou categorias. Todas as condições e
+                            restrições serão claramente indicadas com o cupom. Se tiver algum problema ao usar um cupom
+                            ou se tiver alguma dúvida sobre nossas ofertas de desconto, por favor, não hesite em entrar
+                            em contato conosco.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como minha informação é protegida?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>A segurança da sua informação é extremamente importante para nós. Utilizamos várias medidas
+                            para proteger a segurança de suas informações pessoais, tanto online quanto offline. Online,
+                            usamos a criptografia SSL (Secure Socket Layer) em todas as páginas web onde informações
+                            pessoais são requeridas. Este protocolo de segurança codifica as informações que você envia
+                            através do nosso site para garantir que sua transação seja segura. Offline, implementamos
+                            várias medidas de segurança em nossos centros de dados físicos para proteger contra a perda,
+                            mau uso ou alteração de suas informações. Além disso, limitamos o acesso a informações
+                            pessoais aos funcionários que precisam delas para executar suas funções de trabalho. Eles
+                            são obrigados a respeitar a confidencialidade de tais informações e enfrentam penalidades
+                            disciplinares, incluindo demissão, se não o fizerem. Se tiver alguma dúvida ou preocupação
+                            sobre segurança, por favor, não hesite em entrar em contato conosco.</p>
+                    </details>
+                </article>
+                <article class="faq">
+                    <details>
+                        <summary>Como posso deixar feedback ou revisar um produto?
+                            <ion-icon name="add-outline"></ion-icon>
+                            <ion-icon name="remove-outline"></ion-icon>
+                        </summary>
+                        <p>Sua opinião é extremamente importante para nós e para outros clientes. Para deixar uma
+                            avaliação ou feedback sobre um produto, visite a página do produto e clique no link
+                            "Escrever uma revisão". Você será solicitado a classificar o produto em uma escala de 1 a 5
+                            estrelas e a fornecer um comentário. Seu comentário pode incluir detalhes sobre a qualidade
+                            do produto, seu desempenho e se ele atendeu às suas expectativas. Por favor, evite incluir
+                            informações pessoais em sua revisão. Todas as revisões passam por um processo de moderação
+                            para garantir que elas aderem a nossas diretrizes de revisão. Se você tiver algum problema
+                            ao deixar uma revisão ou se tiver algum feedback sobre sua experiência de compra, por favor,
+                            não hesite em entrar em contato conosco.</p>
+                    </details>
+                </article>
+            </div>
+
+
+        </section>
+        <!-- ionicons v7.1.0 -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+
+    </main>
+    <footer>
+        <div class="suport">
+            <div class="overlay-suport">
+                <div class="overlay-suport-texto">
+                    <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
+                    <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
+                    <button>Central de Ajuda</button>
+                </div>
+            </div>
+            <div class="overlay-suport-bg"></div>
+        </div>
+        <div class="sobre-nos">
+            <div class="coluna" id="coluna-1">
+                <h2>Endereço</h2>
+                <p>Rua Prates, 194 - Bom Retiro</p>
+                <p>SP 01121-000</p>
+                <p>info@meusite.com</p>
+                <p>Telefone: (11) 3456-7890</p>
+            </div>
+            <div class="coluna" id="coluna-2">
+                <h2>Loja</h2>
+                <a href="/html/loja.html">
+                    <p>Loja</p>
+                </a>
+                <a href="/html/computadores.html">
+                    <p>Computadores</p>
+                </a>
+                <a href="/html/tablets.html">
+                    <p>tablets</p>
+                </a>
+                <a href="/html/drones-e-cameras.html">
+                    <p>Drones e câmeras</p>
+                </a>
+                <a href="/html/audio.html">
+                    <p>Headphones</p>
+                </a>
+                <a href="/html/mobile.html">
+                    <p>Mobile</p>
+                </a>
+                <a href="/html/tv-e-home-theater.html">
+                    <p>TV e home theater</p>
+                </a>
+                <a href="/html/tecnologia-vestivel.html">
+                    <p>Tecnologia vestivel</p>
+                </a>
+                <a href="/html/promocoes.html">
+                    <p>Promoções</p>
+                </a>
+            </div>
+            <div class="coluna" id="coluna-3">
+                <h2>Suporte</h2>
+                <p><a href="/html/contato.html">Contato</a></p>
+                <p>Central de ajuda</p>
+                <p>Sobre nós</p>
+                <p>Carreiras</p>
+            </div>
+            <div class="coluna" id="coluna-4">
+                <h2>Política</h2>
+                <p>Entregas e devoluções</p>
+                <p>Termos e condições</p>
+                <p>Métodos de pagamento</p>
+                <p>Política de Cookies</p>
+                <p>FAQ</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

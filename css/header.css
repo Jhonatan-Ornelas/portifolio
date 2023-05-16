@@ -532,6 +532,7 @@ main {
     background-color: #b31515;
     display: flex;
     /* margin-bottom: 40px; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .overlay-suport {

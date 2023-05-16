@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="/css/header-media.css">
-    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="stylesheet" href="/css/sobre.css">
     <script defer src="/javaScript/data.js"></script>
     <script defer src="/javaScript/header.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -126,74 +126,65 @@
     </header>
     <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
     <main>
-        <section>
-            <article class="main-content">
-                <div>
-                    <h1>Entre em contato</h1>
-                </div>
-                <div>
-                    <div>
-                        <div>
-                            <h2>Horário de funcionamento</h2>
-                            <p>Seg. a Sex.: 08:00 às 18:00</p>
-                            <p>Sábado: 09:00 às 19:00 </p>
-                            <p>Domingo: 09:00 às 20:00</p>
-                        </div>
-                        <div>
-                            <h2>Endereço</h2>
-                            <p>Rua Prates, 194 - Bom Retiro</p>
-                            <p>São Paulo - SP, 01121-000</p>
-                            <p>info@meusite.com</p>
-                            <p>(11) 3456-7890</p>
-                        </div>
-                    </div>
-                    <div>
-                        <h2>Estamos aqui para ajudar!</h2>
-                        <p>Preencha o formulário com suas perguntas e entraremos em contato assim que possível.</p>
-                        <form action="">
-                            <div>
-                                <label for="firstName">Nome</label>
-                                <input type="text" id="firstName" name="firstName" required>
-                            </div>
-
-                            <div>
-                                <label for="lastName">Sobrenome</label>
-                                <input type="text" id="lastName" name="lastName" required>
-                            </div>
-
-                            <div>
-                                <label for="email-from">Email</label>
-                                <input type="email" id="email-from" name="email" required>
-                            </div>
-
-                            <div>
-                                <label for="subject">Assunto</label>
-                                <input type="text" id="subject" name="subject" required>
-                            </div>
-
-                            <div>
-                                <label for="message">Mensagem</label>
-                                <textarea id="message" name="message" required></textarea>
-                            </div>
-
-                            <div>
-                                <input type="submit" value="Enviar">
-                            </div>
-                        </form>
-                    </div>
-                </div>
+        <div>
+            <h1 id="store-title">Sobre a TechShield</h1>
+        </div>
+        <section class="company-history">
+            <div><img src="/img/techshield-store-bg.jpeg" alt=""></div>
+            <article>
+                <p>A Trajetória E-commerce foi lançada em 2010 com a visão de revolucionar o comércio online. O que
+                    começou como uma pequena loja virtual vendendo livros, rapidamente se expandiu para incluir uma
+                    variedade de produtos eletrônicos.</p>
+                <p>Em pouco mais de uma década, a Trajetória E-commerce cresceu e se transformou em um dos principais
+                    varejistas online, com milhões de clientes em todo o mundo. Nossa missão sempre foi proporcionar a
+                    melhor experiência de compra online possível. Para isso, nos concentramos em fornecer uma variedade
+                    de produtos de alta qualidade, preços competitivos, entrega rápida e atendimento ao cliente de
+                    primeira classe. Continuamos a inovar e a expandir nossa oferta de produtos, sempre com o objetivo
+                    de atender às necessidades e desejos dos nossos clientes. À medida que olhamos para o futuro,
+                    estamos animados com as oportunidades que estão por vir e comprometidos em continuar oferecendo a
+                    melhor experiência de e-commerce para nossos clientes.</p>
             </article>
         </section>
-        <section class="newsletter">
-            <h2>Newsletter</h2>
-            <p>Assine para receber novidades e ofertas especiais</p>
-            <!-- colocar depois action="/submit" method="post"  -->
-            <form action="https://api.staticforms.xyz/submit" method="post">
-                <label for="email">E-mail * </label>
-                <input id="email" type="email" name="email" placeholder="Insira seu email aqui" required>
-                <input id="submit" type="submit" value="Assinar">
-                <input type="hidden" name="accessKey" value="84018234-538e-48ee-bcac-9329769982eb">
-                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/html/newsletter-sucesuful.html">
+        <section id="section-form" class="section-form">
+            <h2>Carreiras</h2>
+            <p>Veja anúncios de vagas e oportunidades esperando por você</p>
+            <form>
+                <div class="firstName">
+                    <label for="firstName">Nome</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="lastName">
+                    <label for="lastName">Sobrenome</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="phone">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="job">
+                    <label for="job">Cargo desejado</label>
+                    <select id="job" name="job">
+                        <option value="">Selecione...</option>
+                        <option value="developer">Desenvolvedor</option>
+                        <option value="designer">Designer</option>
+                        <option value="manager">Gerente</option>
+                        <option value="analyst">Analista</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
+                <div class="startDate">
+                    <label for="startDate">Data de início disponível</label>
+                    <input type="date" id="startDate" name="startDate" >
+                </div>
+                <div class="cv">
+                    <label for="cv">Link para currículo</label>
+                    <input type="url" id="cv" name="cv">
+                </div>
+                <input type="submit" value="Enviar">
             </form>
         </section>
     </main>
