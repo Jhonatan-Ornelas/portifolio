@@ -24,7 +24,7 @@
                 <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
                     <div>
-                        <input id="search" type="text" placeholder="buscar"></input>
+                        <input id="search" type="text" placeholder="search"></input>
                         <button id="btn-click" title="icon" onclick="toggleBack()"></button>
                     </div>
                     <div id="results"></div>
@@ -37,12 +37,12 @@
                     <a class="sing" href="/html/sing-in.html">sing up</a>
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
-                            onclick="abrirCarrinho()">
-                            <span class="carrinho-quantidade"></span>
+                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="abrirCarrinho()">
+                        <span class="carrinho-quantidade"></span>
                     </div>
                     <aside id="abaCarrinho" class="aba-carrinho">
                         <div class="aba-carrinho-title">
-                            <h2>Shopping Cart</h2> 
+                            <h2>Shopping Cart</h2>
                             <span class="carrinho-quantidade-tab">0</span>
                         </div>
                         <ul class="list-card">
@@ -96,7 +96,8 @@
                             </li> -->
                         </ul>
                         <div class="check-out">
-                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png" alt="" onclick="fecharCarrinho()"></button>
+                            <button type="button" title="back" class="close-shopping"><img src="/img/left-arrow.png"
+                                    alt="" onclick="fecharCarrinho()"></button>
                             <h3>Total Price</h3>
                             <p class="price price-color">0</p>
                             <button class="shopping-register">register</button>
@@ -106,19 +107,20 @@
             </div>
             <div class="row">
                 <a class="opitions" id="row-loja" href="/html/loja.html">Loja</a>
-                <a href="/html/computadores.html" class="opitions" id="row-computadores">Computadores</a>
+                <a href="/html/computadores.html" class="opitions" id="row-computadores">Computers</a>
                 <a href="/html/tablets.html" class="opitions">Tablets</a>
-                <a href="/html/drones-e-cameras.html" class="opitions">Drones e cameras</a>
+                <a href="/html/drones-e-cameras.html" class="opitions">Drones and cameras</a>
                 <a href="/html/audio.html" class="opitions">Headphones</a>
-                <a href="/html/alto-falantes.html" class="opitions">Alto-falantes</a>
+                <a href="/html/alto-falantes.html" class="opitions">Speakers</a>
                 <a href="/html/mobile.html" class="opitions">Mobile</a>
-                <a href="/html/tv-e-home-theater.html" class="opitions">TV e home theater</a>
-                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Tecnologia vestivel</a>
-                <a href="/html/mobile.html" class="opitions" id="row-celulares">celulares</a>
-                <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promoções</a>
+                <a href="/html/tv-e-home-theater.html" class="opitions">TV and home theater</a>
+                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Wearable
+                    technology</a>
+                <a href="/html/mobile.html" class="opitions" id="row-celulares">Cell phones</a>
+                <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promotions</a>
             </div>
         </div>
-    </header> 
+    </header>
     <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
     <main id="container">
         <form id="login_form">

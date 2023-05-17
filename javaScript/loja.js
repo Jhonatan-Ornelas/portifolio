@@ -56,7 +56,7 @@ let products = {
         //PROMOÇOES ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '64',
-            productName: 'Headset de Realidade Virtual Journey Glass Xd',
+            productName: 'Journey Glass XD Virtual Reality Headset',
             category: "Promoções",
             price: "999.00",
             priceP: "899.99",
@@ -73,7 +73,7 @@ let products = {
         },
         {
             id: '57',
-            productName: 'Smartwatch Space Moon com carregador',
+            productName: 'Space Moon Smartwatch with Charger',
             category: "Promoções",
             price: "199.95",
             priceP: "159.95",
@@ -81,7 +81,7 @@ let products = {
         },
         {
             id: '40',
-            productName: 'Alto-falante portátil Turn5, Bluetooth',
+            productName: 'Turn5 Portable Bluetooth Speaker',
             category: "Promoções",
             price: "129.99",
             priceP: "99.99",
@@ -89,7 +89,7 @@ let products = {
         },
         {
             id: '33',
-            productName: 'Alto-falante Turn5 portátil com alça e Bluetooth',
+            productName: 'Portable Turn5 Speaker with Handle and Bluetooth',
             category: "Promoções",
             price: "479.99",
             priceP: "199.99",
@@ -97,7 +97,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound Bluetooth Speaker with HDMI-ARC Connectivity',
             category: "Promoções",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -105,7 +105,7 @@ let products = {
         },
         {
             id: '20',
-            productName: 'Câmera DSLR Pantony Old School, lente 18-55mm',
+            productName: 'Pantony Old School DSLR Camera with 18-55mm Lens',
             category: "Promoções",
             price: "1,699.99",
             priceP: "1,299.99",
@@ -113,7 +113,7 @@ let products = {
         },
         {
             id: '14',
-            productName: 'Tablet Ocean Pro 11 - 12.3", touch screen',
+            productName: 'Ocean Pro 11 Tablet - 12.3", Touch Screen',
             category: "Promoções",
             price: "929.99",
             priceP: "699.99",
@@ -121,7 +121,7 @@ let products = {
         },
         {
             id: '13',
-            productName: 'Tablet Mini Sheer Pro, 7,9 polegadas',
+            productName: 'Mini Sheer Pro Tablet - 7.9 inches',
             category: "Promoções",
             price: "100.99",
             priceP: "59.99",
@@ -129,7 +129,7 @@ let products = {
         },
         {
             id: '12',
-            productName: 'Tablet Ove FD Plus 10.3", 64 GB',
+            productName: 'Ove FD Plus Tablet - 10.3", 64 GB',
             category: "Promoções",
             price: "349.99",
             priceP: "249.99",
@@ -137,7 +137,7 @@ let products = {
         },
         {
             id: '2',
-            productName: 'Laptop Pilates 16", touch screen, 24 GB memória',
+            productName: 'Pilates 16" Laptop - Touch Screen, 24 GB Memory',
             category: "Promoções",
             price: "1,099.99",
             priceP: "899.99",
@@ -145,7 +145,7 @@ let products = {
         },
         {
             id: '25',
-            productName: 'Headphone Balo 700 wireless cancelamento de ruido',
+            productName: 'Balo 700 Wireless Noise Cancelling Headphones',
             category: "Promoções",
             price: "329.00",
             priceP: "279.00",
@@ -153,7 +153,7 @@ let products = {
         },
         {
             id: '36',
-            productName: 'Alto-falante mini, portátil, Bluetooth',
+            productName: 'Mini Portable Bluetooth Speaker',
             category: "Promoções",
             price: "129.99",
             priceP: "99.99",
@@ -161,7 +161,7 @@ let products = {
         },
         {
             id: '10',
-            productName: 'Tablet JP - Space 10,4", WI-FI,128 GB',
+            productName: 'JP - Space Tablet 10.4", WI-FI, 128 GB',
             category: "Promoções",
             price: "329.99",
             priceP: "259.99",
@@ -169,7 +169,7 @@ let products = {
         },
         {
             id: '18',
-            productName: 'Câmera de Segurança de Rede Interna H1C wireless, 1080p',
+            productName: 'H1C Wireless Indoor Network Security Camera, 1080p',
             category: "Promoções",
             price: "379.99",
             priceP: "329.99",
@@ -177,7 +177,7 @@ let products = {
         },
         {
             id: '28',
-            productName: 'Headphone in-ear wireless, cancelamento de ruido',
+            productName: 'Wireless In-Ear Headphones with Noise Cancellation',
             category: "Promoções",
             price: "229.99",
             priceP: "199.99",
@@ -185,7 +185,7 @@ let products = {
         },
         {
             id: '3',
-            productName: 'Laptop para games JP 15.6", 512 GB SSD 16GB',
+            productName: 'JP 15.6" Gaming Laptop, 512 GB SSD, 16 GB RAM',
             category: "Promoções",
             price: "1,099.99",
             priceP: "849.99",
@@ -193,7 +193,7 @@ let products = {
         },
         {
             id: '31',
-            productName: 'Headset pra games, Surround Sound 10.2',
+            productName: '10.2 Surround Sound Gaming Headset',
             category: "Promoções",
             price: "159.55",
             priceP: "129.99",
@@ -201,7 +201,7 @@ let products = {
         },
         {
             id: '22',
-            productName: "Câmera digital Mini, Á prova d'água, Megapixel",
+            productName: "Mini Waterproof Digital Camera, Megapixel",
             category: "Promoções",
             price: "699.99",
             priceP: "499.99",
@@ -209,7 +209,7 @@ let products = {
         },
         {
             id: '53',
-            productName: 'Smart TV Allure 55" UHD 4K LED Class',
+            productName: 'Allure 55" UHD 4K LED Class Smart TV',
             category: "Promoções",
             price: "449.99",
             priceP: "399.99",
@@ -217,7 +217,7 @@ let products = {
         },
         {
             id: '56',
-            productName: 'Smart TV 65"UHD 4K LED Class Nano',
+            productName: '65" UHD 4K LED Class Nano Smart TV',
             category: "Promoções",
             price: "499.99",
             priceP: "599.99",
@@ -225,7 +225,7 @@ let products = {
         },
         {
             id: '8',
-            productName: 'HV- 29" IPS LED FHD FreeSync Monitor JP',
+            productName: 'JP HV-29" IPS LED FHD FreeSync Monitor',
             category: "Promoções",
             price: "269.99",
             priceP: "149.99",
@@ -233,7 +233,7 @@ let products = {
         },
         {
             id: '47',
-            productName: 'Protector XPD Go 5G, 128GB',
+            productName: 'XPD Go 5G Protector, 128GB',
             category: "Promoções",
             price: "199.99",
             priceP: "129.99",
@@ -241,7 +241,7 @@ let products = {
         },
         {
             id: '43',
-            productName: 'Smartphone Z Pixel Max 128 GB, desbloqueado',
+            productName: 'Z Pixel Max Smartphone, 128 GB, Unlocked',
             category: "Promoções",
             price: "449.99",
             priceP: "399.99",
@@ -257,7 +257,7 @@ let products = {
         },
         {
             id: '58',
-            productName: 'Fitboot Inspire, tracker de frequência cardiaca',
+            productName: 'Fitboot Inspire Heart Rate Tracker',
             category: "Promoções",
             price: "49.99",
             priceP: "44.99",
@@ -275,7 +275,7 @@ let products = {
         },
         {
             id: '10',
-            productName: 'Tablet JP - Space 10,4", Wi-Fi, 32 GB',
+            productName: 'JP - Space Tablet 10.4", Wi-Fi, 32 GB',
             category: "Mais-vendidos",
             price: "329.99",
             priceP: "259.99",
@@ -283,7 +283,7 @@ let products = {
         },
         {
             id: '58',
-            productName: 'Fitboot Inspire, tracker de frequência cardíaca',
+            productName: 'Fitboot Inspire Heart Rate Tracker',
             category: "Mais-vendidos",
             price: "49.99",
             priceP: "44.99",
@@ -291,7 +291,7 @@ let products = {
         },
         {
             id: '21',
-            productName: 'Drone Quadcopter HKI Tech, câmera e controle',
+            productName: 'HKI Tech Quadcopter Drone with Camera and Controller',
             category: "Mais-vendidos",
             price: '',
             priceP: "579.99",
@@ -299,7 +299,7 @@ let products = {
         },
         {
             id: '38',
-            productName: 'Alto-falante SDK portátil, Bluetooth',
+            productName: 'SDK Portable Bluetooth Speaker',
             category: "Mais-vendidos",
             price: '',
             priceP: "549.99",
@@ -307,7 +307,7 @@ let products = {
         },
         {
             id: '56',
-            productName: 'Smart TV 65" UHD 4K LED Class Nano',
+            productName: '65" UHD 4K LED Class Nano Smart TV',
             category: "Mais-vendidos",
             price: "499.99",
             priceP: "459.99",
@@ -315,7 +315,7 @@ let products = {
         },
         {
             id: '28',
-            productName: 'Headphone In-ear wireless, cancelamento de ruído',
+            productName: 'Wireless In-ear Headphones with Noise Cancellation',
             category: "Mais-vendidos",
             price: "229.99",
             priceP: "199.99",
@@ -323,7 +323,7 @@ let products = {
         },
         {
             id: '3',
-            productName: 'Laptop para games JP 15.6", 512 GB SSD 16GB',
+            productName: 'JP 15.6" Gaming Laptop, 512 GB SSD, 16 GB RAM',
             category: "Mais-vendidos",
             price: "1,099.99",
             priceP: "849.99",
@@ -331,7 +331,7 @@ let products = {
         },
         {
             id: '22',
-            productName: "Câmera digital Mini, À prova d'água, Megapixel",
+            productName: "Mini Waterproof Digital Camera, Megapixel",
             category: "Mais-vendidos",
             price: "699.99",
             priceP: "499.99",
@@ -339,7 +339,7 @@ let products = {
         },
         {
             id: '30',
-            productName: "Headphone branco wireless",
+            productName: "White Wireless Headphones",
             category: "Mais-vendidos",
             price: '',
             priceP: "149.99",
@@ -347,7 +347,7 @@ let products = {
         },
         {
             id: '14',
-            productName: 'Tablet Ocean Pro 11 - 12.3", touch screen',
+            productName: 'Ocean Pro 11 Tablet - 12.3" Touch Screen',
             category: "Mais-vendidos",
             price: "929.99",
             priceP: "699.99",
@@ -355,7 +355,7 @@ let products = {
         },
         {
             id: '43',
-            productName: 'Smartphone Z Pixel Max 128 GB, desbloqueado',
+            productName: 'Z Pixel Max Smartphone, 128 GB, Unlocked',
             category: "Mais-vendidos",
             price: "449.99",
             priceP: "399.99",
@@ -365,7 +365,7 @@ let products = {
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '1',
-            productName: 'Laptop Pilates 14", touch screen, 12 GB memória',
+            productName: 'Pilates 14" Laptop - Touch Screen, 12 GB Memory',
             category: "Computadores",
             price: '',
             priceP: "516.99",
@@ -373,7 +373,7 @@ let products = {
         },
         {
             id: '2',
-            productName: 'Laptop Pilates 16", touch screen, 24 GB memória',
+            productName: 'Pilates 16" Laptop - Touch Screen, 24 GB Memory',
             category: "Computadores",
             price: "1,099.99",
             priceP: "899.99",
@@ -381,7 +381,7 @@ let products = {
         },
         {
             id: '3',
-            productName: 'laptop para games JP 15.6", 512 GB SSD 16GB',
+            productName: 'JP 15.6" Gaming Laptop, 512 GB SSD, 16 GB RAM',
             category: "Computadores",
             price: "1,099.99",
             priceP: "849.99",
@@ -389,7 +389,7 @@ let products = {
         },
         {
             id: '4',
-            productName: 'Desktop Corr, 12 GB memória, WiFi, Bluetooth, Teclado, Mouse',
+            productName: 'Corr Desktop, 12 GB Memory, WiFi, Bluetooth, Keyboard, Mouse',
             category: "Computadores",
             price: '',
             priceP: "799.99",
@@ -397,7 +397,7 @@ let products = {
         },
         {
             id: '5',
-            productName: 'Desktop Corr 29", 24 GB memória, Teclado e Mouse',
+            productName: 'Corr 29" Desktop, 24 GB Memory, Keyboard, and Mouse',
             category: "Computadores",
             price: '',
             priceP: "1,399.99",
@@ -405,7 +405,7 @@ let products = {
         },
         {
             id: '6',
-            productName: 'Laptop Pilates 16", 12 GB memória, touch screen',
+            productName: 'Pilates 16" Laptop, 12 GB Memory, Touch Screen',
             category: "Computadores",
             price: '',
             priceP: "799.99",
@@ -413,7 +413,7 @@ let products = {
         },
         {
             id: '7',
-            productName: 'Laptop MSP 14", 16 GB memória, cinza',
+            productName: 'MSP 14" Laptop, 16 GB Memory, Gray',
             category: "Computadores",
             price: '',
             priceP: "849.99",
@@ -421,7 +421,7 @@ let products = {
         },
         {
             id: '8',
-            productName: 'HV- 29" IPS LED FHD FreeSync Monitor JP',
+            productName: 'JP HV-29" IPS LED FHD FreeSync Monitor',
             category: "Computadores",
             price: "269.99",
             priceP: "149.99",
@@ -431,7 +431,7 @@ let products = {
 
         {
             id: '9',
-            productName: 'Tablet transparente 10,2", Wi-Fi, 32 GB',
+            productName: 'Transparent 10.2" Tablet, Wi-Fi, 32 GB',
             category: "tablets",
             price: '',
             priceP: "189.99",
@@ -439,7 +439,7 @@ let products = {
         },
         {
             id: '10',
-            productName: 'Tablet JP - Space 10,4", Wi-Fi, 32 GB',
+            productName: 'JP - Space Tablet 10.4", Wi-Fi, 32 GB',
             category: "tablets",
             price: "329.99",
             priceP: "259.99",
@@ -447,7 +447,7 @@ let products = {
         },
         {
             id: '11',
-            productName: 'Tablet Pilates Go 10.5", touch screen, 64 GB com capa',
+            productName: 'Pilates Go Tablet 10.5", Touch Screen, 64 GB with Cover',
             category: "tablets",
             price: '',
             priceP: "479.99",
@@ -455,7 +455,7 @@ let products = {
         },
         {
             id: '12',
-            productName: 'Tablet Ove FD Plus 10.3", 64 GB',
+            productName: 'Ove FD Plus Tablet 10.3", 64 GB',
             category: "tablets",
             price: "349.99",
             priceP: "249.99",
@@ -463,7 +463,7 @@ let products = {
         },
         {
             id: '13',
-            productName: 'Tablet Mini Sheer Pro, 7,9 polegadas',
+            productName: 'Mini Sheer Pro Tablet, 7.9 inches',
             category: "tablets",
             price: "100.99",
             priceP: "59.99",
@@ -471,7 +471,7 @@ let products = {
         },
         {
             id: '14',
-            productName: 'Tablet Ocean Pro 11 - 12.3", touch screen',
+            productName: 'Ocean Pro 11 Tablet - 12.3" Touch Screen',
             category: "tablets",
             price: "929.99",
             priceP: "699.99",
@@ -479,7 +479,7 @@ let products = {
         },
         {
             id: '15',
-            productName: 'Tablet Corr Playtime 10.3", Wi-Fi, 32 GB',
+            productName: 'Corr Playtime Tablet 10.3", Wi-Fi, 32 GB',
             category: "tablets",
             price: '',
             priceP: "219.99",
@@ -487,7 +487,7 @@ let products = {
         },
         {
             id: '16',
-            productName: 'Tablet Space S7 - 11”, 128 GB, Wi-Fi',
+            productName: 'Space S7 Tablet - 11", 128 GB, Wi-Fi',
             category: "tablets",
             price: '',
             priceP: "899.99",
@@ -496,7 +496,7 @@ let products = {
         //Drones-e-cameras////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '17',
-            productName: 'Câmera de Segurança Externa Shak Spotlight',
+            productName: 'Shak Spotlight Outdoor Security Camera',
             category: "Drones-e-cameras",
             price: '',
             priceP: "249.99",
@@ -504,7 +504,7 @@ let products = {
         },
         {
             id: '18',
-            productName: 'Câmera de Segurança de Rede Interna H1C wireless, 1080p',
+            productName: 'H1C Wireless Indoor Network Security Camera, 1080p',
             category: "Drones-e-cameras",
             price: "379.99",
             priceP: "329.99",
@@ -512,7 +512,7 @@ let products = {
         },
         {
             id: '19',
-            productName: 'Quadcopter Wave Mini 4 com controle remoto',
+            productName: 'Wave Mini 4 Quadcopter with Remote Control',
             category: "Drones-e-cameras",
             price: '',
             priceP: "1,749.99",
@@ -520,7 +520,7 @@ let products = {
         },
         {
             id: '20',
-            productName: 'Câmera DSLR Pantony Old School, lente 18-55mm',
+            productName: 'Pantony Old School DSLR Camera, 18-55mm Lens',
             category: "Drones-e-cameras",
             price: "1,699.99",
             priceP: "1,299.99",
@@ -528,7 +528,7 @@ let products = {
         },
         {
             id: '21',
-            productName: 'Drone Quadcopter HKI Tech, câmera e controle',
+            productName: 'HKI Tech Quadcopter Drone with Camera and Remote Control',
             category: "Drones-e-cameras",
             price: '',
             priceP: "579.99",
@@ -536,7 +536,7 @@ let products = {
         },
         {
             id: '22',
-            productName: "Câmera digital Mini, À prova d'água, Megapixel",
+            productName: "Waterproof Mini Digital Camera, Megapixel",
             category: "Drones-e-cameras",
             price: "699.99",
             priceP: "499.99",
@@ -544,7 +544,7 @@ let products = {
         },
         {
             id: '23',
-            productName: 'Drone EXE Mini, Controlador Sky',
+            productName: 'EXE Mini Drone, Sky Controller',
             category: "Drones-e-cameras",
             price: "",
             priceP: "999.99",
@@ -552,7 +552,7 @@ let products = {
         },
         {
             id: '24',
-            productName: 'Câmera digital Pantony 180, 20.0 megapixels',
+            productName: 'Pantony 180 Digital Camera, 20.0 megapixels',
             category: "Drones-e-cameras",
             price: "",
             priceP: "239.99",
@@ -562,7 +562,7 @@ let products = {
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '25',
-            productName: 'Headphone Balo 700 wireless cancelamento de ruido',
+            productName: 'Balo 700 Wireless Noise Cancelling Headphones',
             category: "Headphones",
             price: "329.00",
             priceP: "279.00",
@@ -570,7 +570,7 @@ let products = {
         },
         {
             id: '26',
-            productName: 'Headphone Space Buds wireless',
+            productName: 'Space Buds Wireless Headphones',
             category: "Headphones",
             price: "",
             priceP: "99.99",
@@ -578,7 +578,7 @@ let products = {
         },
         {
             id: '27',
-            productName: 'Headphone Drums Pro wireless',
+            productName: 'Drums Pro Wireless Headphones',
             category: "Headphones",
             price: '',
             priceP: "479.99",
@@ -586,7 +586,7 @@ let products = {
         },
         {
             id: '28',
-            productName: 'Headphone In-ear wireless, cancelamento de ruído',
+            productName: 'Wireless In-Ear Headphones with Noise Cancellation',
             category: "Headphones",
             price: "229.99",
             priceP: "199.99",
@@ -594,7 +594,7 @@ let products = {
         },
         {
             id: '29',
-            productName: 'Headphone Pantony wireless certificado',
+            productName: 'Certified Wireless Headphones by Pantony',
             category: "Headphones",
             price: '',
             priceP: "249.99",
@@ -602,7 +602,7 @@ let products = {
         },
         {
             id: '30',
-            productName: "Headphone branco wireless",
+            productName: "White Wireless Headphone",
             category: "Headphones",
             price: '',
             priceP: "149.99",
@@ -610,7 +610,7 @@ let products = {
         },
         {
             id: '31',
-            productName: 'Headset pra games, Surround Sound 10.2',
+            productName: 'Gaming Headset, 10.2 Surround Sound',
             category: "Headphones",
             price: "159.55",
             priceP: "129.99",
@@ -618,7 +618,7 @@ let products = {
         },
         {
             id: '32',
-            productName: 'Headphone com fio MX50',
+            productName: 'Wired MX50 Headphone',
             category: "Headphones",
             price: "",
             priceP: "17.99",
@@ -628,7 +628,7 @@ let products = {
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '33',
-            productName: 'Alto-falante Turn5 portátil com alça e Bluetooth',
+            productName: 'Portable Turn5 Speaker with Handle and Bluetooth',
             category: "Alto-falantes",
             price: "479.99",
             priceP: "199.99",
@@ -636,7 +636,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound, Bluetooth, HDMI-ARC connectivity',
             category: "Alto-falantes",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -644,7 +644,7 @@ let products = {
         },
         {
             id: '35',
-            productName: 'Alto-falante Pill Shape portátil, prata, Bluetooth',
+            productName: 'Portable Pill Shape Speaker, Silver, Bluetooth',
             category: "Alto-falantes",
             price: '',
             priceP: "39.99",
@@ -652,7 +652,7 @@ let products = {
         },
         {
             id: '36',
-            productName: 'Alto-falante mini, portátil, Bluetooth',
+            productName: 'Mini Portable Bluetooth Speaker',
             category: "Alto-falantes",
             price: "129.99",
             priceP: "99.99",
@@ -660,7 +660,7 @@ let products = {
         },
         {
             id: '37',
-            productName: 'Alto falante Studio 8 portátil, Bluetooth',
+            productName: 'Studio 8 Portable Bluetooth Speaker',
             category: "Alto-falantes",
             price: '',
             priceP: "19.99",
@@ -668,7 +668,7 @@ let products = {
         },
         {
             id: '38',
-            productName: 'Alto-falante SDK portátil, Bluetooth',
+            productName: 'Portable SDK Bluetooth Speaker',
             category: "Alto-falantes",
             price: '',
             priceP: "549.99",
@@ -676,7 +676,7 @@ let products = {
         },
         {
             id: '39',
-            productName: 'Alto-falante SXD Mini portátil, Bluetooth',
+            productName: 'Portable SXD Mini Bluetooth Speaker',
             category: "Alto-falantes",
             price: '',
             priceP: "219.99",
@@ -684,7 +684,7 @@ let products = {
         },
         {
             id: '40',
-            productName: 'Alto-falante portátil Turn5, Bluetooth',
+            productName: 'Portable Turn5 Bluetooth Speaker',
             category: "Alto-falantes",
             price: "129.99",
             priceP: "99.99",
@@ -694,7 +694,7 @@ let products = {
         //MOBILE///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '41',
-            productName: 'Pantony X21 5G, 128 GB',
+            productName: 'Pantony X21 5G, 128GB',
             category: "Mobile",
             price: '',
             priceP: "299.99",
@@ -702,7 +702,7 @@ let products = {
         },
         {
             id: '42',
-            productName: 'Phantom Exmax JP 5G, 16 GB',
+            productName: 'Phantom Exmax JP 5G, 16GB',
             category: "Mobile",
             price: '',
             priceP: "99.99",
@@ -710,7 +710,7 @@ let products = {
         },
         {
             id: '43',
-            productName: 'Smartphone Z Pixel Max 128 GB, desbloqueado',
+            productName: 'Z Pixel Max Smartphone, 128GB, Unlocked',
             category: "Mobile",
             price: "449.99",
             priceP: "399.99",
@@ -718,7 +718,7 @@ let products = {
         },
         {
             id: '44',
-            productName: 'OVE Light Space 5G, 128 GB',
+            productName: 'OVE Light Space 5G Smartphone, 128GB',
             category: "Mobile",
             price: "579.99",
             priceP: "559.99",
@@ -726,7 +726,7 @@ let products = {
         },
         {
             id: '45',
-            productName: 'Pantony Super 10W 5G, 128 GB',
+            productName: 'Pantony Super 10W 5G Smartphone, 128GB',
             category: "Mobile",
             price: '',
             priceP: "599.99",
@@ -734,7 +734,7 @@ let products = {
         },
         {
             id: '46',
-            productName: 'Light Phantom JP, 5g, 256 GB',
+            productName: 'Light Phantom JP 5G Smartphone, 256GB',
             category: "Mobile",
             price: "1,999.99",
             priceP: "899.99",
@@ -742,7 +742,7 @@ let products = {
         },
         {
             id: '47',
-            productName: 'Protector XPD Go 5G, 128GB',
+            productName: 'Protector XPD Go 5G Smartphone, 128GB',
             category: "Mobile",
             price: "199.99",
             priceP: "129.99",
@@ -750,7 +750,7 @@ let products = {
         },
         {
             id: '48',
-            productName: 'Pantony S MAX 5G, 128 GB',
+            productName: 'Pantony S MAX 5G Smartphone, 128GB',
             category: "Mobile",
             price: '',
             priceP: "129.99",
@@ -759,7 +759,7 @@ let products = {
         //TV-E-HOME-THEATER/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '49',
-            productName: 'Smart TV shel 50" UHD 4K LED Class',
+            productName: 'Shel 50" UHD 4K LED Class Smart TV',
             category: "TV-e-home-theater",
             price: '',
             priceP: "349.99",
@@ -767,7 +767,7 @@ let products = {
         },
         {
             id: '34',
-            productName: 'EchoSound, Bluetooth, conectividade HDMI-ARC',
+            productName: 'EchoSound Soundbar with Bluetooth and HDMI-ARC Connectivity',
             category: "TV-e-home-theater",
             price: "2,499.99",
             priceP: "1,999.99",
@@ -775,7 +775,7 @@ let products = {
         },
         {
             id: '51',
-            productName: 'Smart TV Shel 40" Full HD LED Class',
+            productName: 'Shel 40" Full HD LED Class Smart TV',
             category: "TV-e-home-theater",
             price: '',
             priceP: "169.99",
@@ -783,7 +783,7 @@ let products = {
         },
         {
             id: '52',
-            productName: 'Projetor para Home Theater EPSON 4K PRO-UHD 3LCD',
+            productName: 'EPSON 4K PRO-UHD 3LCD Home Theater Projector',
             category: "TV-e-home-theater",
             price: '',
             priceP: "449.99",
@@ -791,7 +791,7 @@ let products = {
         },
         {
             id: '53',
-            productName: 'Smart TV Allure 55" UHD 4K LED Class',
+            productName: 'Allure 55" UHD 4K LED Class Smart TV',
             category: "TV-e-home-theater",
             price: "449.99",
             priceP: "399.99",
@@ -799,7 +799,7 @@ let products = {
         },
         {
             id: '54',
-            productName: 'Projetor Mini Vankyo 470 wireless',
+            productName: 'Vankyo Mini Projector 470 Wireless',
             category: "TV-e-home-theater",
             price: '',
             priceP: "209.99",
@@ -807,7 +807,7 @@ let products = {
         },
         {
             id: '55',
-            productName: 'Smart Streamer TV 42" Class Full HD',
+            productName: '42" Class Full HD Smart TV Streamer',
             category: "TV-e-home-theater",
             price: '',
             priceP: "189.99",
@@ -815,7 +815,7 @@ let products = {
         },
         {
             id: '56',
-            productName: 'Smart TV 65" UHD 4K LED Class Nano',
+            productName: '65" UHD 4K LED Class Nano Smart TV',
             category: "TV-e-home-theater",
             price: "499.99",
             priceP: "459.99",
@@ -824,7 +824,7 @@ let products = {
         //TECNOLOGIA-VESTIVEL///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         {
             id: '57',
-            productName: 'Smartwatch Space Moon com carregador',
+            productName: 'Space Moon Smartwatch with Charger',
             category: "Tecnologia-vestivel",
             price: "199.95",
             priceP: "159.95",
@@ -832,7 +832,7 @@ let products = {
         },
         {
             id: '58',
-            productName: 'Fitboot Inspire, tracker de frequência cardíaca',
+            productName: 'Fitboot Inspire, Heart Rate Tracker',
             category: "Tecnologia-vestivel",
             price: "49.99",
             priceP: "44.99",
@@ -840,7 +840,7 @@ let products = {
         },
         {
             id: '59',
-            productName: 'Óculos VR Safay GEN 2, 256 GB, controladores de toque',
+            productName: 'Safay GEN 2 VR Glasses, 256 GB, Touch Controllers',
             category: "Tecnologia-vestivel",
             price: '',
             priceP: "349.99",
@@ -848,7 +848,7 @@ let products = {
         },
         {
             id: '60',
-            productName: 'Smartwatch Fitness FitWatch',
+            productName: 'FitWatch Fitness Smartwatch',
             category: "Tecnologia-vestivel",
             price: '',
             priceP: "249.99",
@@ -856,7 +856,7 @@ let products = {
         },
         {
             id: '61',
-            productName: 'Sistema de Realidade Virtual HV para PC',
+            productName: 'HV PC Virtual Reality System',
             category: "Tecnologia-vestivel",
             price: '',
             priceP: "429.99",
@@ -864,7 +864,7 @@ let products = {
         },
         {
             id: '62',
-            productName: 'Rastreador de Atividades Pantony 6P',
+            productName: 'Pantony 6P Activity Tracker',
             category: "Tecnologia-vestivel",
             price: '',
             priceP: "169.99",
@@ -872,7 +872,7 @@ let products = {
         },
         {
             id: '63',
-            productName: 'Smartwatch fitness FitWatch XDH',
+            productName: 'FitWatch XDH Fitness Smartwatch',
             category: "Tecnologia-vestivel",
             price: '',
             priceP: '399.99',
@@ -880,13 +880,13 @@ let products = {
         },
         {
             id: '64',
-            productName: 'Headset de Realidade Virtual Journey Glass Xd',
+            productName: 'Journey Glass XD Virtual Reality Headset',
             category: "Tecnologia-vestivel",
             price: "999.00",
             priceP: "899.99",
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
         },
-        //3
+        
 
 
 

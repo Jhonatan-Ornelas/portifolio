@@ -30,7 +30,7 @@
                 <a class="logo" href="/html/index.html">TechShield</a>
                 <div class="search">
                     <div>
-                        <input id="search" type="text" placeholder="buscar"></input>
+                        <input id="search" type="text" placeholder="search"></input>
                         <button id="btn-click" title="icon" onclick="toggleBack()"></button>
                     </div>
                     <div id="results"></div>
@@ -43,7 +43,7 @@
                     <a class="sing" href="/html/sing-in.html">sing up</a>
                     <div class="carrinho">
                         <img id="shopping-cart" src="/img/shopping-cart-1.png" alt="shopping-cart-icon"
-                            onclick="abrirCarrinho()">
+                            onmouseover="changeImage()" onmouseout="resetImage()" onclick="abrirCarrinho()">
                         <span class="carrinho-quantidade"></span>
                     </div>
                     <aside id="abaCarrinho" class="aba-carrinho">
@@ -113,17 +113,17 @@
             </div>
             <div class="row">
                 <a class="opitions" id="row-loja" href="/html/loja.html">Loja</a>
-                <a href="/html/computadores.html" class="opitions" id="row-computadores">Computadores</a>
+                <a href="/html/computadores.html" class="opitions" id="row-computadores">Computers</a>
                 <a href="/html/tablets.html" class="opitions">Tablets</a>
-                <a href="/html/drones-e-cameras.html" class="opitions">Drones e cameras</a>
+                <a href="/html/drones-e-cameras.html" class="opitions">Drones and cameras</a>
                 <a href="/html/audio.html" class="opitions">Headphones</a>
-                <a href="/html/alto-falantes.html" class="opitions">Alto-falantes</a>
+                <a href="/html/alto-falantes.html" class="opitions">Speakers</a>
                 <a href="/html/mobile.html" class="opitions">Mobile</a>
-                <a href="/html/tv-e-home-theater.html" class="opitions">TV e home theater</a>
-                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Tecnologia
-                    vestivel</a>
-                <a href="/html/mobile.html" class="opitions" id="row-celulares">celulares</a>
-                <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promoções</a>
+                <a href="/html/tv-e-home-theater.html" class="opitions">TV and home theater</a>
+                <a id="row-tecnologia-vestivel" href="/html/tecnologia-vestivel.html" class="opitions">Wearable
+                    technology</a>
+                <a href="/html/mobile.html" class="opitions" id="row-celulares">Cell phones</a>
+                <a href="/html/promocoes.html" class="opitions" id="row-promoçoes">Promotions</a>
             </div>
         </div>
     </header>
@@ -133,46 +133,31 @@
             <h1 id="all-categorias"></h1>
             <div class="produtos-categorias">
                 <div class="categorias">
-                    <div class="filtro">Filtrar por</div>
+                    <div class="filtro">Filter by</div>
                     <div id="categorias">
-                        <p>Categoria</p>
+                        <p>Category</p>
                         <a href="/html/loja.html"><button class="button-value"
-                                onclick="filterProduct('all')">Todas</button></a>
+                                onclick="filterProduct('all')">All products</button></a>
                         <a href="/html/promocoes.html"><button class="button-value"
-                                onclick="filterProduct('Promoções')">Promoções</button></a>
-                        <a href="/html/mais-vendidos.html"><button class="button-value" onclick="filterProduct('Mais-vendidos')">Mais
-                                vendidos</button></a>
+                                onclick="filterProduct('Promoções')">deals</button></a>
+                        <a href="/html/mais-vendidos.html"><button class="button-value" onclick="filterProduct('Mais-vendidos')">Best sellers</button></a>
                         <a href="/html/computadores.html"><button class="button-value"
-                                onclick="filterProduct('Computadores')">Computadores</button></a>
+                                onclick="filterProduct('Computadores')">Computers</button></a>
                         <a href="/html/tablets.html"><button class="button-value" onclick="filterProduct('tablets')">tablets</button></a>
-                        <a href="/html/drones-e-cameras.html"><button class="button-value" onclick="filterProduct('Drones-e-cameras')">Drones e
-                                câmeras</button></a>
+                        <a href="/html/drones-e-cameras.html"><button class="button-value" onclick="filterProduct('Drones-e-cameras')">Drones and cameras</button></a>
                         <a href="/html/audio.html"><button class="button-value"
                                 onclick="filterProduct('Headphones')">Headphones</button></a>
                         <a href="/html/alto-falantes.html"><button class="button-value"
-                                onclick="filterProduct('Alto-falantes')">Alto-falantes</button></a>
+                                onclick="filterProduct('Alto-falantes')">Speakers</button></a>
                         <a href="/html/mobile.html"><button class="button-value" onclick="filterProduct('Mobile')">Mobile</button></a>
-                        <a href="/html/tv-e-home-theater.html"><button class="button-value" onclick="filterProduct('TV-e-home-theater')">TV e home
-                                theater</button></a>
+                        <a href="/html/tv-e-home-theater.html"><button class="button-value" onclick="filterProduct('TV-e-home-theater')">TV and home theater</button></a>
                         <a href="/html/tecnologia-vestivel.html"><button class="button-value"
-                                onclick="filterProduct('Tecnologia-vestivel')">Tecnologia
-                                vestivel</button></a>
+                                onclick="filterProduct('Tecnologia-vestivel')">Wearable technology</button></a>
                     </div>
                 </div>
                 <div id="produtos">
                     <div class="filter-condition">
-                        <div class="custom-select-wrapper">
-                            <div class="custom-select" id="select">
-                                <div class="custom-select-selected">Selecionar por</div>
-                                <ul class="custom-select-options">
-                                    <li data-value="Default">Selecionar por</li>
-                                    <li data-value="LowToHigh">Low to high</li>
-                                    <li data-value="HighToLow">High to low</li>
-                                    <li data-value="AToZ">A-Z</li>
-                                    <li data-value="ZToA">Z-A</li>
-                                </ul>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div id="produtos-cards">
                         <!-- <div class="card">
@@ -196,34 +181,36 @@
         <div class="suport">
             <div class="overlay-suport">
                 <div class="overlay-suport-texto">
-                    <h2>Tem dúvidas? Fale com a Central de Ajuda</h2>
-                    <p>Sou um parágrafo. Clique aqui para adicionar e editar seu texto. Compartilhe sua história.</p>
-                    <button>Central de Ajuda</button>
+                    <h2>Have questions? Contact our Help Center</h2>
+                    <p>I'm a paragraph. Click here to add and edit your text. Share your story.</p>
+                    <a href="/html/central-de-ajuda.html"><button>Support Center</button></a>
                 </div>
             </div>
             <div class="overlay-suport-bg"></div>
         </div>
         <div class="sobre-nos">
             <div class="coluna" id="coluna-1">
-                <h2>Endereço</h2>
-                <p>Rua Prates, 194 - Bom Retiro</p>
-                <p>SP 01121-000</p>
-                <p>info@meusite.com</p>
-                <p>Telefone: (11) 3456-7890</p>
+                <h2>Address</h2>
+                <p>230 Calle Federico Costa
+                    Hato Rey
+                </p>
+                <p>San Juan, PR 00918</p>
+                <p>info@TechShield.com</p>
+                <p>Phone: (11) 3456-7890</p>
             </div>
             <div class="coluna" id="coluna-2">
-                <h2>Loja</h2>
+                <h2>Store</h2>
                 <a href="/html/loja.html">
-                    <p>Loja</p>
+                    <p>Products</p>
                 </a>
                 <a href="/html/computadores.html">
-                    <p>Computadores</p>
+                    <p>Computers</p>
                 </a>
                 <a href="/html/tablets.html">
                     <p>tablets</p>
                 </a>
                 <a href="/html/drones-e-cameras.html">
-                    <p>Drones e câmeras</p>
+                    <p>Drones and cameras</p>
                 </a>
                 <a href="/html/audio.html">
                     <p>Headphones</p>
@@ -232,29 +219,29 @@
                     <p>Mobile</p>
                 </a>
                 <a href="/html/tv-e-home-theater.html">
-                    <p>TV e home theater</p>
+                    <p>TV and home theater</p>
                 </a>
                 <a href="/html/tecnologia-vestivel.html">
-                    <p>Tecnologia vestivel</p>
+                    <p>Wearable technology</p>
                 </a>
                 <a href="/html/promocoes.html">
-                    <p>Promoções</p>
+                    <p>Sale</p>
                 </a>
             </div>
             <div class="coluna" id="coluna-3">
-                <h2>Suporte</h2>
-                <p>Contato</p>
-                <p>Central de ajuda</p>
-                <p>Sobre nós</p>
-                <p>Carreiras</p>
+                <h2>Support</h2>
+                <p><a href="/html/contato.html">Contact</a></p>
+                <p><a href="/html/central-de-ajuda.html">Support Center</a></p>
+                <p><a href="/html/sobre.html#store-title">About us</a> </p>
+                <p><a href="/html/sobre.html#section-form"> Careers</a></p>
             </div>
             <div class="coluna" id="coluna-4">
                 <h2>Política</h2>
-                <p>Entregas e devoluções</p>
-                <p>Termos e condições</p>
-                <p>Métodos de pagamento</p>
-                <p>Política de Cookies</p>
-                <p>FAQ</p>
+                <p><a href="/html/central-de-ajuda.html#entrega-devolucoes">Delivery and returns</a></p>
+                <p><a href="/html/central-de-ajuda.html#terms">Terms and conditions</a></p>
+                <p><a href="/html/central-de-ajuda.html#how-to-buy">Payment methods </a></p>
+                <p><a href="/html/central-de-ajuda.html#seguranca">Security</a></p>
+                <p><a href="/html/central-de-ajuda.html#faq-title">FAQ</a></p>
             </div>
         </div>
     </footer>

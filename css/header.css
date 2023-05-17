@@ -172,7 +172,7 @@ main {
     background-color: white;
     font-weight: 100 ;
     font-size: 16px;
-    z-index: 1;
+    z-index: 2;
     /* font-family: 'Roboto', sans-serif; */
 }
 
@@ -644,11 +644,8 @@ main {
     padding-left: 10%;
     font-size: 16px;
 }
-
-#coluna-2 h2:hover {
+.coluna p:hover{
     color: #751fff;
 }
 
-#coluna-2 p:hover {
-    color: #751fff;
-}
+
