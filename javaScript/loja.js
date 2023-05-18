@@ -57,7 +57,7 @@ let products = {
         {
             id: '64',
             productName: 'Journey Glass XD Virtual Reality Headset',
-            category: "Promoções",
+            category: "deals",
             price: "999.00",
             priceP: "899.99",
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
@@ -66,7 +66,7 @@ let products = {
 
             id: '46',
             productName: 'Light Phantom JP, 5g, 256 GB',
-            category: "Promoções",
+            category: "deals",
             price: "1.999.99",
             priceP: "899.99",
             image: '/img/promocoes/Light-Phantom-JP-5g-256-GB.jpg',
@@ -74,7 +74,7 @@ let products = {
         {
             id: '57',
             productName: 'Space Moon Smartwatch with Charger',
-            category: "Promoções",
+            category: "deals",
             price: "199.95",
             priceP: "159.95",
             image: '/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg',
@@ -82,7 +82,7 @@ let products = {
         {
             id: '40',
             productName: 'Turn5 Portable Bluetooth Speaker',
-            category: "Promoções",
+            category: "deals",
             price: "129.99",
             priceP: "99.99",
             image: '/img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg',
@@ -90,7 +90,7 @@ let products = {
         {
             id: '33',
             productName: 'Portable Turn5 Speaker with Handle and Bluetooth',
-            category: "Promoções",
+            category: "deals",
             price: "479.99",
             priceP: "199.99",
             image: '/img/promocoes/Alto-falante-Turn5-portátil-com-alça-e-Bluetooth.jpg',
@@ -98,7 +98,7 @@ let products = {
         {
             id: '34',
             productName: 'EchoSound Bluetooth Speaker with HDMI-ARC Connectivity',
-            category: "Promoções",
+            category: "deals",
             price: "2,499.99",
             priceP: "1,999.99",
             image: '/img/promocoes/Soundbar-Bluetooth-conectividade-HDMI-ARC.jpg',
@@ -106,7 +106,7 @@ let products = {
         {
             id: '20',
             productName: 'Pantony Old School DSLR Camera with 18-55mm Lens',
-            category: "Promoções",
+            category: "deals",
             price: "1,699.99",
             priceP: "1,299.99",
             image: '/img/promocoes/camera-DSLR-Pantony-Old-School-lente-18-55mm.jpg',
@@ -114,7 +114,7 @@ let products = {
         {
             id: '14',
             productName: 'Ocean Pro 11 Tablet - 12.3", Touch Screen',
-            category: "Promoções",
+            category: "deals",
             price: "929.99",
             priceP: "699.99",
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
@@ -122,7 +122,7 @@ let products = {
         {
             id: '13',
             productName: 'Mini Sheer Pro Tablet - 7.9 inches',
-            category: "Promoções",
+            category: "deals",
             price: "100.99",
             priceP: "59.99",
             image: '/img/promocoes/Tablet-Mini-Sheer-Pro-7-polegadas.jpg',
@@ -130,7 +130,7 @@ let products = {
         {
             id: '12',
             productName: 'Ove FD Plus Tablet - 10.3", 64 GB',
-            category: "Promoções",
+            category: "deals",
             price: "349.99",
             priceP: "249.99",
             image: '/img/promocoes/Tablet-Ove-FD-Plus-10-64GB.jpg',
@@ -138,7 +138,7 @@ let products = {
         {
             id: '2',
             productName: 'Pilates 16" Laptop - Touch Screen, 24 GB Memory',
-            category: "Promoções",
+            category: "deals",
             price: "1,099.99",
             priceP: "899.99",
             image: '/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg',
@@ -146,7 +146,7 @@ let products = {
         {
             id: '25',
             productName: 'Balo 700 Wireless Noise Cancelling Headphones',
-            category: "Promoções",
+            category: "deals",
             price: "329.00",
             priceP: "279.00",
             image: '/img/promocoes/Headphone-Balo-700-wireless-cancelamento-de-ruido.jpg',
@@ -154,7 +154,7 @@ let products = {
         {
             id: '36',
             productName: 'Mini Portable Bluetooth Speaker',
-            category: "Promoções",
+            category: "deals",
             price: "129.99",
             priceP: "99.99",
             image: '/img/promocoes/Alto-falante-mini-portátil-Bluetooth.jpg',
@@ -162,7 +162,7 @@ let products = {
         {
             id: '10',
             productName: 'JP - Space Tablet 10.4", WI-FI, 128 GB',
-            category: "Promoções",
+            category: "deals",
             price: "329.99",
             priceP: "259.99",
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
@@ -170,7 +170,7 @@ let products = {
         {
             id: '18',
             productName: 'H1C Wireless Indoor Network Security Camera, 1080p',
-            category: "Promoções",
+            category: "deals",
             price: "379.99",
             priceP: "329.99",
             image: '/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg',
@@ -178,7 +178,7 @@ let products = {
         {
             id: '28',
             productName: 'Wireless In-Ear Headphones with Noise Cancellation',
-            category: "Promoções",
+            category: "deals",
             price: "229.99",
             priceP: "199.99",
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
@@ -186,7 +186,7 @@ let products = {
         {
             id: '3',
             productName: 'JP 15.6" Gaming Laptop, 512 GB SSD, 16 GB RAM',
-            category: "Promoções",
+            category: "deals",
             price: "1,099.99",
             priceP: "849.99",
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
@@ -194,7 +194,7 @@ let products = {
         {
             id: '31',
             productName: '10.2 Surround Sound Gaming Headset',
-            category: "Promoções",
+            category: "deals",
             price: "159.55",
             priceP: "129.99",
             image: '/img/promocoes/Headset-pra-games-Surround.jpg',
@@ -202,7 +202,7 @@ let products = {
         {
             id: '22',
             productName: "Mini Waterproof Digital Camera, Megapixel",
-            category: "Promoções",
+            category: "deals",
             price: "699.99",
             priceP: "499.99",
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
@@ -210,7 +210,7 @@ let products = {
         {
             id: '53',
             productName: 'Allure 55" UHD 4K LED Class Smart TV',
-            category: "Promoções",
+            category: "deals",
             price: "449.99",
             priceP: "399.99",
             image: '/img/promocoes/Smart-TV-Allure-55-UHD-4K-LED-Class.jpg',
@@ -218,7 +218,7 @@ let products = {
         {
             id: '56',
             productName: '65" UHD 4K LED Class Nano Smart TV',
-            category: "Promoções",
+            category: "deals",
             price: "499.99",
             priceP: "599.99",
             image: '/img/promocoes/Smart-TV-65-UHD-4K-LED-Class-Nano.jpg',
@@ -226,7 +226,7 @@ let products = {
         {
             id: '8',
             productName: 'JP HV-29" IPS LED FHD FreeSync Monitor',
-            category: "Promoções",
+            category: "deals",
             price: "269.99",
             priceP: "149.99",
             image: '/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg',
@@ -234,7 +234,7 @@ let products = {
         {
             id: '47',
             productName: 'XPD Go 5G Protector, 128GB',
-            category: "Promoções",
+            category: "deals",
             price: "199.99",
             priceP: "129.99",
             image: '/img/promocoes/Protector-XPD-Go-5G-128GB.jpg',
@@ -242,7 +242,7 @@ let products = {
         {
             id: '43',
             productName: 'Z Pixel Max Smartphone, 128 GB, Unlocked',
-            category: "Promoções",
+            category: "deals",
             price: "449.99",
             priceP: "399.99",
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
@@ -250,7 +250,7 @@ let products = {
         {
             id: '44',
             productName: 'OVE Light Space 5G, 128 GB',
-            category: "Promoções",
+            category: "deals",
             price: "579.99",
             priceP: "559.99",
             image: '/img/promocoes/OVE-Light-Space-5G-128-GB.jpg',
@@ -258,7 +258,7 @@ let products = {
         {
             id: '58',
             productName: 'Fitboot Inspire Heart Rate Tracker',
-            category: "Promoções",
+            category: "deals",
             price: "49.99",
             priceP: "44.99",
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
@@ -268,7 +268,7 @@ let products = {
         {
             id: '49',
             productName: 'Smart TV shel 50" UHD 4K LED Class',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: '',
             priceP: "349.99",
             image: '/img/mais-vendidos/Smart-TV-shel-50-UHD-4K-LED-Class.jpg',
@@ -276,7 +276,7 @@ let products = {
         {
             id: '10',
             productName: 'JP - Space Tablet 10.4", Wi-Fi, 32 GB',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "329.99",
             priceP: "259.99",
             image: '/img/promocoes/Tablet-JP-Space-10-WI-FI-128GB.jpg',
@@ -284,7 +284,7 @@ let products = {
         {
             id: '58',
             productName: 'Fitboot Inspire Heart Rate Tracker',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "49.99",
             priceP: "44.99",
             image: '/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg',
@@ -292,7 +292,7 @@ let products = {
         {
             id: '21',
             productName: 'HKI Tech Quadcopter Drone with Camera and Controller',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: '',
             priceP: "579.99",
             image: '/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg',
@@ -300,7 +300,7 @@ let products = {
         {
             id: '38',
             productName: 'SDK Portable Bluetooth Speaker',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: '',
             priceP: "549.99",
             image: '/img/alto-falantes/Alto-falante-SDK-portátil-Bluetooth.jpg',
@@ -308,7 +308,7 @@ let products = {
         {
             id: '56',
             productName: '65" UHD 4K LED Class Nano Smart TV',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "499.99",
             priceP: "459.99",
             image: '/img/mais-vendidos/Smart-TV-65-UHD-4K-LED-Class-Nano.webp',
@@ -316,7 +316,7 @@ let products = {
         {
             id: '28',
             productName: 'Wireless In-ear Headphones with Noise Cancellation',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "229.99",
             priceP: "199.99",
             image: '/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg',
@@ -324,7 +324,7 @@ let products = {
         {
             id: '3',
             productName: 'JP 15.6" Gaming Laptop, 512 GB SSD, 16 GB RAM',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "1,099.99",
             priceP: "849.99",
             image: '/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg',
@@ -332,7 +332,7 @@ let products = {
         {
             id: '22',
             productName: "Mini Waterproof Digital Camera, Megapixel",
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "699.99",
             priceP: "499.99",
             image: '/img/promocoes/Camera-digital-Mini-a-prova-d-agua-Megapixel.jpg',
@@ -340,7 +340,7 @@ let products = {
         {
             id: '30',
             productName: "White Wireless Headphones",
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: '',
             priceP: "149.99",
             image: '/img/mais-vendidos/Headphone-branco-wireless.jpg',
@@ -348,7 +348,7 @@ let products = {
         {
             id: '14',
             productName: 'Ocean Pro 11 Tablet - 12.3" Touch Screen',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "929.99",
             priceP: "699.99",
             image: '/img/promocoes/Tablet-Ocean-Pro-11-touch-screen.jpg',
@@ -356,7 +356,7 @@ let products = {
         {
             id: '43',
             productName: 'Z Pixel Max Smartphone, 128 GB, Unlocked',
-            category: "Mais-vendidos",
+            category: "best-sellers",
             price: "449.99",
             priceP: "399.99",
             image: '/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg',
@@ -886,7 +886,7 @@ let products = {
             priceP: "899.99",
             image: '/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg',
         },
-        
+
 
 
 
@@ -958,7 +958,7 @@ for (let i of products.data) {
     shippingCartImg.setAttribute('src', '/img/shopping-cart-6.png')
     shippingCart.appendChild(shippingCartImg)
 
-    
+
     cardlink.appendChild(container)
     card.appendChild(shippingCart)
     card.appendChild(cardlink)
@@ -1079,11 +1079,12 @@ function sortElem(field, div, asc, sortBy) {
 //     })
 // })
 
-
+//OBTENDO O VALOR DA URL
+let value = window.location.search.slice(1);
 
 //Initially display all products
 window.onload = () => {
-    filterProduct('all')
+    filterProduct(value)
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 document.addEventListener('click', function (e) {

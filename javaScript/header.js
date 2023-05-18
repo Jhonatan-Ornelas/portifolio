@@ -111,7 +111,7 @@ function reloadCard() {
         if (value !== null) {
             totalPrice = totalPrice + value.priceP;
             count = count + value.quantity;
-    
+
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `<li class="product-card">
             <img src="${value.image}" alt="">
@@ -173,7 +173,7 @@ const searchButton = document.querySelector('#btn-click');
 const resultsDiv = document.querySelector('#results');
 
 // escute o evento de clique do botão
-searchButton.addEventListener('click', function() {
+searchButton.addEventListener('click', function () {
     const searchValue = searchInput.value.trim().toLowerCase();
 
     // se a pesquisa não estiver vazia, redireciona para a página de resultados
@@ -185,7 +185,7 @@ searchButton.addEventListener('click', function() {
 
 
 // escuta o evento de input
-searchInput.addEventListener('input', function() {
+searchInput.addEventListener('input', function () {
     const searchValue = this.value.trim().toLowerCase();
 
     // esconde a div de resultados se a pesquisa estiver vazia
@@ -196,14 +196,14 @@ searchInput.addEventListener('input', function() {
         resultsDiv.style.display = 'block';
     }
 
-    
+
 });
 
 function searchProducts(searchTerm) {
     searchTerm = searchTerm.toLowerCase();
     let matchedProducts = productsCart.data
-        .filter(product => 
-            product.productName.toLowerCase().includes(searchTerm) || 
+        .filter(product =>
+            product.productName.toLowerCase().includes(searchTerm) ||
             product.category.toLowerCase().includes(searchTerm)
         );
 
@@ -228,7 +228,7 @@ function searchProducts(searchTerm) {
     return matchedProducts.slice(0, 8); // Retorna os 8 primeiros resultados
 }
 
-document.getElementById('search').addEventListener('input', function(e) {
+document.getElementById('search').addEventListener('input', function (e) {
     let searchTerm = e.target.value;
     let resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
@@ -244,17 +244,17 @@ document.getElementById('search').addEventListener('input', function(e) {
 
 //esconde a div quando clica fora do input
 // escute o evento blur do input de pesquisa
-searchInput.addEventListener('blur', function() {
+searchInput.addEventListener('blur', function () {
     // esconde a div de resultados
     setTimeout(() => {
         resultsDiv.style.display = 'none';
     }, 300);
-    
+
 });
 
 
 // escute o evento focus do input de pesquisa
-searchInput.addEventListener('focus', function() {
+searchInput.addEventListener('focus', function () {
     // mostra a div de resultados se a pesquisa não estiver vazia
     if (this.value.trim() !== '') {
         resultsDiv.style.display = 'block';
@@ -262,22 +262,21 @@ searchInput.addEventListener('focus', function() {
 });
 
 //verifica qual item foi clicado
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const idClicado = document.querySelector("#results")
 
-   idClicado.addEventListener('click', function(event) {
-       // Verifique se o elemento clicado tem a classe 'search-product'
-       if (event.target.classList.contains('search-product')) {
-           let productId = event.target.getAttribute('data-product-id');
-           localStorage.setItem('product-id', productId);
-       }
-   });
+    idClicado.addEventListener('click', function (event) {
+        // Verifique se o elemento clicado tem a classe 'search-product'
+        if (event.target.classList.contains('search-product')) {
+            let productId = event.target.getAttribute('data-product-id');
+            localStorage.setItem('product-id', productId);
+        }
+    });
 });
 
 //PESQUISA QUANDO PRCIONA ENTER
-searchInput.addEventListener('keydown', function(event) {
+searchInput.addEventListener('keydown', function (event) {
     const searchValue = this.value.trim().toLowerCase();
-
     if (event.keyCode === 13) { // 13 é o código da chave para Enter
         if (searchValue !== '') {
             // Faça a pesquisa aqui
@@ -294,4 +293,21 @@ searchInput.addEventListener('keydown', function(event) {
         }
     }
 });
+
+//informa qual categoria foi clicada no nav/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let categoryOpitions = document.querySelectorAll('.opitions');
+
+
+
+let categoriaclicada = (event) => {
+    window.location.href = `/html/loja.html?${encodeURIComponent(event.target.id)}`;
+};
+
+categoryOpitions.forEach((categoryOpition) => {
+    categoryOpition.addEventListener('click', categoriaclicada);
+});
+
+
+
 

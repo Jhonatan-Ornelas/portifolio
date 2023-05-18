@@ -241,7 +241,7 @@ arrowIconsTwo.forEach(icon => {
     })
 })
 
-//ITEM PAGE LOAD
+//informa a pagina do produto qual foi o produto que foi clicado////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 document.addEventListener('DOMContentLoaded', function() {
     const idClicado = document.querySelectorAll('.item');
     console.log(idClicado)
@@ -263,4 +263,5 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 

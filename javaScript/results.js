@@ -5,7 +5,7 @@
 // Obtenha o valor da pesquisa a partir da URL
 const searchParams = new URLSearchParams(window.location.search);
 let searchValue = decodeURIComponent(searchParams.get('pesquisa')).trim().toLowerCase();
-
+console.log(searchValue)
 // Filtrar os produtos com base no valor da pesquisa
 let filteredProducts = productsCart.data.filter(product => {
     return product.productName.toLowerCase().includes(searchValue) ||
