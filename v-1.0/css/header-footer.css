@@ -29,13 +29,14 @@ body {
 
 }
 
-.header-footer-main {
+.header-footer--main {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80vw;
     max-width: 1900px !important;
     font-family: 'Open Sans';
+    overflow: hidden;
 }
 
 header,
@@ -557,4 +558,8 @@ main {
 
 .column p:hover {
     color: #751fff;
+}
+
+.address{
+    cursor: text;
 }

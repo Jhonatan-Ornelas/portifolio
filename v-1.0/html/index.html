@@ -8,6 +8,7 @@
     <!-- css -->
     <link rel="stylesheet" href="/v-1.0/css/reset.css">
     <link rel="stylesheet" href="/v-1.0/css/header-footer.css">
+    <link rel="stylesheet" href="/v-1.0/css/index.css">
     <!-- //////////////////////////////////// -->
     <!-- javaScript -->
 
@@ -23,7 +24,7 @@
 </head>
 
 <body>
-    <header class="header-footer-main">
+    <header class="header-footer--main">
         <nav class="nav">
             <div class="nav-top">
                 <h1 class="logo"><a href="/html/index.html">TechShield</a></h1>
@@ -74,10 +75,453 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <div id="fundoEscuro" class="fundo-escuro" onclick="fecharCarrinho()"></div>
+    <main class="header-footer--main">
+        <section class="img-promo">
+            <img src="/img/celular.bg.png" alt="" class="img-promo--bg">
+            <article class="text-image">
+                <p class="bg-red">
+                    Best prices
+                </p>
+                <h2 class="text-image--title">
+                    Amazing deals on all your favorite products
+                </h2>
+                <p class="text-small">Shop more for less on selected brands</p>
+                <a href="/html/loja.html"><button class="btn-purple--black">Buy now</button></a>
+            </article>
+        </section>
+        <section class="promo-section">
+            <article class="promo-item--content">
+                <img class="promo-item--img" src="/img/celular-vemelho.jpg" alt="">
+                <div class="img-overlay--text text-relative">
+                    <p class="img-promo--text">Christmas deals</p>
+                    <p class="img-promo--text"> <span>Up to<br></span><span>30% off</span></p>
+                    <p class="img-promo--text">On selected smartphone brands</p>
+                    <a href="/html/mobile.html"><button class="btn-white">Buy now</button></a>
+                </div>
+            </article>
+            <article class="promo-item--content">
+                <img class="promo-item--img" src="/img/fone-roxo.jpg" alt="">
+                <div class="img-overlay--text text-relative">
+                    <h3 class="img-promo--text">New Arrival</h3>
+                    <p class="img-promo--text"><span>Take your sound<br> wherever <br> you go</span></p>
+                    <p class="img-promo--text">The best headphones</p>
+                    <a href="/html/audio.html"><button class="btn-white">Buy now</button></a>
+                </div>
+            </article>
+        </section>
+        <section class="benefits">
+            <div class="description">
+                <article class="feature">
+                    <img src="/img/delivery-bike-512.png" alt="" class="img-feature">
+                    <p class="text-feature">Pickup available</p>
+                </article>
+                <article class="feature">
+                    <img src="/img/box-512.png" alt="" class="img-feature">
+                    <p class="text-feature">Free shipping on orders over R$ 250</p>
+                </article>
+                <article class="feature">
+                    <img src="/img/tax-512.png" alt="" class="img-feature">
+                    <p class="text-feature">Low price guarantee</p>
+                </article>
+                <article class="feature">
+                    <img src="/img/24-hours-512.png" alt="" class="img-feature">
+                    <p class="text-feature">Available for you 24/7</p>
+                </article>
+            </div>
+        </section>
+        <section class="container">
+
+            <h2 class="midium-title">Best Sellers</h2>
+            <div class="container-products">
+                <button class="btn-lateral" id="btn-left">&#8249;</button>
+
+                <article class="product" data-product-id="58" data-price="4499">
+                    <button class="item-shopping-cart" onclick="addToCard(58)">
+                        <img src="/img/shopping-cart-6.png" alt="Shopping Cart Icon">
+                    </button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg"
+                                alt="Fitboot Inspire Heart Rate Tracker">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Fitboot Inspire, heart rate tracker</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="product" data-product-id="3" data-price="84999">
+                    <button class="item-shopping-cart" onclick="addToCard(3)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo" src="/img/promocoes/laptop-para-gamers-JP-15-512GB.jpg"
+                                alt="JP 15.6 inches Gaming Laptop, 512GB">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">JP 15.6" Gaming Laptop, 512GB</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="21" data-price="57999">
+                    <button class="item-shopping-cart" onclick="addToCard(21)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/mais-vendidos/Drone-Quadcopter-HKI-Tech-câmera-e-controle.jpg "
+                                alt="HKI Tech Quadcopter Drone, with Camera and Control">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">HKI Tech Quadcopter Drone, with Camera and Control</p>
+                            <p class="product-price">R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="43" data-price="39999">
+                    <button class="item-shopping-cart" onclick="addToCard(43)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <p class="promotion bg-red">DEALS</p>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Smartphone-Z-Pixel-Max-128-GB-desbloqueado.jpg"
+                                alt="Z Pixel Max 128GB Smartphone, Unlocked">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Z Pixel Max 128GB Smartphone, Unlocked</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s>R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="28" data-price="19999">
+                    <button class="item-shopping-cart" onclick="addToCard(28)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Headphone-wireless-cancelamento-de-ruido.jpg"
+                                alt="Wireless In-ear Headphones, Noise Cancelling">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Wireless In-ear Headphones, Noise Cancelling</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="59" data-price="34999">
+                    <button class="item-shopping-cart" onclick="addToCard(59)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/tecnologia-vestivel/Óculos-VR-Safay-GEN-2-256GB-controladores-de-toque.jpg"
+                                alt="Safay GEN 2 VR Glasses, 256 GB, Touch Controllers">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Safay GEN 2 VR Glasses, 256 GB, Touch Controllers</p>
+                            <p class="product-price">R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="8" data-price="14999">
+                    <button class="item-shopping-cart" onclick="addToCard(8)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/HV-29-IPS-LED-FHD-FreeSync-Monitor-JP.jpg"
+                                alt="HV- 29 inches IPS LED FHD FreeSync JP Monitor">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">HV- 29" IPS LED FHD FreeSync JP Monitor</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s>R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+
+                <button class="btn-lateral" id="btn-right">&#8250;</button>
+            </div>
+
+            <a href="/html/mais-vendidos.html">
+                <button class="btn-purple--black">See All</button>
+            </a>
+
+        </section>
+        <section class="category">
+            <h2 class="midium-title">Shop by Category</h2>
+            <div class="category-itens">
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/computadores.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/notebook-transparent-2.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Computers</h3>
+                    </a>
+                </article>
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/mobile.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/celular-transparent.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Mobile</h3>
+                    </a>
+                </article>
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/drones-e-cameras.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/drone-transparent.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Drones and Cameras</h3>
+                    </a>
+                </article>
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/promocoes.html">
+                        <picture class="item-picture bg-purple">
+                            <img class="category-item--img " src="/img/promoçao-icon.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Deals</h3>
+                    </a>
+
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/tablets.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/tablet-transparent.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Tablets</h3>
+                    </a>
+
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/mais-vendidos.html">
+                        <picture class="item-picture bg-black">
+                            <img class="category-item--img" src="/img/medal-icon-transpareant.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Best Sellers</h3>
+                    </a>
+
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/tv-e-home-theater.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/tv-tranparente.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">TV and Home Theater</h3>
+                    </a>
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/tecnologia-vestivel.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/Apple-Watch.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Wearable technology</h3>
+                    </a>
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/alto-falantes.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/jbl-transparent.webp" alt="">
+                        </picture>
+                        <h3 class="category-item--name">Speakers</h3>
+                    </a>
+                </article>
+
+
+                <article class="category-item">
+                    <a class="category-item" href="/html/audio.html">
+                        <picture class="item-picture">
+                            <img class="category-item--img" src="/img/head-fone-transparent.webp" alt="">
+                        </picture>
+                        <p class="category-item--name">Head-phones</p>
+                    </a>
+                </article>
+
+
+
+            </div>
+        </section>
+        <section class="melhor-preço">
+            <img src="/img/laptop-bg.webp" alt="" class="overlay-bg"></img>
+            <div class="overlay">
+                <article class="overlay-texto">
+                    <h2 class="small-title">Save up to</h2>
+                    <p class="savings-amount">$150</p>
+                    <h3 class="small-title">On selected laptops and tablets</h3>
+                    <p class="small-text">Terms and conditions apply</p>
+                    <a href="/html/computadores.html">
+                        <button class="btn-purple-white">Purchase</button>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section class="container">
+            <h2 class="midium-title">Deals</h2>
+            <div class="container-products">
+                <button class="btn-lateral" id="btn-left-2">&#8249;</button>
+
+                <article class="product" data-product-id="57" data-price="15995">
+                    <button class="item-shopping-cart" onclick="addToCard(57)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo" src="/img/promocoes/Smartwatch-Space-Moon-com-carregador.jpg"
+                                alt="Smartwatch Space Moon with charger">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Smartwatch Space Moon with charger</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="44" data-price="55999"><button class="item-shopping-cart"
+                        onclick="addToCard(44)"><img src="/img/shopping-cart-6.png" alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo" src="/img/promocoes/OVE-Light-Space-5G-128-GB.jpg"
+                                alt="OVE Light Space 5G, 128 GB">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">OVE Light Space 5G, 128 GB</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="2" data-price="89999">
+                    <button class="item-shopping-cart" onclick="addToCard(2)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Laptop-Pilates-16touch-screen-24GB-memoria.jpg"
+                                alt="Pilates 16 inches laptop, touch screen, 24 GB">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">
+                                Pilates 16" laptop, touch screen, 24 GB
+                            </p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="40" data-price="9999">
+                    <button class="item-shopping-cart" onclick="addToCard(40)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src=" /img/promocoes/Alto-falante-portátil-Turn5-Bluetooth.jpg"
+                                alt="Turn5 portable speaker, Bluetooth">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Turn5 portable speaker, Bluetooth</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="64" data-price="89999">
+                    <button class="item-shopping-cart" onclick="addToCard(64)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Headset-de-Realidade-Virtual-Journey-Glass-Xd.jpg"
+                                alt="Journey Glass XD Virtual Reality Headset">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Journey Glass XD Virtual Reality Headset</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="18" data-price="32999">
+                    <button class="item-shopping-cart" onclick="addToCard(18)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Câmera-de-Segurança-de-Rede-Interna-H1C-wireless-1080p.jpg"
+                                alt="H1C wireless indoor network security camera, 1080p">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">
+                                H1C wireless indoor network security camera, 1080p</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s> R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="product" data-product-id="58" data-price="4499">
+                    <button class="item-shopping-cart" onclick="addToCard(58)"><img src="/img/shopping-cart-6.png"
+                            alt="Shopping Cart Icon"></button>
+                    <a class="product" href="/html/pagina-do-produto.html">
+
+                        <span class="promotion bg-red">DEALS</span>
+                        <figure class="product-img">
+                            <img class="product-img-promo"
+                                src="/img/promocoes/Fitboot-Inspire-tracker-de-frequência-cardiaca.jpg"
+                                alt="Fitboot Inspire, heart rate tracker">
+                        </figure>
+                        <div class="description-product">
+                            <p class="product-name">Fitboot Inspire, heart rate tracker</p>
+                            <p class="product-price"><s class="line-through">R$600,00</s>R$585,00</p>
+                        </div>
+                    </a>
+                </article>
+
+                <button class="btn-lateral" id="btn-right-2">&#8250;</button>
+            </div>
+            <a href="/html/promocoes.html"><button class="btn-purple--black">See all</button></a>
+
+        </section>
 
     </main>
-    <footer class="header-footer-main">
+    <footer class="header-footer--main">
         <section class="suport">
             <div class="overlay-suport">
                 <div class="overlay-suport-texto">
@@ -91,7 +535,7 @@
         <section class="about-us">
             <div class="column">
                 <h2>Address</h2>
-                <address>
+                <address class="address">
                     230 Calle Federico Costa
                     Hato Rey
                     <br>
@@ -149,7 +593,6 @@
             </section>
         </section>
     </footer>
-
 </body>
 
 </html>
