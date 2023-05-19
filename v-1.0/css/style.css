@@ -2,38 +2,7 @@
 font-family: 'Roboto', sans-serif;////
  */
 
-.small-text {
-    font-size: 14px;
-}
 
-.btn-purple-white {
-    background-color: #751fff;
-    color: white;
-    height: 40px;
-    border-radius: 40px;
-    width: 140px;
-    border: none;
-    font-size: 18px;
-    font-weight: 300;
-    cursor: pointer;
-}
-
-.btn-purple-white:hover {
-    background: transparent;
-    color: black;
-    border: white 1px solid;
-    transition: 400ms all;
-}
-
-.btn-purple-white:active {
-    background-color: #751fff;
-}
-.bg-purple {
-    background-color: #751fff;
-}
-.bg-black {
-    background-color: black;
-}
 
 
 
@@ -235,10 +204,7 @@ font-family: 'Roboto', sans-serif;////
     user-select: none;
 }
 
-.midium-title {
-    font-size: 40px;
-    font-weight: 700;
-}
+
 
 .container-products {
     height: 370px;
@@ -507,7 +473,7 @@ font-family: 'Roboto', sans-serif;////
     flex-direction: column;
 }
 
-.category .midium-title {
+.category .medium-title {
     margin-bottom: 50px;
     margin-top: 50px;
 
@@ -538,6 +504,8 @@ font-family: 'Roboto', sans-serif;////
     text-align: center;
     margin-top: 25px;
     font-weight: 600;
+    width: 90%;
+    height: 25px;
 }
 .category-item > .item-picture{
     background-color: #ececec;
@@ -620,3 +588,119 @@ font-family: 'Roboto', sans-serif;////
 .overlay .small-text {
     margin-top: -30px;
 }
+
+/* so hoje ////////////////////////////////////////////////////////// */
+.so-hoje {
+    width: 100%;
+    height: 550px;
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+}
+
+.overlay-sohoje {
+    width: 600px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+    background: var(--background-none);
+    position: absolute;
+    z-index: 2;
+}
+
+.overlay-so-texto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 80%;
+    width: 70%;
+    margin-right: 100px;
+    color: var(--color-black);
+}
+
+.overlay-sohoje .bg-red{
+    margin-bottom: 20px;
+}
+
+
+.overlay-sohoje .small-title {
+    font-weight: 600;
+
+}
+
+.overlay-sohoje .today-offer {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.overlay-sohoje .small-text:last-of-type{
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+.overlay-sohoje--bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #aa2525;
+    object-fit: cover;
+    right: 0;
+}
+
+/* newsletter ///////////////////////////////////////////////////////// */
+.newsletter-section {
+    width: 100%;
+    height: 250px;
+    background-color: #751fff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.newsletter-section .small-title {
+    margin-bottom: 20px;
+
+}
+
+
+.newsletter-section .form-fieldset{
+    width: 800px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.newsletter-section .medium-text {
+    width: 30%;
+    height: 30px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.input-email--medium {
+    width: 550px;
+}
+
+.newsletter-section .btn-black-white {
+    height: 54px;
+    width: 230px;
+    margin-left: -30px;
+    outline: none;
+    font-size: 20px;
+}
+
+.newsletter-section .btn-black-white:hover {
+    background-color: #d1b4ff;
+    transition: 1000ms all ease;
+}
+
