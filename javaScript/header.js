@@ -26,61 +26,6 @@ let quantityTab = document.querySelector('.carrinho-quantidade-tab')
 
 
 
-// let productsCart = [
-//     {
-//         id: 1,
-//         name: 'PRODUCT NAME 1',
-//         image: '/img/1.PNG',
-//         price: 120000
-//     },
-//     {
-//         id: 2,
-//         name: 'PRODUCT NAME 2',
-//         image: '/img/2.PNG',
-//         price: 120000
-//     },
-//     {
-//         id: 3,
-//         name: 'PRODUCT NAME 3',
-//         image: '/img/3.PNG',
-//         price: 220000
-//     },
-//     {
-//         id: 4,
-//         name: 'PRODUCT NAME 4',
-//         image: '/img/4.PNG',
-//         price: 123000
-//     },
-//     {
-//         id: 5,
-//         name: 'PRODUCT NAME 5',
-//         image: '/img/5.PNG',
-//         price: 320000
-//     },
-//     {
-//         id: 6,
-//         name: 'PRODUCT NAME 6',
-//         image: '/img/6.PNG',
-//         price: 120000
-//     }
-// ];
-
-// cria o card
-
-// function initApp() {
-//     productsCart.forEach((value, id) => {
-//         let newDiv = document.createElement('div');
-//         newDiv.classList.add('item');
-//         newDiv.innerHTML = `
-//     <img src="${value.image}">
-//     <div class="title">${value.name}</div>
-//     <div class="price">${value.price.toLocaleString()}</div>
-//     <button onclick="addToCard(${id})">Add To Card</button>`;
-//         list.appendChild(newDiv);
-//     })
-// }
-// initApp();
-//adiciona o card
 let listCards = JSON.parse(localStorage.getItem('listCards')) || [];
 let productMap = {};
 productsCart.data.forEach((product, index) => {
@@ -228,11 +173,11 @@ function searchProducts(searchTerm) {
     return matchedProducts.slice(0, 8); // Retorna os 8 primeiros resultados
 }
 
-document.getElementById('search').addEventListener('input', function (e) {
+searchInput.addEventListener('input', function (e) {
+    
     let searchTerm = e.target.value;
     let resultsDiv = document.getElementById('results');
     resultsDiv.innerHTML = '';
-
     if (searchTerm.trim() !== "") { // Verifica se o campo de pesquisa não está vazio
         let results = searchProducts(searchTerm);
         results.forEach(product => {
@@ -281,6 +226,7 @@ searchInput.addEventListener('keydown', function (event) {
         if (searchValue !== '') {
             // Faça a pesquisa aqui
             window.location.href = '/html/resultados.html?pesquisa=' + encodeURIComponent(searchValue);
+
         }
         // Impedir que o formulário seja submetido e a página seja recarregada
         event.preventDefault();
@@ -294,8 +240,7 @@ searchInput.addEventListener('keydown', function (event) {
     }
 });
 
-//informa qual categoria foi clicada no nav/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
+//informa qual categoria foi clicada no nav////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 let categoryOpitions = document.querySelectorAll('.opitions');
 
 
